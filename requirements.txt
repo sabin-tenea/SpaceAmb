@@ -1,0 +1,11 @@
+sentence-transformers>=2.2
+pandas>=1.5
+numpy>=1.24
+scikit-learn>=1.0
+matplotlib>=3.5
+seaborn>=0.12
+pyyaml>=6.0
+typer>=0.9
+pytest>=7.0
+umap-learn>=0.5
+nbformat>=5.7

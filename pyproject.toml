@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "semantic-architecture"
+version = "0.1.0"
+description = "Research prototype for architectural-semantic analysis of ambiance-space pairs"
+requires-python = ">=3.10"
+dependencies = [
+    "sentence-transformers>=2.2",
+    "pandas>=1.5",
+    "numpy>=1.24",
+    "scikit-learn>=1.0",
+    "matplotlib>=3.5",
+    "seaborn>=0.12",
+    "pyyaml>=6.0",
+    "typer>=0.9",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "umap-learn>=0.5", "nbformat>=5.7"]
+
+[project.scripts]
+spaceamb = "semantic_architecture.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]

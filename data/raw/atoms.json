@@ -1,0 +1,1937 @@
+{
+  "atoms": [
+    {
+      "id": "arc_wall",
+      "text": "wall",
+      "family": "architecture",
+      "subtype": "surface",
+      "spectrums": null,
+      "notes": "vertical enclosing surface"
+    },
+    {
+      "id": "arc_floor",
+      "text": "floor",
+      "family": "architecture",
+      "subtype": "surface",
+      "spectrums": null,
+      "notes": "horizontal walking surface"
+    },
+    {
+      "id": "arc_ceiling",
+      "text": "ceiling",
+      "family": "architecture",
+      "subtype": "surface",
+      "spectrums": null,
+      "notes": "overhead enclosing surface"
+    },
+    {
+      "id": "arc_door",
+      "text": "door",
+      "family": "architecture",
+      "subtype": "aperture",
+      "spectrums": null,
+      "notes": "controlled threshold between spaces"
+    },
+    {
+      "id": "arc_window",
+      "text": "window",
+      "family": "architecture",
+      "subtype": "aperture",
+      "spectrums": null,
+      "notes": "glazed wall opening admitting light and view"
+    },
+    {
+      "id": "arc_stair",
+      "text": "stair",
+      "family": "architecture",
+      "subtype": "circulation",
+      "spectrums": null,
+      "notes": "vertical circulation element"
+    },
+    {
+      "id": "arc_column",
+      "text": "column",
+      "family": "architecture",
+      "subtype": "structure",
+      "spectrums": null,
+      "notes": "vertical structural or decorative element"
+    },
+    {
+      "id": "arc_beam",
+      "text": "beam",
+      "family": "architecture",
+      "subtype": "structure",
+      "spectrums": null,
+      "notes": "horizontal structural element, often exposed"
+    },
+    {
+      "id": "arc_arch",
+      "text": "arch",
+      "family": "architecture",
+      "subtype": "structure",
+      "spectrums": null,
+      "notes": "curved structural opening"
+    },
+    {
+      "id": "arc_balcony",
+      "text": "balcony",
+      "family": "architecture",
+      "subtype": "extension",
+      "spectrums": null,
+      "notes": "exterior platform projecting from a wall"
+    },
+    {
+      "id": "arc_skylight",
+      "text": "skylight",
+      "family": "architecture",
+      "subtype": "aperture",
+      "spectrums": null,
+      "notes": "glazed roof opening admitting daylight from above"
+    },
+    {
+      "id": "arc_threshold",
+      "text": "threshold",
+      "family": "architecture",
+      "subtype": "transition",
+      "spectrums": null,
+      "notes": "liminal boundary between two spatial zones"
+    },
+    {
+      "id": "arc_corridor",
+      "text": "corridor",
+      "family": "architecture",
+      "subtype": "circulation",
+      "spectrums": null,
+      "notes": "narrow passage connecting spaces"
+    },
+    {
+      "id": "arc_niche",
+      "text": "niche",
+      "family": "architecture",
+      "subtype": "recess",
+      "spectrums": null,
+      "notes": "shallow recess in a wall"
+    },
+    {
+      "id": "arc_alcove",
+      "text": "alcove",
+      "family": "architecture",
+      "subtype": "recess",
+      "spectrums": null,
+      "notes": "recessed area off a larger space, semi-enclosed"
+    },
+    {
+      "id": "arc_bay_window",
+      "text": "bay window",
+      "family": "architecture",
+      "subtype": "aperture",
+      "spectrums": null,
+      "notes": "window projecting outward from the main wall"
+    },
+    {
+      "id": "arc_clerestory",
+      "text": "clerestory",
+      "family": "architecture",
+      "subtype": "aperture",
+      "spectrums": null,
+      "notes": "high-level windows above the main ceiling line"
+    },
+    {
+      "id": "arc_vault",
+      "text": "vault",
+      "family": "architecture",
+      "subtype": "structure",
+      "spectrums": null,
+      "notes": "arched structural form"
+    },
+    {
+      "id": "arc_dome",
+      "text": "dome",
+      "family": "architecture",
+      "subtype": "structure",
+      "spectrums": null,
+      "notes": "hemispherical roof or ceiling"
+    },
+    {
+      "id": "arc_plinth",
+      "text": "plinth",
+      "family": "architecture",
+      "subtype": "base",
+      "spectrums": null,
+      "notes": "heavy base supporting a statue or structure"
+    },
+    {
+      "id": "arc_portal",
+      "text": "portal",
+      "family": "architecture",
+      "subtype": "aperture",
+      "spectrums": null,
+      "notes": "grand or ceremonial entrance"
+    },
+    {
+      "id": "arc_colonnade",
+      "text": "colonnade",
+      "family": "architecture",
+      "subtype": "circulation",
+      "spectrums": null,
+      "notes": "row of columns supporting a roof or entablature"
+    },
+    {
+      "id": "arc_portico",
+      "text": "portico",
+      "family": "architecture",
+      "subtype": "extension",
+      "spectrums": null,
+      "notes": "porch leading to the entrance of a building"
+    },
+    {
+      "id": "arc_atrium",
+      "text": "atrium",
+      "family": "architecture",
+      "subtype": "interior",
+      "spectrums": null,
+      "notes": "large open-air or skylight-covered central court"
+    },
+    {
+      "id": "arc_mezzanine",
+      "text": "mezzanine",
+      "family": "architecture",
+      "subtype": "floor",
+      "spectrums": null,
+      "notes": "intermediate floor between main floors"
+    },
+    {
+      "id": "arc_soffit",
+      "text": "soffit",
+      "family": "architecture",
+      "subtype": "surface",
+      "spectrums": null,
+      "notes": "underside of an architectural element"
+    },
+    {
+      "id": "fur_sofa",
+      "text": "sofa",
+      "family": "furniture",
+      "subtype": "seating",
+      "spectrums": null,
+      "notes": "upholstered seating for multiple people"
+    },
+    {
+      "id": "fur_armchair",
+      "text": "armchair",
+      "family": "furniture",
+      "subtype": "seating",
+      "spectrums": null,
+      "notes": "single upholstered seat with arms"
+    },
+    {
+      "id": "fur_chair",
+      "text": "chair",
+      "family": "furniture",
+      "subtype": "seating",
+      "spectrums": null,
+      "notes": "general single seat with back"
+    },
+    {
+      "id": "fur_stool",
+      "text": "stool",
+      "family": "furniture",
+      "subtype": "seating",
+      "spectrums": null,
+      "notes": "backless, often tall seating"
+    },
+    {
+      "id": "fur_bench",
+      "text": "bench",
+      "family": "furniture",
+      "subtype": "seating",
+      "spectrums": null,
+      "notes": "communal seating without upholstery"
+    },
+    {
+      "id": "fur_ottoman",
+      "text": "ottoman",
+      "family": "furniture",
+      "subtype": "seating",
+      "spectrums": null,
+      "notes": "upholstered seat or footrest without back"
+    },
+    {
+      "id": "fur_chaise",
+      "text": "chaise longue",
+      "family": "furniture",
+      "subtype": "seating",
+      "spectrums": null,
+      "notes": "reclining seat for lounging"
+    },
+    {
+      "id": "fur_dining_table",
+      "text": "dining table",
+      "family": "furniture",
+      "subtype": "surface",
+      "spectrums": null,
+      "notes": "large shared eating surface"
+    },
+    {
+      "id": "fur_coffee_table",
+      "text": "coffee table",
+      "family": "furniture",
+      "subtype": "surface",
+      "spectrums": null,
+      "notes": "low surface near seating"
+    },
+    {
+      "id": "fur_side_table",
+      "text": "side table",
+      "family": "furniture",
+      "subtype": "surface",
+      "spectrums": null,
+      "notes": "small table beside seating or bed"
+    },
+    {
+      "id": "fur_desk",
+      "text": "desk",
+      "family": "furniture",
+      "subtype": "surface",
+      "spectrums": null,
+      "notes": "work surface for a single user"
+    },
+    {
+      "id": "fur_workbench",
+      "text": "workbench",
+      "family": "furniture",
+      "subtype": "surface",
+      "spectrums": null,
+      "notes": "heavy-duty craft or laboratory work surface"
+    },
+    {
+      "id": "fur_bed",
+      "text": "bed",
+      "family": "furniture",
+      "subtype": "sleeping",
+      "spectrums": null,
+      "notes": "general domestic sleeping surface"
+    },
+    {
+      "id": "fur_bookshelf",
+      "text": "bookshelf",
+      "family": "furniture",
+      "subtype": "storage",
+      "spectrums": null,
+      "notes": "open vertical book and object storage"
+    },
+    {
+      "id": "fur_cabinet",
+      "text": "cabinet",
+      "family": "furniture",
+      "subtype": "storage",
+      "spectrums": null,
+      "notes": "enclosed storage unit with doors"
+    },
+    {
+      "id": "fur_wardrobe",
+      "text": "wardrobe",
+      "family": "furniture",
+      "subtype": "storage",
+      "spectrums": null,
+      "notes": "large enclosed storage for clothing"
+    },
+    {
+      "id": "fix_fireplace",
+      "text": "fireplace",
+      "family": "fixture",
+      "subtype": "heating",
+      "spectrums": null,
+      "notes": "fixed hearth, focal point and heat source"
+    },
+    {
+      "id": "fix_sink",
+      "text": "sink",
+      "family": "fixture",
+      "subtype": "utility",
+      "spectrums": null,
+      "notes": "fixed water basin"
+    },
+    {
+      "id": "fix_bathtub",
+      "text": "bathtub",
+      "family": "fixture",
+      "subtype": "utility",
+      "spectrums": null,
+      "notes": "large fixed bathing vessel"
+    },
+    {
+      "id": "fix_shower",
+      "text": "shower",
+      "family": "fixture",
+      "subtype": "utility",
+      "spectrums": null,
+      "notes": "fixed standing bathing enclosure"
+    },
+    {
+      "id": "fix_standing_lamp",
+      "text": "standing lamp",
+      "family": "fixture",
+      "subtype": "lighting",
+      "spectrums": null,
+      "notes": "floor-standing light fixture"
+    },
+    {
+      "id": "fix_wall_sconce",
+      "text": "wall sconce",
+      "family": "fixture",
+      "subtype": "lighting",
+      "spectrums": null,
+      "notes": "wall-mounted light fixture"
+    },
+    {
+      "id": "fix_radiator",
+      "text": "radiator",
+      "family": "fixture",
+      "subtype": "heating",
+      "spectrums": null,
+      "notes": "fixed heating panel, often cast iron or steel"
+    },
+    {
+      "id": "fix_built_in_shelf",
+      "text": "built-in shelf",
+      "family": "fixture",
+      "subtype": "storage",
+      "spectrums": null,
+      "notes": "shelving integrated into the wall structure"
+    },
+    {
+      "id": "dec_painting",
+      "text": "painting",
+      "family": "decoration",
+      "subtype": "art",
+      "spectrums": null,
+      "notes": "framed artwork hung on wall"
+    },
+    {
+      "id": "dec_plant",
+      "text": "plant",
+      "family": "decoration",
+      "subtype": "natural",
+      "spectrums": null,
+      "notes": "potted or floor plant; biophilic presence"
+    },
+    {
+      "id": "dec_rug",
+      "text": "rug",
+      "family": "decoration",
+      "subtype": "textile",
+      "spectrums": null,
+      "notes": "floor textile defining zones or adding texture"
+    },
+    {
+      "id": "dec_vase",
+      "text": "vase",
+      "family": "decoration",
+      "subtype": "object",
+      "spectrums": null,
+      "notes": "vessel for flowers or standalone object"
+    },
+    {
+      "id": "dec_sculpture",
+      "text": "sculpture",
+      "family": "decoration",
+      "subtype": "art",
+      "spectrums": null,
+      "notes": "three-dimensional artwork or ornament"
+    },
+    {
+      "id": "dec_mirror",
+      "text": "mirror",
+      "family": "decoration",
+      "subtype": "reflective",
+      "spectrums": null,
+      "notes": "reflective panel; expands space perceptually"
+    },
+    {
+      "id": "dec_cushion",
+      "text": "cushion",
+      "family": "decoration",
+      "subtype": "textile",
+      "spectrums": null,
+      "notes": "soft pad for seating or display"
+    },
+    {
+      "id": "dec_curtain",
+      "text": "curtain",
+      "family": "decoration",
+      "subtype": "textile",
+      "spectrums": null,
+      "notes": "hanging fabric for light control or privacy"
+    },
+    {
+      "id": "dec_throw",
+      "text": "throw blanket",
+      "family": "decoration",
+      "subtype": "textile",
+      "spectrums": null,
+      "notes": "loosely draped textile for warmth and texture"
+    },
+    {
+      "id": "dec_flowers",
+      "text": "flowers",
+      "family": "decoration",
+      "subtype": "natural",
+      "spectrums": null,
+      "notes": "cut or arranged flowers; ephemeral natural element"
+    },
+    {
+      "id": "tec_screen",
+      "text": "screen",
+      "family": "technology",
+      "subtype": "display",
+      "spectrums": null,
+      "notes": "digital display surface (monitor, TV, panel)"
+    },
+    {
+      "id": "tec_computer",
+      "text": "computer",
+      "family": "technology",
+      "subtype": "computing",
+      "spectrums": null,
+      "notes": "computing workstation"
+    },
+    {
+      "id": "tec_projector",
+      "text": "projector",
+      "family": "technology",
+      "subtype": "display",
+      "spectrums": null,
+      "notes": "image projection device"
+    },
+    {
+      "id": "tec_whiteboard",
+      "text": "whiteboard",
+      "family": "technology",
+      "subtype": "writing",
+      "spectrums": null,
+      "notes": "writable presentation surface"
+    },
+    {
+      "id": "tec_speakers",
+      "text": "speakers",
+      "family": "technology",
+      "subtype": "audio",
+      "spectrums": null,
+      "notes": "audio output system"
+    },
+    {
+      "id": "tec_television",
+      "text": "television",
+      "family": "technology",
+      "subtype": "display",
+      "spectrums": null,
+      "notes": "broadcast display, domestic or public"
+    },
+    {
+      "id": "mat_wood",
+      "text": "wood",
+      "family": "material",
+      "subtype": "natural",
+      "spectrums": null,
+      "notes": null
+    },
+    {
+      "id": "mat_concrete",
+      "text": "concrete",
+      "family": "material",
+      "subtype": "mineral",
+      "spectrums": null,
+      "notes": null
+    },
+    {
+      "id": "mat_linen",
+      "text": "linen",
+      "family": "material",
+      "subtype": "textile",
+      "spectrums": null,
+      "notes": "natural woven fabric, matte"
+    },
+    {
+      "id": "mat_velvet",
+      "text": "velvet",
+      "family": "material",
+      "subtype": "textile",
+      "spectrums": null,
+      "notes": "soft pile fabric, deep and rich"
+    },
+    {
+      "id": "mat_steel",
+      "text": "steel",
+      "family": "material",
+      "subtype": "metal",
+      "spectrums": null,
+      "notes": null
+    },
+    {
+      "id": "mat_glass",
+      "text": "glass",
+      "family": "material",
+      "subtype": "mineral",
+      "spectrums": null,
+      "notes": null
+    },
+    {
+      "id": "mat_plaster",
+      "text": "plaster",
+      "family": "material",
+      "subtype": "mineral",
+      "spectrums": null,
+      "notes": "smooth wall finish"
+    },
+    {
+      "id": "mat_stone",
+      "text": "stone",
+      "family": "material",
+      "subtype": "natural",
+      "spectrums": null,
+      "notes": null
+    },
+    {
+      "id": "mat_leather",
+      "text": "leather",
+      "family": "material",
+      "subtype": "textile",
+      "spectrums": null,
+      "notes": "tanned animal hide"
+    },
+    {
+      "id": "mat_brick",
+      "text": "brick",
+      "family": "material",
+      "subtype": "mineral",
+      "spectrums": null,
+      "notes": "fired clay units, visible texture"
+    },
+    {
+      "id": "mat_marble",
+      "text": "marble",
+      "family": "material",
+      "subtype": "natural",
+      "spectrums": null,
+      "notes": "polished metamorphic stone"
+    },
+    {
+      "id": "mat_fabric",
+      "text": "fabric",
+      "family": "material",
+      "subtype": "textile",
+      "spectrums": null,
+      "notes": "generic woven textile"
+    },
+    {
+      "id": "mat_ceramic",
+      "text": "ceramic",
+      "family": "material",
+      "subtype": "mineral",
+      "spectrums": null,
+      "notes": "fired clay, often tiled"
+    },
+    {
+      "id": "mat_cork",
+      "text": "cork",
+      "family": "material",
+      "subtype": "natural",
+      "spectrums": null,
+      "notes": "lightweight, sound-absorbing bark material"
+    },
+    {
+      "id": "mat_travertine",
+      "text": "travertine",
+      "family": "material",
+      "subtype": "natural",
+      "spectrums": null,
+      "notes": "porous limestone, classic and textured"
+    },
+    {
+      "id": "mat_terrazzo",
+      "text": "terrazzo",
+      "family": "material",
+      "subtype": "composite",
+      "spectrums": null,
+      "notes": "composite material of marble, quartz, or granite chips"
+    },
+    {
+      "id": "mat_plywood",
+      "text": "plywood",
+      "family": "material",
+      "subtype": "natural",
+      "spectrums": null,
+      "notes": "engineered wood, warm and utilitarian"
+    },
+    {
+      "id": "mat_bamboo",
+      "text": "bamboo",
+      "family": "material",
+      "subtype": "natural",
+      "spectrums": null,
+      "notes": "sustainable, linear, flexible"
+    },
+    {
+      "id": "mat_zinc",
+      "text": "zinc",
+      "family": "material",
+      "subtype": "metal",
+      "spectrums": null,
+      "notes": "dull gray metal, weathers to a beautiful patina"
+    },
+    {
+      "id": "mat_copper",
+      "text": "copper",
+      "family": "material",
+      "subtype": "metal",
+      "spectrums": null,
+      "notes": "warm, dynamic metal with changing patina"
+    },
+    {
+      "id": "mat_corrugated_metal",
+      "text": "corrugated metal",
+      "family": "material",
+      "subtype": "metal",
+      "spectrums": null,
+      "notes": "industrial, rhythmic, rigid"
+    },
+    {
+      "id": "mat_frosted_glass",
+      "text": "frosted glass",
+      "family": "material",
+      "subtype": "mineral",
+      "spectrums": null,
+      "notes": "translucent, soft, diffusing"
+    },
+    {
+      "id": "mat_tadelakt",
+      "text": "tadelakt",
+      "family": "material",
+      "subtype": "mineral",
+      "spectrums": null,
+      "notes": "polished plaster, waterproof and organic"
+    },
+    {
+      "id": "mat_limewash",
+      "text": "limewash",
+      "family": "material",
+      "subtype": "mineral",
+      "spectrums": null,
+      "notes": "matte, breathable, mineral finish"
+    },
+    {
+      "id": "mat_rammed_earth",
+      "text": "rammed earth",
+      "family": "material",
+      "subtype": "natural",
+      "spectrums": null,
+      "notes": "monolithic, layered, earthy"
+    },
+    {
+      "id": "col_deep_blue",
+      "text": "deep blue",
+      "family": "color",
+      "subtype": "chromatic",
+      "spectrums": null,
+      "notes": "high-saturation, dark blue"
+    },
+    {
+      "id": "col_muted_green",
+      "text": "muted green",
+      "family": "color",
+      "subtype": "chromatic",
+      "spectrums": null,
+      "notes": "desaturated, earthy green"
+    },
+    {
+      "id": "col_beige",
+      "text": "beige",
+      "family": "color",
+      "subtype": "neutral",
+      "spectrums": null,
+      "notes": "warm off-white"
+    },
+    {
+      "id": "col_black",
+      "text": "black",
+      "family": "color",
+      "subtype": "achromatic",
+      "spectrums": null,
+      "notes": null
+    },
+    {
+      "id": "col_gray",
+      "text": "low-chroma gray",
+      "family": "color",
+      "subtype": "achromatic",
+      "spectrums": null,
+      "notes": "neutral, desaturated gray"
+    },
+    {
+      "id": "col_warm_white",
+      "text": "warm white",
+      "family": "color",
+      "subtype": "neutral",
+      "spectrums": null,
+      "notes": "slightly yellow-tinted white"
+    },
+    {
+      "id": "col_terracotta",
+      "text": "terracotta",
+      "family": "color",
+      "subtype": "chromatic",
+      "spectrums": null,
+      "notes": "orange-brown, earthy"
+    },
+    {
+      "id": "col_pale_yellow",
+      "text": "pale yellow",
+      "family": "color",
+      "subtype": "neutral",
+      "spectrums": null,
+      "notes": "very low saturation yellow"
+    },
+    {
+      "id": "col_sage",
+      "text": "sage",
+      "family": "color",
+      "subtype": "chromatic",
+      "spectrums": null,
+      "notes": "calm, earthy, grayish-green"
+    },
+    {
+      "id": "col_oxblood",
+      "text": "oxblood",
+      "family": "color",
+      "subtype": "chromatic",
+      "spectrums": null,
+      "notes": "deep, dark, earthy red"
+    },
+    {
+      "id": "col_ochre",
+      "text": "ochre",
+      "family": "color",
+      "subtype": "chromatic",
+      "spectrums": null,
+      "notes": "golden-yellow, mineral tone"
+    },
+    {
+      "id": "col_indigo",
+      "text": "indigo",
+      "family": "color",
+      "subtype": "chromatic",
+      "spectrums": null,
+      "notes": "deep, saturated, violet-blue"
+    },
+    {
+      "id": "col_charcoal",
+      "text": "charcoal",
+      "family": "color",
+      "subtype": "achromatic",
+      "spectrums": null,
+      "notes": "very dark, warm gray"
+    },
+    {
+      "id": "col_eggshell",
+      "text": "eggshell",
+      "family": "color",
+      "subtype": "neutral",
+      "spectrums": null,
+      "notes": "warm, low-chroma white"
+    },
+    {
+      "id": "col_pistachio",
+      "text": "pistachio",
+      "family": "color",
+      "subtype": "chromatic",
+      "spectrums": null,
+      "notes": "light, energetic green"
+    },
+    {
+      "id": "col_petrol_blue",
+      "text": "petrol blue",
+      "family": "color",
+      "subtype": "chromatic",
+      "spectrums": null,
+      "notes": "deep, moody blue-green"
+    },
+    {
+      "id": "col_burnt_sienna",
+      "text": "burnt sienna",
+      "family": "color",
+      "subtype": "chromatic",
+      "spectrums": null,
+      "notes": "warm, earthy orange-brown"
+    },
+    {
+      "id": "col_emerald",
+      "text": "emerald",
+      "family": "color",
+      "subtype": "chromatic",
+      "spectrums": null,
+      "notes": "jewel-like, vibrant green"
+    },
+    {
+      "id": "qua_warm",
+      "text": "warm",
+      "family": "quality",
+      "subtype": "temperature",
+      "spectrums": {
+        "temperature": "high"
+      },
+      "notes": "thermal warmth; applies to light, material, color, space"
+    },
+    {
+      "id": "qua_cool",
+      "text": "cool",
+      "family": "quality",
+      "subtype": "temperature",
+      "spectrums": {
+        "temperature": "low"
+      },
+      "notes": "coolness; applies to light, tone, space"
+    },
+    {
+      "id": "qua_cold",
+      "text": "cold",
+      "family": "quality",
+      "subtype": "temperature",
+      "spectrums": {
+        "temperature": "very_low"
+      },
+      "notes": "strong coolness; clinical or nordic register"
+    },
+    {
+      "id": "qua_bright",
+      "text": "bright",
+      "family": "quality",
+      "subtype": "luminosity",
+      "spectrums": {
+        "luminosity": "high"
+      },
+      "notes": "high light intensity"
+    },
+    {
+      "id": "qua_dim",
+      "text": "dim",
+      "family": "quality",
+      "subtype": "luminosity",
+      "spectrums": {
+        "luminosity": "low"
+      },
+      "notes": "low light intensity, intimate"
+    },
+    {
+      "id": "qua_shadowed",
+      "text": "shadowed",
+      "family": "quality",
+      "subtype": "luminosity",
+      "spectrums": {
+        "luminosity": "very_low"
+      },
+      "notes": "areas of deep shadow; dramatic"
+    },
+    {
+      "id": "qua_glowing",
+      "text": "glowing",
+      "family": "quality",
+      "subtype": "luminosity",
+      "spectrums": {
+        "luminosity": "diffuse_high"
+      },
+      "notes": "soft, enveloping glow without hard source"
+    },
+    {
+      "id": "qua_smooth",
+      "text": "smooth",
+      "family": "quality",
+      "subtype": "texture",
+      "spectrums": {
+        "texture": "low"
+      },
+      "notes": "low surface roughness"
+    },
+    {
+      "id": "qua_rough",
+      "text": "rough",
+      "family": "quality",
+      "subtype": "texture",
+      "spectrums": {
+        "texture": "high"
+      },
+      "notes": "high surface roughness"
+    },
+    {
+      "id": "qua_soft",
+      "text": "soft",
+      "family": "quality",
+      "subtype": "texture",
+      "spectrums": {
+        "texture": "yielding"
+      },
+      "notes": "tactile softness, yielding"
+    },
+    {
+      "id": "qua_hard",
+      "text": "hard",
+      "family": "quality",
+      "subtype": "texture",
+      "spectrums": {
+        "texture": "rigid"
+      },
+      "notes": "unyielding, rigid surface"
+    },
+    {
+      "id": "qua_heavy",
+      "text": "heavy",
+      "family": "quality",
+      "subtype": "weight",
+      "spectrums": {
+        "weight": "high"
+      },
+      "notes": "perceptual heaviness, mass"
+    },
+    {
+      "id": "qua_light",
+      "text": "light",
+      "family": "quality",
+      "subtype": "weight",
+      "spectrums": {
+        "weight": "low"
+      },
+      "notes": "airy, weightless feel"
+    },
+    {
+      "id": "qua_formal",
+      "text": "formal",
+      "family": "quality",
+      "subtype": "formality",
+      "spectrums": {
+        "formality": "high"
+      },
+      "notes": "structured, ceremonial"
+    },
+    {
+      "id": "qua_raw",
+      "text": "raw",
+      "family": "quality",
+      "subtype": "formality",
+      "spectrums": {
+        "formality": "very_low"
+      },
+      "notes": "unfinished, exposed construction"
+    },
+    {
+      "id": "qua_refined",
+      "text": "refined",
+      "family": "quality",
+      "subtype": "formality",
+      "spectrums": {
+        "formality": "polished"
+      },
+      "notes": "meticulous finishing, craftsmanship"
+    },
+    {
+      "id": "qua_muted",
+      "text": "muted",
+      "family": "quality",
+      "subtype": "saturation",
+      "spectrums": {
+        "saturation": "low"
+      },
+      "notes": "desaturated, restrained palette"
+    },
+    {
+      "id": "qua_vivid",
+      "text": "vivid",
+      "family": "quality",
+      "subtype": "saturation",
+      "spectrums": {
+        "saturation": "high"
+      },
+      "notes": "strong color presence"
+    },
+    {
+      "id": "qua_aged",
+      "text": "aged",
+      "family": "quality",
+      "subtype": "patina",
+      "spectrums": {
+        "patina": "weathered"
+      },
+      "notes": "time-worn; evokes history"
+    },
+    {
+      "id": "qua_worn",
+      "text": "worn",
+      "family": "quality",
+      "subtype": "patina",
+      "spectrums": {
+        "patina": "used"
+      },
+      "notes": "used surfaces, softened edges"
+    },
+    {
+      "id": "qua_pristine",
+      "text": "pristine",
+      "family": "quality",
+      "subtype": "patina",
+      "spectrums": {
+        "patina": "new"
+      },
+      "notes": "untouched, perfect condition"
+    },
+    {
+      "id": "qua_monolithic",
+      "text": "monolithic",
+      "family": "quality",
+      "subtype": "form",
+      "spectrums": {
+        "form": "massive"
+      },
+      "notes": "carved from a single block, massive"
+    },
+    {
+      "id": "qua_porous",
+      "text": "porous",
+      "family": "quality",
+      "subtype": "density",
+      "spectrums": {
+        "density": "low"
+      },
+      "notes": "permeable, filled with voids"
+    },
+    {
+      "id": "qua_ephemeral",
+      "text": "ephemeral",
+      "family": "quality",
+      "subtype": "duration",
+      "spectrums": {
+        "duration": "short"
+      },
+      "notes": "lasting for a very short time"
+    },
+    {
+      "id": "qua_buoyant",
+      "text": "buoyant",
+      "family": "quality",
+      "subtype": "weight",
+      "spectrums": {
+        "weight": "very_low"
+      },
+      "notes": "feeling of floating, weightless"
+    },
+    {
+      "id": "qua_rhythmic",
+      "text": "rhythmic",
+      "family": "quality",
+      "subtype": "pattern",
+      "spectrums": {
+        "pattern": "regular"
+      },
+      "notes": "repeating with measured intervals"
+    },
+    {
+      "id": "qua_chaotic",
+      "text": "chaotic",
+      "family": "quality",
+      "subtype": "pattern",
+      "spectrums": {
+        "pattern": "irregular"
+      },
+      "notes": "disordered, unpredictable"
+    },
+    {
+      "id": "qua_tectonic",
+      "text": "tectonic",
+      "family": "quality",
+      "subtype": "expression",
+      "spectrums": {
+        "expression": "constructive"
+      },
+      "notes": "expressive of construction and structure"
+    },
+    {
+      "id": "lit_indirect",
+      "text": "indirect",
+      "family": "lighting",
+      "subtype": "mode",
+      "spectrums": null,
+      "notes": "light bounced off surfaces, no direct source visible"
+    },
+    {
+      "id": "lit_direct",
+      "text": "direct",
+      "family": "lighting",
+      "subtype": "mode",
+      "spectrums": null,
+      "notes": "beam aimed at surface or person"
+    },
+    {
+      "id": "lit_diffuse",
+      "text": "diffuse",
+      "family": "lighting",
+      "subtype": "mode",
+      "spectrums": null,
+      "notes": "scattered, directionless light"
+    },
+    {
+      "id": "lit_ambient",
+      "text": "ambient",
+      "family": "lighting",
+      "subtype": "mode",
+      "spectrums": null,
+      "notes": "overall background illumination of a space"
+    },
+    {
+      "id": "lit_zenithal",
+      "text": "zenithal",
+      "family": "lighting",
+      "subtype": "direction",
+      "spectrums": null,
+      "notes": "light coming from directly above"
+    },
+    {
+      "id": "lit_raking",
+      "text": "raking",
+      "family": "lighting",
+      "subtype": "direction",
+      "spectrums": null,
+      "notes": "light at a very shallow angle, highlighting texture"
+    },
+    {
+      "id": "lit_dappled",
+      "text": "dappled",
+      "family": "lighting",
+      "subtype": "pattern",
+      "spectrums": null,
+      "notes": "spotted with spots of light and shadow"
+    },
+    {
+      "id": "lit_scintillating",
+      "text": "scintillating",
+      "family": "lighting",
+      "subtype": "effect",
+      "spectrums": null,
+      "notes": "sparkling or shining brightly"
+    },
+    {
+      "id": "lit_enveloping",
+      "text": "enveloping",
+      "family": "lighting",
+      "subtype": "effect",
+      "spectrums": null,
+      "notes": "soft, all-around illumination"
+    },
+    {
+      "id": "spa_open",
+      "text": "open",
+      "family": "spatial",
+      "subtype": "extent",
+      "spectrums": null,
+      "notes": null
+    },
+    {
+      "id": "spa_enclosed",
+      "text": "enclosed",
+      "family": "spatial",
+      "subtype": "extent",
+      "spectrums": null,
+      "notes": null
+    },
+    {
+      "id": "spa_narrow",
+      "text": "narrow",
+      "family": "spatial",
+      "subtype": "proportion",
+      "spectrums": null,
+      "notes": null
+    },
+    {
+      "id": "spa_tall",
+      "text": "tall",
+      "family": "spatial",
+      "subtype": "proportion",
+      "spectrums": null,
+      "notes": null
+    },
+    {
+      "id": "spa_compact",
+      "text": "compact",
+      "family": "spatial",
+      "subtype": "scale",
+      "spectrums": null,
+      "notes": null
+    },
+    {
+      "id": "spa_expansive",
+      "text": "expansive",
+      "family": "spatial",
+      "subtype": "scale",
+      "spectrums": null,
+      "notes": null
+    },
+    {
+      "id": "spa_peripheral",
+      "text": "peripheral",
+      "family": "spatial",
+      "subtype": "position",
+      "spectrums": null,
+      "notes": "at the edges, not center"
+    },
+    {
+      "id": "spa_central",
+      "text": "central",
+      "family": "spatial",
+      "subtype": "position",
+      "spectrums": null,
+      "notes": "at the focus of the space"
+    },
+    {
+      "id": "spa_compressed",
+      "text": "compressed",
+      "family": "spatial",
+      "subtype": "extent",
+      "spectrums": null,
+      "notes": "feeling of being squeezed or tightened"
+    },
+    {
+      "id": "spa_lofty",
+      "text": "lofty",
+      "family": "spatial",
+      "subtype": "extent",
+      "spectrums": null,
+      "notes": "very tall and impressive"
+    },
+    {
+      "id": "spa_subterranean",
+      "text": "subterranean",
+      "family": "spatial",
+      "subtype": "position",
+      "spectrums": null,
+      "notes": "situated or occurring under the earth's surface"
+    },
+    {
+      "id": "rel_inward",
+      "text": "inward-facing",
+      "family": "relation",
+      "subtype": "orientation",
+      "spectrums": null,
+      "notes": "objects or seating face toward center"
+    },
+    {
+      "id": "rel_outward",
+      "text": "outward-facing",
+      "family": "relation",
+      "subtype": "orientation",
+      "spectrums": null,
+      "notes": "objects or seating face away from center"
+    },
+    {
+      "id": "rel_clustered",
+      "text": "clustered",
+      "family": "relation",
+      "subtype": "grouping",
+      "spectrums": null,
+      "notes": "grouped tightly together"
+    },
+    {
+      "id": "rel_dispersed",
+      "text": "dispersed",
+      "family": "relation",
+      "subtype": "grouping",
+      "spectrums": null,
+      "notes": "spread out, low density"
+    },
+    {
+      "id": "beh_quiet",
+      "text": "quiet",
+      "family": "behavioral",
+      "subtype": "acoustic",
+      "spectrums": null,
+      "notes": "low sound level, hushed"
+    },
+    {
+      "id": "beh_noisy",
+      "text": "noisy",
+      "family": "behavioral",
+      "subtype": "acoustic",
+      "spectrums": null,
+      "notes": "high sound level, busy"
+    },
+    {
+      "id": "beh_active",
+      "text": "active",
+      "family": "behavioral",
+      "subtype": "activity",
+      "spectrums": null,
+      "notes": "movement and energy"
+    },
+    {
+      "id": "beh_passive",
+      "text": "passive",
+      "family": "behavioral",
+      "subtype": "activity",
+      "spectrums": null,
+      "notes": "stillness, waiting, rest"
+    },
+    {
+      "id": "beh_gathering",
+      "text": "gathering",
+      "family": "behavioral",
+      "subtype": "social",
+      "spectrums": null,
+      "notes": "communal assembly"
+    },
+    {
+      "id": "beh_retreat",
+      "text": "retreat",
+      "family": "behavioral",
+      "subtype": "social",
+      "spectrums": null,
+      "notes": "withdrawal, privacy, refuge"
+    },
+    {
+      "id": "rel_axial",
+      "text": "axial",
+      "family": "relation",
+      "subtype": "organization",
+      "spectrums": null,
+      "notes": "aligned along a central axis"
+    },
+    {
+      "id": "rel_radial",
+      "text": "radial",
+      "family": "relation",
+      "subtype": "organization",
+      "spectrums": null,
+      "notes": "extending from a center"
+    },
+    {
+      "id": "rel_symmetrical",
+      "text": "symmetrical",
+      "family": "relation",
+      "subtype": "logic",
+      "spectrums": null,
+      "notes": "balanced proportions"
+    },
+    {
+      "id": "rel_asymmetrical",
+      "text": "asymmetrical",
+      "family": "relation",
+      "subtype": "logic",
+      "spectrums": null,
+      "notes": "unbalanced yet harmonious"
+    },
+    {
+      "id": "rel_nested",
+      "text": "nested",
+      "family": "relation",
+      "subtype": "grouping",
+      "spectrums": null,
+      "notes": "contained one within another"
+    },
+    {
+      "id": "rel_interlocked",
+      "text": "interlocked",
+      "family": "relation",
+      "subtype": "logic",
+      "spectrums": null,
+      "notes": "physically joined or woven"
+    },
+    {
+      "id": "rel_superimposed",
+      "text": "superimposed",
+      "family": "relation",
+      "subtype": "logic",
+      "spectrums": null,
+      "notes": "placed one over another"
+    },
+    {
+      "id": "rel_cantilevered",
+      "text": "cantilevered",
+      "family": "relation",
+      "subtype": "structure",
+      "spectrums": null,
+      "notes": "projecting without visible support"
+    },
+    {
+      "id": "rel_suspended",
+      "text": "suspended",
+      "family": "relation",
+      "subtype": "structure",
+      "spectrums": null,
+      "notes": "hanging from above"
+    },
+    {
+      "id": "rel_stepped",
+      "text": "stepped",
+      "family": "relation",
+      "subtype": "form",
+      "spectrums": null,
+      "notes": "arranged in levels or tiers"
+    },
+    {
+      "id": "rel_continuous",
+      "text": "continuous",
+      "family": "relation",
+      "subtype": "flow",
+      "spectrums": null,
+      "notes": "without interruption"
+    },
+    {
+      "id": "rel_overlapping",
+      "text": "overlapping",
+      "family": "relation",
+      "subtype": "grouping",
+      "spectrums": null,
+      "notes": "covering part of the same area"
+    },
+    {
+      "id": "beh_lingering",
+      "text": "lingering",
+      "family": "behavioral",
+      "subtype": "dwell",
+      "spectrums": null,
+      "notes": "staying in a place longer than necessary"
+    },
+    {
+      "id": "beh_circulating",
+      "text": "circulating",
+      "family": "behavioral",
+      "subtype": "movement",
+      "spectrums": null,
+      "notes": "moving through or around"
+    },
+    {
+      "id": "beh_contemplative",
+      "text": "contemplative",
+      "family": "behavioral",
+      "subtype": "internal",
+      "spectrums": null,
+      "notes": "quiet reflection or study"
+    },
+    {
+      "id": "beh_prospect",
+      "text": "prospect-view",
+      "family": "behavioral",
+      "subtype": "visual",
+      "spectrums": null,
+      "notes": "gaining a wide view from a safe point"
+    },
+    {
+      "id": "beh_refuge",
+      "text": "refuge-taking",
+      "family": "behavioral",
+      "subtype": "spatial",
+      "spectrums": null,
+      "notes": "seeking shelter or protection"
+    },
+    {
+      "id": "beh_collaborative",
+      "text": "collaborative",
+      "family": "behavioral",
+      "subtype": "social",
+      "spectrums": null,
+      "notes": "working together on a task"
+    },
+    {
+      "id": "beh_performing",
+      "text": "performing",
+      "family": "behavioral",
+      "subtype": "active",
+      "spectrums": null,
+      "notes": "presenting to an audience"
+    },
+    {
+      "id": "beh_strenuous",
+      "text": "strenuous",
+      "family": "behavioral",
+      "subtype": "active",
+      "spectrums": null,
+      "notes": "high physical effort"
+    },
+    {
+      "id": "lit_zenithal_light",
+      "text": "zenithal light",
+      "family": "lighting",
+      "subtype": "direction",
+      "spectrums": null,
+      "notes": "light from directly overhead"
+    },
+    {
+      "id": "lit_focal_glow",
+      "text": "focal glow",
+      "family": "lighting",
+      "subtype": "effect",
+      "spectrums": null,
+      "notes": "concentrated light on a specific area"
+    },
+    {
+      "id": "lit_sparkle",
+      "text": "play of brilliance",
+      "family": "lighting",
+      "subtype": "effect",
+      "spectrums": null,
+      "notes": "sparkling, dynamic light points"
+    },
+    {
+      "id": "lit_ambient_luminescence",
+      "text": "ambient luminescence",
+      "family": "lighting",
+      "subtype": "mode",
+      "spectrums": null,
+      "notes": "soft, pervasive background light"
+    },
+    {
+      "id": "lit_kinetic",
+      "text": "kinetic shadow",
+      "family": "lighting",
+      "subtype": "effect",
+      "spectrums": null,
+      "notes": "moving shadows from trees or water"
+    },
+    {
+      "id": "lit_filter",
+      "text": "filtered light",
+      "family": "lighting",
+      "subtype": "effect",
+      "spectrums": null,
+      "notes": "light passing through screens or foliage"
+    },
+    {
+      "id": "lit_grazing",
+      "text": "grazing light",
+      "family": "lighting",
+      "subtype": "direction",
+      "spectrums": null,
+      "notes": "light at shallow angle to highlight texture"
+    },
+    {
+      "id": "lit_silhouetted",
+      "text": "silhouetted",
+      "family": "lighting",
+      "subtype": "effect",
+      "spectrums": null,
+      "notes": "backlit subjects against dark backgrounds"
+    },
+    {
+      "id": "spa_interstitial",
+      "text": "interstitial",
+      "family": "spatial",
+      "subtype": "position",
+      "spectrums": null,
+      "notes": "occurring between things; a space between spaces"
+    },
+    {
+      "id": "spa_liminal",
+      "text": "liminal",
+      "family": "spatial",
+      "subtype": "condition",
+      "spectrums": null,
+      "notes": "occupying a position at a boundary or threshold"
+    },
+    {
+      "id": "spa_double_height",
+      "text": "double-height",
+      "family": "spatial",
+      "subtype": "extent",
+      "spectrums": null,
+      "notes": "vertical volume spanning two floor levels"
+    },
+    {
+      "id": "spa_sequenced",
+      "text": "sequenced",
+      "family": "spatial",
+      "subtype": "logic",
+      "spectrums": null,
+      "notes": "ordered in a specific spatial progression"
+    },
+    {
+      "id": "spa_cavernous",
+      "text": "cavernous",
+      "family": "spatial",
+      "subtype": "extent",
+      "spectrums": null,
+      "notes": "large, dark, and hollow, like a cave"
+    },
+    {
+      "id": "spa_airy",
+      "text": "airy",
+      "family": "spatial",
+      "subtype": "extent",
+      "spectrums": null,
+      "notes": "delicate, light, and well-ventilated"
+    },
+    {
+      "id": "spa_labyrinthine",
+      "text": "labyrinthine",
+      "family": "spatial",
+      "subtype": "logic",
+      "spectrums": null,
+      "notes": "complex and irregular in layout"
+    },
+    {
+      "id": "arc_aisle",
+      "text": "aisle",
+      "family": "architecture",
+      "subtype": "circulation",
+      "spectrums": null,
+      "notes": "passage between rows of seats or structural bays"
+    },
+    {
+      "id": "arc_nave",
+      "text": "nave",
+      "family": "architecture",
+      "subtype": "interior",
+      "spectrums": null,
+      "notes": "central part of a church or large hall"
+    },
+    {
+      "id": "arc_transept",
+      "text": "transept",
+      "family": "architecture",
+      "subtype": "interior",
+      "spectrums": null,
+      "notes": "part of a building crossing the main axis"
+    },
+    {
+      "id": "arc_buttress",
+      "text": "buttress",
+      "family": "architecture",
+      "subtype": "structure",
+      "spectrums": null,
+      "notes": "projecting support built against a wall"
+    },
+    {
+      "id": "arc_parapet",
+      "text": "parapet",
+      "family": "architecture",
+      "subtype": "extension",
+      "spectrums": null,
+      "notes": "low protective wall along the edge of a roof or balcony"
+    },
+    {
+      "id": "arc_balustrade",
+      "text": "balustrade",
+      "family": "architecture",
+      "subtype": "extension",
+      "spectrums": null,
+      "notes": "row of small columns topped by a rail"
+    },
+    {
+      "id": "arc_canopy",
+      "text": "canopy",
+      "family": "architecture",
+      "subtype": "extension",
+      "spectrums": null,
+      "notes": "overhead roof or cover for shelter"
+    },
+    {
+      "id": "arc_pergola",
+      "text": "pergola",
+      "family": "architecture",
+      "subtype": "extension",
+      "spectrums": null,
+      "notes": "outdoor structure with a shaded walkway"
+    },
+    {
+      "id": "arc_pavilion",
+      "text": "pavilion",
+      "family": "architecture",
+      "subtype": "extension",
+      "spectrums": null,
+      "notes": "decorative building or light structure"
+    },
+    {
+      "id": "arc_rotunda",
+      "text": "rotunda",
+      "family": "architecture",
+      "subtype": "interior",
+      "spectrums": null,
+      "notes": "round building or room, often with a dome"
+    },
+    {
+      "id": "arc_arcade",
+      "text": "arcade",
+      "family": "architecture",
+      "subtype": "circulation",
+      "spectrums": null,
+      "notes": "series of arches supported by columns"
+    },
+    {
+      "id": "arc_loggia",
+      "text": "loggia",
+      "family": "architecture",
+      "subtype": "extension",
+      "spectrums": null,
+      "notes": "gallery or room with one or more open sides"
+    },
+    {
+      "id": "mat_oxidized_steel",
+      "text": "oxidized steel",
+      "family": "material",
+      "subtype": "metal",
+      "spectrums": null,
+      "notes": "weathered, rusted surface providing deep texture"
+    },
+    {
+      "id": "mat_polycarbonate",
+      "text": "polycarbonate",
+      "family": "material",
+      "subtype": "composite",
+      "spectrums": null,
+      "notes": "synthetic, translucent, and lightweight"
+    },
+    {
+      "id": "mat_felt",
+      "text": "felt",
+      "family": "material",
+      "subtype": "textile",
+      "spectrums": null,
+      "notes": "compressed wool, highly sound-absorptive"
+    },
+    {
+      "id": "mat_hempcrete",
+      "text": "hempcrete",
+      "family": "material",
+      "subtype": "composite",
+      "spectrums": null,
+      "notes": "sustainable, breathable, and monolithic"
+    },
+    {
+      "id": "mat_ashlar_stone",
+      "text": "ashlar stone",
+      "family": "material",
+      "subtype": "natural",
+      "spectrums": null,
+      "notes": "finely dressed stone with minimal joints"
+    },
+    {
+      "id": "mat_recycled_plastic",
+      "text": "recycled plastic",
+      "family": "material",
+      "subtype": "composite",
+      "spectrums": null,
+      "notes": "synthetic, varied colors, sustainable"
+    },
+    {
+      "id": "col_cobalt",
+      "text": "cobalt blue",
+      "family": "color",
+      "subtype": "chromatic",
+      "spectrums": null,
+      "notes": "vibrant, deep blue"
+    },
+    {
+      "id": "col_vermilion",
+      "text": "vermilion",
+      "family": "color",
+      "subtype": "chromatic",
+      "spectrums": null,
+      "notes": "brilliant red or scarlet"
+    },
+    {
+      "id": "col_slate_gray",
+      "text": "slate gray",
+      "family": "color",
+      "subtype": "achromatic",
+      "spectrums": null,
+      "notes": "cool, dark, blue-gray"
+    },
+    {
+      "id": "col_bone_white",
+      "text": "bone white",
+      "family": "color",
+      "subtype": "neutral",
+      "spectrums": null,
+      "notes": "very light, cool gray-white"
+    },
+    {
+      "id": "col_terracotta_pigment",
+      "text": "terracotta pigment",
+      "family": "color",
+      "subtype": "chromatic",
+      "spectrums": null,
+      "notes": "earthy orange-red"
+    },
+    {
+      "id": "qua_monumental",
+      "text": "monumental",
+      "family": "quality",
+      "subtype": "scale",
+      "spectrums": {
+        "scale": "large",
+        "presence": "imposing"
+      },
+      "notes": "massive, impressive, and enduring"
+    },
+    {
+      "id": "qua_vernacular",
+      "text": "vernacular",
+      "family": "quality",
+      "subtype": "origin",
+      "spectrums": {
+        "register": "local",
+        "formality": "low"
+      },
+      "notes": "concerned with ordinary rather than monumental"
+    },
+    {
+      "id": "qua_sculptural",
+      "text": "sculptural",
+      "family": "quality",
+      "subtype": "form",
+      "spectrums": {
+        "form": "sculpted",
+        "abstraction": "high"
+      },
+      "notes": "resembling sculpture, shaped with intent"
+    },
+    {
+      "id": "qua_layered",
+      "text": "layered",
+      "family": "quality",
+      "subtype": "composition",
+      "spectrums": {
+        "complexity": "high",
+        "depth": "deep"
+      },
+      "notes": "composed of many parts or levels"
+    },
+    {
+      "id": "qua_transparent",
+      "text": "transparent",
+      "family": "quality",
+      "subtype": "clarity",
+      "spectrums": {
+        "opacity": "transparent",
+        "enclosure": "open"
+      },
+      "notes": "allowing light to pass through so objects are seen"
+    },
+    {
+      "id": "qua_translucent",
+      "text": "translucent",
+      "family": "quality",
+      "subtype": "clarity",
+      "spectrums": {
+        "opacity": "translucent",
+        "light": "diffused"
+      },
+      "notes": "allowing light, but not detailed shapes, to pass"
+    },
+    {
+      "id": "qua_utilitarian",
+      "text": "utilitarian",
+      "family": "quality",
+      "subtype": "intent",
+      "spectrums": {
+        "function": "practical",
+        "ornament": "minimal"
+      },
+      "notes": "designed to be useful or practical rather than attractive"
+    }
+  ]
+}

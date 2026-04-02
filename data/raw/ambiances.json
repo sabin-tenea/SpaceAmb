@@ -1,0 +1,18 @@
+{
+  "ambiances": [
+    { "id": "amb_relaxing",    "text": "relaxing",    "notes": "ease, tension release" },
+    { "id": "amb_inviting",    "text": "inviting",    "notes": "welcoming, warm threshold" },
+    { "id": "amb_fun",         "text": "fun",         "notes": "playful, energetic" },
+    { "id": "amb_somber",      "text": "somber",      "notes": "serious, heavy, subdued" },
+    { "id": "amb_spooky",      "text": "spooky",      "notes": "uncanny, unsettling" },
+    { "id": "amb_formal",      "text": "formal",      "notes": "structured, rigid, ceremonial" },
+    { "id": "amb_lively",      "text": "lively",      "notes": "high energy, animated" },
+    { "id": "amb_intimate",    "text": "intimate",    "notes": "close, personal scale" },
+    { "id": "amb_sterile",     "text": "sterile",     "notes": "clinical, neutral, antiseptic" },
+    { "id": "amb_restorative", "text": "restorative", "notes": "healing, recovery, gentle" },
+    { "id": "amb_playful",     "text": "playful",     "notes": "light, whimsical, childlike" },
+    { "id": "amb_focused",     "text": "focused",     "notes": "task-oriented, minimal distraction" },
+    { "id": "amb_melancholic", "text": "melancholic", "notes": "wistful, quietly sad, reflective" },
+    { "id": "amb_vibrant",     "text": "vibrant",     "notes": "intense, saturated energy" }
+  ]
+}

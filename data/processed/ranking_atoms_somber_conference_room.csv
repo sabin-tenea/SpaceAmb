@@ -1,0 +1,31 @@
+,rank,text,family,sim_space,sim_ambiance,sim_combined,weighted_score
+0,1,desk,furniture,0.5829,0.2174,0.4169,0.4085
+1,2,coffee table,furniture,0.5954,0.1463,0.4101,0.3905
+2,3,gathering,behavioral,0.5258,0.2042,0.3671,0.3661
+3,4,quiet,behavioral,0.3076,0.3791,0.3813,0.3623
+4,5,pavilion,architecture,0.5117,0.1809,0.3503,0.3483
+5,6,bookshelf,furniture,0.5041,0.1808,0.3362,0.3393
+6,7,cavernous,spatial,0.3698,0.3133,0.3359,0.3387
+7,8,cabinet,furniture,0.4149,0.2354,0.3456,0.3354
+8,9,dining table,furniture,0.5096,0.1084,0.3454,0.3272
+9,10,contemplative,behavioral,0.2309,0.4689,0.3028,0.3264
+10,11,corridor,architecture,0.4586,0.1501,0.3246,0.3145
+11,12,ambient,lighting,0.2742,0.3532,0.3074,0.3106
+12,13,formal,quality,0.2604,0.3896,0.294,0.3095
+13,14,alcove,architecture,0.4349,0.1911,0.2909,0.302
+14,15,sofa,furniture,0.421,0.2051,0.2895,0.3013
+15,16,chair,furniture,0.4575,0.1805,0.282,0.3005
+16,17,armchair,furniture,0.3795,0.2517,0.2815,0.2986
+17,18,ceiling,architecture,0.4121,0.1924,0.2929,0.2976
+18,19,mezzanine,architecture,0.4392,0.1498,0.2982,0.2964
+19,20,side table,furniture,0.4207,0.1539,0.3016,0.2945
+20,21,noisy,behavioral,0.2896,0.2741,0.3059,0.2939
+21,22,shadowed,quality,0.1666,0.471,0.2518,0.2853
+22,23,whiteboard,technology,0.4497,0.1149,0.2842,0.2833
+23,24,aisle,architecture,0.353,0.2138,0.2827,0.283
+24,25,floor,architecture,0.4189,0.1492,0.279,0.2815
+25,26,enclosed,spatial,0.3475,0.2403,0.26,0.2769
+26,27,clerestory,architecture,0.299,0.2753,0.2652,0.2762
+27,28,speakers,technology,0.4005,0.1593,0.271,0.2755
+28,29,lingering,behavioral,0.2252,0.3281,0.2652,0.2709
+29,30,bed,furniture,0.3877,0.1622,0.2482,0.2615

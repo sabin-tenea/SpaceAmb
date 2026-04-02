@@ -1,0 +1,6752 @@
+[
+  {
+    "id": "f233d0d90ddc",
+    "text": "active arch",
+    "source_atom_ids": [
+      "beh_active",
+      "arc_arch"
+    ],
+    "source_atom_texts": [
+      "active",
+      "arch"
+    ],
+    "source_atom_families": [
+      "behavioral",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "beh_active|arc_arch": 0.1786
+    },
+    "family_pattern": "behavioral+architecture"
+  },
+  {
+    "id": "645d60c8ddc9",
+    "text": "play of brilliance stone",
+    "source_atom_ids": [
+      "lit_sparkle",
+      "mat_stone"
+    ],
+    "source_atom_texts": [
+      "play of brilliance",
+      "stone"
+    ],
+    "source_atom_families": [
+      "lighting",
+      "material"
+    ],
+    "pairwise_sims": {
+      "lit_sparkle|mat_stone": 0.1601
+    },
+    "family_pattern": "lighting+material"
+  },
+  {
+    "id": "f5379677b249",
+    "text": "curtain fabric",
+    "source_atom_ids": [
+      "dec_curtain",
+      "mat_fabric"
+    ],
+    "source_atom_texts": [
+      "curtain",
+      "fabric"
+    ],
+    "source_atom_families": [
+      "decoration",
+      "material"
+    ],
+    "pairwise_sims": {
+      "dec_curtain|mat_fabric": 0.4512
+    },
+    "family_pattern": "decoration+material"
+  },
+  {
+    "id": "bb0fb8489aa6",
+    "text": "sofa subterranean",
+    "source_atom_ids": [
+      "fur_sofa",
+      "spa_subterranean"
+    ],
+    "source_atom_texts": [
+      "sofa",
+      "subterranean"
+    ],
+    "source_atom_families": [
+      "furniture",
+      "spatial"
+    ],
+    "pairwise_sims": {
+      "fur_sofa|spa_subterranean": 0.2308
+    },
+    "family_pattern": "furniture+spatial"
+  },
+  {
+    "id": "17ba9534ef04",
+    "text": "layered beige",
+    "source_atom_ids": [
+      "qua_layered",
+      "col_beige"
+    ],
+    "source_atom_texts": [
+      "layered",
+      "beige"
+    ],
+    "source_atom_families": [
+      "quality",
+      "color"
+    ],
+    "pairwise_sims": {
+      "qua_layered|col_beige": 0.274
+    },
+    "family_pattern": "quality+color"
+  },
+  {
+    "id": "cd9b42275686",
+    "text": "expansive side table",
+    "source_atom_ids": [
+      "spa_expansive",
+      "fur_side_table"
+    ],
+    "source_atom_texts": [
+      "expansive",
+      "side table"
+    ],
+    "source_atom_families": [
+      "spatial",
+      "furniture"
+    ],
+    "pairwise_sims": {
+      "spa_expansive|fur_side_table": 0.1435
+    },
+    "family_pattern": "spatial+furniture"
+  },
+  {
+    "id": "15f3b450b7f5",
+    "text": "beam ceramic",
+    "source_atom_ids": [
+      "arc_beam",
+      "mat_ceramic"
+    ],
+    "source_atom_texts": [
+      "beam",
+      "ceramic"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "material"
+    ],
+    "pairwise_sims": {
+      "arc_beam|mat_ceramic": 0.2064
+    },
+    "family_pattern": "architecture+material"
+  },
+  {
+    "id": "46c5c7443632",
+    "text": "flowers cool",
+    "source_atom_ids": [
+      "dec_flowers",
+      "qua_cool"
+    ],
+    "source_atom_texts": [
+      "flowers",
+      "cool"
+    ],
+    "source_atom_families": [
+      "decoration",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "dec_flowers|qua_cool": 0.187
+    },
+    "family_pattern": "decoration+quality"
+  },
+  {
+    "id": "d1da78f56bd9",
+    "text": "column scintillating",
+    "source_atom_ids": [
+      "arc_column",
+      "lit_scintillating"
+    ],
+    "source_atom_texts": [
+      "column",
+      "scintillating"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "lighting"
+    ],
+    "pairwise_sims": {
+      "arc_column|lit_scintillating": 0.2303
+    },
+    "family_pattern": "architecture+lighting"
+  },
+  {
+    "id": "94968a61b0cc",
+    "text": "refuge-taking compact",
+    "source_atom_ids": [
+      "beh_refuge",
+      "spa_compact"
+    ],
+    "source_atom_texts": [
+      "refuge-taking",
+      "compact"
+    ],
+    "source_atom_families": [
+      "behavioral",
+      "spatial"
+    ],
+    "pairwise_sims": {
+      "beh_refuge|spa_compact": 0.1767
+    },
+    "family_pattern": "behavioral+spatial"
+  },
+  {
+    "id": "56ee07cdb9eb",
+    "text": "diffuse warm",
+    "source_atom_ids": [
+      "lit_diffuse",
+      "qua_warm"
+    ],
+    "source_atom_texts": [
+      "diffuse",
+      "warm"
+    ],
+    "source_atom_families": [
+      "lighting",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "lit_diffuse|qua_warm": 0.2769
+    },
+    "family_pattern": "lighting+quality"
+  },
+  {
+    "id": "f48ebf563ca0",
+    "text": "shadowed ochre",
+    "source_atom_ids": [
+      "qua_shadowed",
+      "col_ochre"
+    ],
+    "source_atom_texts": [
+      "shadowed",
+      "ochre"
+    ],
+    "source_atom_families": [
+      "quality",
+      "color"
+    ],
+    "pairwise_sims": {
+      "qua_shadowed|col_ochre": 0.2811
+    },
+    "family_pattern": "quality+color"
+  },
+  {
+    "id": "3dd0527528fa",
+    "text": "balustrade labyrinthine",
+    "source_atom_ids": [
+      "arc_balustrade",
+      "spa_labyrinthine"
+    ],
+    "source_atom_texts": [
+      "balustrade",
+      "labyrinthine"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "spatial"
+    ],
+    "pairwise_sims": {
+      "arc_balustrade|spa_labyrinthine": 0.2618
+    },
+    "family_pattern": "architecture+spatial"
+  },
+  {
+    "id": "7951d8fef2a9",
+    "text": "silhouetted nave",
+    "source_atom_ids": [
+      "lit_silhouetted",
+      "arc_nave"
+    ],
+    "source_atom_texts": [
+      "silhouetted",
+      "nave"
+    ],
+    "source_atom_families": [
+      "lighting",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "lit_silhouetted|arc_nave": 0.1934
+    },
+    "family_pattern": "lighting+architecture"
+  },
+  {
+    "id": "034fd02308f8",
+    "text": "overlapping light",
+    "source_atom_ids": [
+      "rel_overlapping",
+      "qua_light"
+    ],
+    "source_atom_texts": [
+      "overlapping",
+      "light"
+    ],
+    "source_atom_families": [
+      "relation",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "rel_overlapping|qua_light": 0.1449
+    },
+    "family_pattern": "relation+quality"
+  },
+  {
+    "id": "4f27635eee3a",
+    "text": "glass plinth",
+    "source_atom_ids": [
+      "mat_glass",
+      "arc_plinth"
+    ],
+    "source_atom_texts": [
+      "glass",
+      "plinth"
+    ],
+    "source_atom_families": [
+      "material",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "mat_glass|arc_plinth": 0.2347
+    },
+    "family_pattern": "material+architecture"
+  },
+  {
+    "id": "dd60025ef83a",
+    "text": "interstitial chair",
+    "source_atom_ids": [
+      "spa_interstitial",
+      "fur_chair"
+    ],
+    "source_atom_texts": [
+      "interstitial",
+      "chair"
+    ],
+    "source_atom_families": [
+      "spatial",
+      "furniture"
+    ],
+    "pairwise_sims": {
+      "spa_interstitial|fur_chair": 0.2586
+    },
+    "family_pattern": "spatial+furniture"
+  },
+  {
+    "id": "6e42dbe507f2",
+    "text": "atrium hard",
+    "source_atom_ids": [
+      "arc_atrium",
+      "qua_hard"
+    ],
+    "source_atom_texts": [
+      "atrium",
+      "hard"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "arc_atrium|qua_hard": 0.0483
+    },
+    "family_pattern": "architecture+quality"
+  },
+  {
+    "id": "485c01361d04",
+    "text": "deep blue buttress",
+    "source_atom_ids": [
+      "col_deep_blue",
+      "arc_buttress"
+    ],
+    "source_atom_texts": [
+      "deep blue",
+      "buttress"
+    ],
+    "source_atom_families": [
+      "color",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "col_deep_blue|arc_buttress": 0.1971
+    },
+    "family_pattern": "color+architecture"
+  },
+  {
+    "id": "c48ccbf30c06",
+    "text": "compressed portico",
+    "source_atom_ids": [
+      "spa_compressed",
+      "arc_portico"
+    ],
+    "source_atom_texts": [
+      "compressed",
+      "portico"
+    ],
+    "source_atom_families": [
+      "spatial",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "spa_compressed|arc_portico": 0.1081
+    },
+    "family_pattern": "spatial+architecture"
+  },
+  {
+    "id": "7efc4701bca2",
+    "text": "threshold cantilevered",
+    "source_atom_ids": [
+      "arc_threshold",
+      "rel_cantilevered"
+    ],
+    "source_atom_texts": [
+      "threshold",
+      "cantilevered"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "relation"
+    ],
+    "pairwise_sims": {
+      "arc_threshold|rel_cantilevered": 0.2525
+    },
+    "family_pattern": "architecture+relation"
+  },
+  {
+    "id": "e37e877dc222",
+    "text": "indirect bay window",
+    "source_atom_ids": [
+      "lit_indirect",
+      "arc_bay_window"
+    ],
+    "source_atom_texts": [
+      "indirect",
+      "bay window"
+    ],
+    "source_atom_families": [
+      "lighting",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "lit_indirect|arc_bay_window": 0.133
+    },
+    "family_pattern": "lighting+architecture"
+  },
+  {
+    "id": "79fd4bc8fec0",
+    "text": "warm white skylight",
+    "source_atom_ids": [
+      "col_warm_white",
+      "arc_skylight"
+    ],
+    "source_atom_texts": [
+      "warm white",
+      "skylight"
+    ],
+    "source_atom_families": [
+      "color",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "col_warm_white|arc_skylight": 0.2484
+    },
+    "family_pattern": "color+architecture"
+  },
+  {
+    "id": "92371469147c",
+    "text": "brick nave",
+    "source_atom_ids": [
+      "mat_brick",
+      "arc_nave"
+    ],
+    "source_atom_texts": [
+      "brick",
+      "nave"
+    ],
+    "source_atom_families": [
+      "material",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "mat_brick|arc_nave": 0.1407
+    },
+    "family_pattern": "material+architecture"
+  },
+  {
+    "id": "44ca5b02fc57",
+    "text": "outward-facing pavilion",
+    "source_atom_ids": [
+      "rel_outward",
+      "arc_pavilion"
+    ],
+    "source_atom_texts": [
+      "outward-facing",
+      "pavilion"
+    ],
+    "source_atom_families": [
+      "relation",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "rel_outward|arc_pavilion": 0.3502
+    },
+    "family_pattern": "relation+architecture"
+  },
+  {
+    "id": "85d5049dfefc",
+    "text": "muted green corrugated metal",
+    "source_atom_ids": [
+      "col_muted_green",
+      "mat_corrugated_metal"
+    ],
+    "source_atom_texts": [
+      "muted green",
+      "corrugated metal"
+    ],
+    "source_atom_families": [
+      "color",
+      "material"
+    ],
+    "pairwise_sims": {
+      "col_muted_green|mat_corrugated_metal": 0.1883
+    },
+    "family_pattern": "color+material"
+  },
+  {
+    "id": "ef149f1adcf5",
+    "text": "circulating window",
+    "source_atom_ids": [
+      "beh_circulating",
+      "arc_window"
+    ],
+    "source_atom_texts": [
+      "circulating",
+      "window"
+    ],
+    "source_atom_families": [
+      "behavioral",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "beh_circulating|arc_window": 0.2412
+    },
+    "family_pattern": "behavioral+architecture"
+  },
+  {
+    "id": "ce4cba2dedec",
+    "text": "symmetrical colonnade",
+    "source_atom_ids": [
+      "rel_symmetrical",
+      "arc_colonnade"
+    ],
+    "source_atom_texts": [
+      "symmetrical",
+      "colonnade"
+    ],
+    "source_atom_families": [
+      "relation",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "rel_symmetrical|arc_colonnade": 0.1924
+    },
+    "family_pattern": "relation+architecture"
+  },
+  {
+    "id": "b3dada2ab03f",
+    "text": "leather translucent",
+    "source_atom_ids": [
+      "mat_leather",
+      "qua_translucent"
+    ],
+    "source_atom_texts": [
+      "leather",
+      "translucent"
+    ],
+    "source_atom_families": [
+      "material",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "mat_leather|qua_translucent": 0.2375
+    },
+    "family_pattern": "material+quality"
+  },
+  {
+    "id": "72762ba9c112",
+    "text": "ashlar stone bench",
+    "source_atom_ids": [
+      "mat_ashlar_stone",
+      "fur_bench"
+    ],
+    "source_atom_texts": [
+      "ashlar stone",
+      "bench"
+    ],
+    "source_atom_families": [
+      "material",
+      "furniture"
+    ],
+    "pairwise_sims": {
+      "mat_ashlar_stone|fur_bench": 0.1466
+    },
+    "family_pattern": "material+furniture"
+  },
+  {
+    "id": "a306d2f9b507",
+    "text": "soffit soft",
+    "source_atom_ids": [
+      "arc_soffit",
+      "qua_soft"
+    ],
+    "source_atom_texts": [
+      "soffit",
+      "soft"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "arc_soffit|qua_soft": 0.1936
+    },
+    "family_pattern": "architecture+quality"
+  },
+  {
+    "id": "1e43aa715be2",
+    "text": "smooth emerald",
+    "source_atom_ids": [
+      "qua_smooth",
+      "col_emerald"
+    ],
+    "source_atom_texts": [
+      "smooth",
+      "emerald"
+    ],
+    "source_atom_families": [
+      "quality",
+      "color"
+    ],
+    "pairwise_sims": {
+      "qua_smooth|col_emerald": 0.2527
+    },
+    "family_pattern": "quality+color"
+  },
+  {
+    "id": "0a463daf3a1b",
+    "text": "beige portico",
+    "source_atom_ids": [
+      "col_beige",
+      "arc_portico"
+    ],
+    "source_atom_texts": [
+      "beige",
+      "portico"
+    ],
+    "source_atom_families": [
+      "color",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "col_beige|arc_portico": 0.1557
+    },
+    "family_pattern": "color+architecture"
+  },
+  {
+    "id": "74bf6c21b7e9",
+    "text": "rammed earth armchair",
+    "source_atom_ids": [
+      "mat_rammed_earth",
+      "fur_armchair"
+    ],
+    "source_atom_texts": [
+      "rammed earth",
+      "armchair"
+    ],
+    "source_atom_families": [
+      "material",
+      "furniture"
+    ],
+    "pairwise_sims": {
+      "mat_rammed_earth|fur_armchair": 0.1574
+    },
+    "family_pattern": "material+furniture"
+  },
+  {
+    "id": "69f3702b5272",
+    "text": "linen formal",
+    "source_atom_ids": [
+      "mat_linen",
+      "qua_formal"
+    ],
+    "source_atom_texts": [
+      "linen",
+      "formal"
+    ],
+    "source_atom_families": [
+      "material",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "mat_linen|qua_formal": 0.2525
+    },
+    "family_pattern": "material+quality"
+  },
+  {
+    "id": "6cfbe61b1fff",
+    "text": "cantilevered expansive",
+    "source_atom_ids": [
+      "rel_cantilevered",
+      "spa_expansive"
+    ],
+    "source_atom_texts": [
+      "cantilevered",
+      "expansive"
+    ],
+    "source_atom_families": [
+      "relation",
+      "spatial"
+    ],
+    "pairwise_sims": {
+      "rel_cantilevered|spa_expansive": 0.2581
+    },
+    "family_pattern": "relation+spatial"
+  },
+  {
+    "id": "e1ae67cede90",
+    "text": "lofty radial",
+    "source_atom_ids": [
+      "spa_lofty",
+      "rel_radial"
+    ],
+    "source_atom_texts": [
+      "lofty",
+      "radial"
+    ],
+    "source_atom_families": [
+      "spatial",
+      "relation"
+    ],
+    "pairwise_sims": {
+      "spa_lofty|rel_radial": 0.191
+    },
+    "family_pattern": "spatial+relation"
+  },
+  {
+    "id": "7a2c2d050070",
+    "text": "tectonic expansive",
+    "source_atom_ids": [
+      "qua_tectonic",
+      "spa_expansive"
+    ],
+    "source_atom_texts": [
+      "tectonic",
+      "expansive"
+    ],
+    "source_atom_families": [
+      "quality",
+      "spatial"
+    ],
+    "pairwise_sims": {
+      "qua_tectonic|spa_expansive": 0.2951
+    },
+    "family_pattern": "quality+spatial"
+  },
+  {
+    "id": "c870366c139d",
+    "text": "wardrobe light",
+    "source_atom_ids": [
+      "fur_wardrobe",
+      "qua_light"
+    ],
+    "source_atom_texts": [
+      "wardrobe",
+      "light"
+    ],
+    "source_atom_families": [
+      "furniture",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "fur_wardrobe|qua_light": 0.2474
+    },
+    "family_pattern": "furniture+quality"
+  },
+  {
+    "id": "cb3a8b4144b7",
+    "text": "velvet translucent",
+    "source_atom_ids": [
+      "mat_velvet",
+      "qua_translucent"
+    ],
+    "source_atom_texts": [
+      "velvet",
+      "translucent"
+    ],
+    "source_atom_families": [
+      "material",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "mat_velvet|qua_translucent": 0.3618
+    },
+    "family_pattern": "material+quality"
+  },
+  {
+    "id": "8007dc65d3d3",
+    "text": "active central",
+    "source_atom_ids": [
+      "beh_active",
+      "spa_central"
+    ],
+    "source_atom_texts": [
+      "active",
+      "central"
+    ],
+    "source_atom_families": [
+      "behavioral",
+      "spatial"
+    ],
+    "pairwise_sims": {
+      "beh_active|spa_central": 0.205
+    },
+    "family_pattern": "behavioral+spatial"
+  },
+  {
+    "id": "d81fc49a6cff",
+    "text": "cushion vivid",
+    "source_atom_ids": [
+      "dec_cushion",
+      "qua_vivid"
+    ],
+    "source_atom_texts": [
+      "cushion",
+      "vivid"
+    ],
+    "source_atom_families": [
+      "decoration",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "dec_cushion|qua_vivid": 0.2367
+    },
+    "family_pattern": "decoration+quality"
+  },
+  {
+    "id": "1d6685ee9b7f",
+    "text": "polycarbonate porous",
+    "source_atom_ids": [
+      "mat_polycarbonate",
+      "qua_porous"
+    ],
+    "source_atom_texts": [
+      "polycarbonate",
+      "porous"
+    ],
+    "source_atom_families": [
+      "material",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "mat_polycarbonate|qua_porous": 0.3856
+    },
+    "family_pattern": "material+quality"
+  },
+  {
+    "id": "a927b7d758a5",
+    "text": "alcove pale yellow",
+    "source_atom_ids": [
+      "arc_alcove",
+      "col_pale_yellow"
+    ],
+    "source_atom_texts": [
+      "alcove",
+      "pale yellow"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "color"
+    ],
+    "pairwise_sims": {
+      "arc_alcove|col_pale_yellow": 0.1701
+    },
+    "family_pattern": "architecture+color"
+  },
+  {
+    "id": "157bcf6b2447",
+    "text": "arch filtered light",
+    "source_atom_ids": [
+      "arc_arch",
+      "lit_filter"
+    ],
+    "source_atom_texts": [
+      "arch",
+      "filtered light"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "lighting"
+    ],
+    "pairwise_sims": {
+      "arc_arch|lit_filter": -0.0106
+    },
+    "family_pattern": "architecture+lighting"
+  },
+  {
+    "id": "06457a20c73b",
+    "text": "indigo workbench",
+    "source_atom_ids": [
+      "col_indigo",
+      "fur_workbench"
+    ],
+    "source_atom_texts": [
+      "indigo",
+      "workbench"
+    ],
+    "source_atom_families": [
+      "color",
+      "furniture"
+    ],
+    "pairwise_sims": {
+      "col_indigo|fur_workbench": 0.1957
+    },
+    "family_pattern": "color+furniture"
+  },
+  {
+    "id": "68d19a4a0612",
+    "text": "sculpture terracotta",
+    "source_atom_ids": [
+      "dec_sculpture",
+      "col_terracotta_pigment"
+    ],
+    "source_atom_texts": [
+      "sculpture",
+      "terracotta"
+    ],
+    "source_atom_families": [
+      "decoration",
+      "color"
+    ],
+    "pairwise_sims": {
+      "dec_sculpture|col_terracotta_pigment": 0.5152
+    },
+    "family_pattern": "decoration+color"
+  },
+  {
+    "id": "81ec6c301ff2",
+    "text": "enveloping rotunda",
+    "source_atom_ids": [
+      "lit_enveloping",
+      "arc_rotunda"
+    ],
+    "source_atom_texts": [
+      "enveloping",
+      "rotunda"
+    ],
+    "source_atom_families": [
+      "lighting",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "lit_enveloping|arc_rotunda": 0.1709
+    },
+    "family_pattern": "lighting+architecture"
+  },
+  {
+    "id": "2a99efa6a606",
+    "text": "travertine armchair",
+    "source_atom_ids": [
+      "mat_travertine",
+      "fur_armchair"
+    ],
+    "source_atom_texts": [
+      "travertine",
+      "armchair"
+    ],
+    "source_atom_families": [
+      "material",
+      "furniture"
+    ],
+    "pairwise_sims": {
+      "mat_travertine|fur_armchair": 0.118
+    },
+    "family_pattern": "material+furniture"
+  },
+  {
+    "id": "797f521e102c",
+    "text": "aged velvet",
+    "source_atom_ids": [
+      "qua_aged",
+      "mat_velvet"
+    ],
+    "source_atom_texts": [
+      "aged",
+      "velvet"
+    ],
+    "source_atom_families": [
+      "quality",
+      "material"
+    ],
+    "pairwise_sims": {
+      "qua_aged|mat_velvet": 0.2476
+    },
+    "family_pattern": "quality+material"
+  },
+  {
+    "id": "55763bb3445b",
+    "text": "passive dining table",
+    "source_atom_ids": [
+      "beh_passive",
+      "fur_dining_table"
+    ],
+    "source_atom_texts": [
+      "passive",
+      "dining table"
+    ],
+    "source_atom_families": [
+      "behavioral",
+      "furniture"
+    ],
+    "pairwise_sims": {
+      "beh_passive|fur_dining_table": 0.0602
+    },
+    "family_pattern": "behavioral+furniture"
+  },
+  {
+    "id": "0077388802f7",
+    "text": "concrete vault",
+    "source_atom_ids": [
+      "mat_concrete",
+      "arc_vault"
+    ],
+    "source_atom_texts": [
+      "concrete",
+      "vault"
+    ],
+    "source_atom_families": [
+      "material",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "mat_concrete|arc_vault": 0.226
+    },
+    "family_pattern": "material+architecture"
+  },
+  {
+    "id": "461f0ef5c711",
+    "text": "ambient luminescence vivid",
+    "source_atom_ids": [
+      "lit_ambient",
+      "qua_vivid"
+    ],
+    "source_atom_texts": [
+      "ambient luminescence",
+      "vivid"
+    ],
+    "source_atom_families": [
+      "lighting",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "lit_ambient|qua_vivid": 0.2854
+    },
+    "family_pattern": "lighting+quality"
+  },
+  {
+    "id": "256866fc6f56",
+    "text": "concrete worn",
+    "source_atom_ids": [
+      "mat_concrete",
+      "qua_worn"
+    ],
+    "source_atom_texts": [
+      "concrete",
+      "worn"
+    ],
+    "source_atom_families": [
+      "material",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "mat_concrete|qua_worn": 0.1988
+    },
+    "family_pattern": "material+quality"
+  },
+  {
+    "id": "0efc545128bb",
+    "text": "warm canopy",
+    "source_atom_ids": [
+      "qua_warm",
+      "arc_canopy"
+    ],
+    "source_atom_texts": [
+      "warm",
+      "canopy"
+    ],
+    "source_atom_families": [
+      "quality",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "qua_warm|arc_canopy": 0.1914
+    },
+    "family_pattern": "quality+architecture"
+  },
+  {
+    "id": "b69237e240b6",
+    "text": "indigo painting",
+    "source_atom_ids": [
+      "col_indigo",
+      "dec_painting"
+    ],
+    "source_atom_texts": [
+      "indigo",
+      "painting"
+    ],
+    "source_atom_families": [
+      "color",
+      "decoration"
+    ],
+    "pairwise_sims": {
+      "col_indigo|dec_painting": 0.2725
+    },
+    "family_pattern": "color+decoration"
+  },
+  {
+    "id": "97bade37cbbc",
+    "text": "side table aged",
+    "source_atom_ids": [
+      "fur_side_table",
+      "qua_aged"
+    ],
+    "source_atom_texts": [
+      "side table",
+      "aged"
+    ],
+    "source_atom_families": [
+      "furniture",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "fur_side_table|qua_aged": 0.0566
+    },
+    "family_pattern": "furniture+quality"
+  },
+  {
+    "id": "83f3825bb65a",
+    "text": "atrium continuous",
+    "source_atom_ids": [
+      "arc_atrium",
+      "rel_continuous"
+    ],
+    "source_atom_texts": [
+      "atrium",
+      "continuous"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "relation"
+    ],
+    "pairwise_sims": {
+      "arc_atrium|rel_continuous": 0.179
+    },
+    "family_pattern": "architecture+relation"
+  },
+  {
+    "id": "2a01192ea241",
+    "text": "cobalt blue bay window",
+    "source_atom_ids": [
+      "col_cobalt",
+      "arc_bay_window"
+    ],
+    "source_atom_texts": [
+      "cobalt blue",
+      "bay window"
+    ],
+    "source_atom_families": [
+      "color",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "col_cobalt|arc_bay_window": 0.1996
+    },
+    "family_pattern": "color+architecture"
+  },
+  {
+    "id": "bc8e4132815a",
+    "text": "dispersed alcove",
+    "source_atom_ids": [
+      "rel_dispersed",
+      "arc_alcove"
+    ],
+    "source_atom_texts": [
+      "dispersed",
+      "alcove"
+    ],
+    "source_atom_families": [
+      "relation",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "rel_dispersed|arc_alcove": 0.2709
+    },
+    "family_pattern": "relation+architecture"
+  },
+  {
+    "id": "cdc2f9b163a5",
+    "text": "cantilevered light",
+    "source_atom_ids": [
+      "rel_cantilevered",
+      "qua_light"
+    ],
+    "source_atom_texts": [
+      "cantilevered",
+      "light"
+    ],
+    "source_atom_families": [
+      "relation",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "rel_cantilevered|qua_light": 0.19
+    },
+    "family_pattern": "relation+quality"
+  },
+  {
+    "id": "aee3c1f7d835",
+    "text": "clerestory heavy",
+    "source_atom_ids": [
+      "arc_clerestory",
+      "qua_heavy"
+    ],
+    "source_atom_texts": [
+      "clerestory",
+      "heavy"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "arc_clerestory|qua_heavy": 0.159
+    },
+    "family_pattern": "architecture+quality"
+  },
+  {
+    "id": "b470da1a1f6c",
+    "text": "peripheral loggia",
+    "source_atom_ids": [
+      "spa_peripheral",
+      "arc_loggia"
+    ],
+    "source_atom_texts": [
+      "peripheral",
+      "loggia"
+    ],
+    "source_atom_families": [
+      "spatial",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "spa_peripheral|arc_loggia": 0.203
+    },
+    "family_pattern": "spatial+architecture"
+  },
+  {
+    "id": "06a0bdb6c4f0",
+    "text": "chaotic cabinet",
+    "source_atom_ids": [
+      "qua_chaotic",
+      "fur_cabinet"
+    ],
+    "source_atom_texts": [
+      "chaotic",
+      "cabinet"
+    ],
+    "source_atom_families": [
+      "quality",
+      "furniture"
+    ],
+    "pairwise_sims": {
+      "qua_chaotic|fur_cabinet": 0.1842
+    },
+    "family_pattern": "quality+furniture"
+  },
+  {
+    "id": "940a4d2a9b50",
+    "text": "zenithal pavilion",
+    "source_atom_ids": [
+      "lit_zenithal",
+      "arc_pavilion"
+    ],
+    "source_atom_texts": [
+      "zenithal",
+      "pavilion"
+    ],
+    "source_atom_families": [
+      "lighting",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "lit_zenithal|arc_pavilion": 0.3171
+    },
+    "family_pattern": "lighting+architecture"
+  },
+  {
+    "id": "1186c2bf4ee8",
+    "text": "ceiling axial",
+    "source_atom_ids": [
+      "arc_ceiling",
+      "rel_axial"
+    ],
+    "source_atom_texts": [
+      "ceiling",
+      "axial"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "relation"
+    ],
+    "pairwise_sims": {
+      "arc_ceiling|rel_axial": 0.1817
+    },
+    "family_pattern": "architecture+relation"
+  },
+  {
+    "id": "95797a3c7f75",
+    "text": "stool quiet",
+    "source_atom_ids": [
+      "fur_stool",
+      "beh_quiet"
+    ],
+    "source_atom_texts": [
+      "stool",
+      "quiet"
+    ],
+    "source_atom_families": [
+      "furniture",
+      "behavioral"
+    ],
+    "pairwise_sims": {
+      "fur_stool|beh_quiet": 0.2105
+    },
+    "family_pattern": "furniture+behavioral"
+  },
+  {
+    "id": "28e2f5b66306",
+    "text": "indirect liminal",
+    "source_atom_ids": [
+      "lit_indirect",
+      "spa_liminal"
+    ],
+    "source_atom_texts": [
+      "indirect",
+      "liminal"
+    ],
+    "source_atom_families": [
+      "lighting",
+      "spatial"
+    ],
+    "pairwise_sims": {
+      "lit_indirect|spa_liminal": 0.2285
+    },
+    "family_pattern": "lighting+spatial"
+  },
+  {
+    "id": "f063c133ad34",
+    "text": "liminal radial",
+    "source_atom_ids": [
+      "spa_liminal",
+      "rel_radial"
+    ],
+    "source_atom_texts": [
+      "liminal",
+      "radial"
+    ],
+    "source_atom_families": [
+      "spatial",
+      "relation"
+    ],
+    "pairwise_sims": {
+      "spa_liminal|rel_radial": 0.1959
+    },
+    "family_pattern": "spatial+relation"
+  },
+  {
+    "id": "3d5b7edffee7",
+    "text": "chair ochre",
+    "source_atom_ids": [
+      "fur_chair",
+      "col_ochre"
+    ],
+    "source_atom_texts": [
+      "chair",
+      "ochre"
+    ],
+    "source_atom_families": [
+      "furniture",
+      "color"
+    ],
+    "pairwise_sims": {
+      "fur_chair|col_ochre": 0.2511
+    },
+    "family_pattern": "furniture+color"
+  },
+  {
+    "id": "36f8d0c40f73",
+    "text": "cabinet heavy",
+    "source_atom_ids": [
+      "fur_cabinet",
+      "qua_heavy"
+    ],
+    "source_atom_texts": [
+      "cabinet",
+      "heavy"
+    ],
+    "source_atom_families": [
+      "furniture",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "fur_cabinet|qua_heavy": 0.2184
+    },
+    "family_pattern": "furniture+quality"
+  },
+  {
+    "id": "a61cbd87994b",
+    "text": "collaborative transept",
+    "source_atom_ids": [
+      "beh_collaborative",
+      "arc_transept"
+    ],
+    "source_atom_texts": [
+      "collaborative",
+      "transept"
+    ],
+    "source_atom_families": [
+      "behavioral",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "beh_collaborative|arc_transept": 0.1684
+    },
+    "family_pattern": "behavioral+architecture"
+  },
+  {
+    "id": "5a5518a28da3",
+    "text": "concrete layered",
+    "source_atom_ids": [
+      "mat_concrete",
+      "qua_layered"
+    ],
+    "source_atom_texts": [
+      "concrete",
+      "layered"
+    ],
+    "source_atom_families": [
+      "material",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "mat_concrete|qua_layered": 0.2886
+    },
+    "family_pattern": "material+quality"
+  },
+  {
+    "id": "443dba137e94",
+    "text": "interstitial alcove",
+    "source_atom_ids": [
+      "spa_interstitial",
+      "arc_alcove"
+    ],
+    "source_atom_texts": [
+      "interstitial",
+      "alcove"
+    ],
+    "source_atom_families": [
+      "spatial",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "spa_interstitial|arc_alcove": 0.2296
+    },
+    "family_pattern": "spatial+architecture"
+  },
+  {
+    "id": "33dd1b424d58",
+    "text": "armchair felt",
+    "source_atom_ids": [
+      "fur_armchair",
+      "mat_felt"
+    ],
+    "source_atom_texts": [
+      "armchair",
+      "felt"
+    ],
+    "source_atom_families": [
+      "furniture",
+      "material"
+    ],
+    "pairwise_sims": {
+      "fur_armchair|mat_felt": 0.2581
+    },
+    "family_pattern": "furniture+material"
+  },
+  {
+    "id": "19a76ca9c580",
+    "text": "marble buttress",
+    "source_atom_ids": [
+      "mat_marble",
+      "arc_buttress"
+    ],
+    "source_atom_texts": [
+      "marble",
+      "buttress"
+    ],
+    "source_atom_families": [
+      "material",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "mat_marble|arc_buttress": 0.2726
+    },
+    "family_pattern": "material+architecture"
+  },
+  {
+    "id": "1ea101519157",
+    "text": "pristine eggshell",
+    "source_atom_ids": [
+      "qua_pristine",
+      "col_eggshell"
+    ],
+    "source_atom_texts": [
+      "pristine",
+      "eggshell"
+    ],
+    "source_atom_families": [
+      "quality",
+      "color"
+    ],
+    "pairwise_sims": {
+      "qua_pristine|col_eggshell": 0.2668
+    },
+    "family_pattern": "quality+color"
+  },
+  {
+    "id": "1139ce83816b",
+    "text": "bookshelf cold",
+    "source_atom_ids": [
+      "fur_bookshelf",
+      "qua_cold"
+    ],
+    "source_atom_texts": [
+      "bookshelf",
+      "cold"
+    ],
+    "source_atom_families": [
+      "furniture",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "fur_bookshelf|qua_cold": 0.1447
+    },
+    "family_pattern": "furniture+quality"
+  },
+  {
+    "id": "9ac63960f53a",
+    "text": "wardrobe monolithic",
+    "source_atom_ids": [
+      "fur_wardrobe",
+      "qua_monolithic"
+    ],
+    "source_atom_texts": [
+      "wardrobe",
+      "monolithic"
+    ],
+    "source_atom_families": [
+      "furniture",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "fur_wardrobe|qua_monolithic": 0.1552
+    },
+    "family_pattern": "furniture+quality"
+  },
+  {
+    "id": "ecc6faf49a8b",
+    "text": "cavernous balustrade",
+    "source_atom_ids": [
+      "spa_cavernous",
+      "arc_balustrade"
+    ],
+    "source_atom_texts": [
+      "cavernous",
+      "balustrade"
+    ],
+    "source_atom_families": [
+      "spatial",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "spa_cavernous|arc_balustrade": 0.3134
+    },
+    "family_pattern": "spatial+architecture"
+  },
+  {
+    "id": "dab0c6c2b2ee",
+    "text": "wall tall",
+    "source_atom_ids": [
+      "arc_wall",
+      "spa_tall"
+    ],
+    "source_atom_texts": [
+      "wall",
+      "tall"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "spatial"
+    ],
+    "pairwise_sims": {
+      "arc_wall|spa_tall": 0.3017
+    },
+    "family_pattern": "architecture+spatial"
+  },
+  {
+    "id": "86e66163b88a",
+    "text": "muted door",
+    "source_atom_ids": [
+      "qua_muted",
+      "arc_door"
+    ],
+    "source_atom_texts": [
+      "muted",
+      "door"
+    ],
+    "source_atom_families": [
+      "quality",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "qua_muted|arc_door": 0.1813
+    },
+    "family_pattern": "quality+architecture"
+  },
+  {
+    "id": "6a60c6a51a85",
+    "text": "muted green pavilion",
+    "source_atom_ids": [
+      "col_muted_green",
+      "arc_pavilion"
+    ],
+    "source_atom_texts": [
+      "muted green",
+      "pavilion"
+    ],
+    "source_atom_families": [
+      "color",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "col_muted_green|arc_pavilion": 0.1492
+    },
+    "family_pattern": "color+architecture"
+  },
+  {
+    "id": "249fd4bc4874",
+    "text": "arcade filtered light",
+    "source_atom_ids": [
+      "arc_arcade",
+      "lit_filter"
+    ],
+    "source_atom_texts": [
+      "arcade",
+      "filtered light"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "lighting"
+    ],
+    "pairwise_sims": {
+      "arc_arcade|lit_filter": 0.0436
+    },
+    "family_pattern": "architecture+lighting"
+  },
+  {
+    "id": "b61cf6b79999",
+    "text": "computer window",
+    "source_atom_ids": [
+      "tec_computer",
+      "arc_window"
+    ],
+    "source_atom_texts": [
+      "computer",
+      "window"
+    ],
+    "source_atom_families": [
+      "technology",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "tec_computer|arc_window": 0.4388
+    },
+    "family_pattern": "technology+architecture"
+  },
+  {
+    "id": "b2838bb876aa",
+    "text": "terracotta bamboo",
+    "source_atom_ids": [
+      "col_terracotta_pigment",
+      "mat_bamboo"
+    ],
+    "source_atom_texts": [
+      "terracotta",
+      "bamboo"
+    ],
+    "source_atom_families": [
+      "color",
+      "material"
+    ],
+    "pairwise_sims": {
+      "col_terracotta_pigment|mat_bamboo": 0.4732
+    },
+    "family_pattern": "color+material"
+  },
+  {
+    "id": "c3e54162a18c",
+    "text": "portal fabric",
+    "source_atom_ids": [
+      "arc_portal",
+      "mat_fabric"
+    ],
+    "source_atom_texts": [
+      "portal",
+      "fabric"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "material"
+    ],
+    "pairwise_sims": {
+      "arc_portal|mat_fabric": 0.2424
+    },
+    "family_pattern": "architecture+material"
+  },
+  {
+    "id": "538d8026aa48",
+    "text": "refined interstitial",
+    "source_atom_ids": [
+      "qua_refined",
+      "spa_interstitial"
+    ],
+    "source_atom_texts": [
+      "refined",
+      "interstitial"
+    ],
+    "source_atom_families": [
+      "quality",
+      "spatial"
+    ],
+    "pairwise_sims": {
+      "qua_refined|spa_interstitial": 0.2262
+    },
+    "family_pattern": "quality+spatial"
+  },
+  {
+    "id": "3ce4f2c23203",
+    "text": "silhouetted raw",
+    "source_atom_ids": [
+      "lit_silhouetted",
+      "qua_raw"
+    ],
+    "source_atom_texts": [
+      "silhouetted",
+      "raw"
+    ],
+    "source_atom_families": [
+      "lighting",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "lit_silhouetted|qua_raw": 0.3003
+    },
+    "family_pattern": "lighting+quality"
+  },
+  {
+    "id": "70a8c16c1380",
+    "text": "chaise longue travertine",
+    "source_atom_ids": [
+      "fur_chaise",
+      "mat_travertine"
+    ],
+    "source_atom_texts": [
+      "chaise longue",
+      "travertine"
+    ],
+    "source_atom_families": [
+      "furniture",
+      "material"
+    ],
+    "pairwise_sims": {
+      "fur_chaise|mat_travertine": 0.2204
+    },
+    "family_pattern": "furniture+material"
+  },
+  {
+    "id": "38e5ac6ce87d",
+    "text": "light felt",
+    "source_atom_ids": [
+      "qua_light",
+      "mat_felt"
+    ],
+    "source_atom_texts": [
+      "light",
+      "felt"
+    ],
+    "source_atom_families": [
+      "quality",
+      "material"
+    ],
+    "pairwise_sims": {
+      "qua_light|mat_felt": 0.2398
+    },
+    "family_pattern": "quality+material"
+  },
+  {
+    "id": "a701e1885bd0",
+    "text": "fireplace beige",
+    "source_atom_ids": [
+      "fix_fireplace",
+      "col_beige"
+    ],
+    "source_atom_texts": [
+      "fireplace",
+      "beige"
+    ],
+    "source_atom_families": [
+      "fixture",
+      "color"
+    ],
+    "pairwise_sims": {
+      "fix_fireplace|col_beige": 0.1912
+    },
+    "family_pattern": "fixture+color"
+  },
+  {
+    "id": "c80cb7f1b629",
+    "text": "bone white limewash",
+    "source_atom_ids": [
+      "col_bone_white",
+      "mat_limewash"
+    ],
+    "source_atom_texts": [
+      "bone white",
+      "limewash"
+    ],
+    "source_atom_families": [
+      "color",
+      "material"
+    ],
+    "pairwise_sims": {
+      "col_bone_white|mat_limewash": 0.408
+    },
+    "family_pattern": "color+material"
+  },
+  {
+    "id": "600c527ebea4",
+    "text": "sculpture monumental",
+    "source_atom_ids": [
+      "dec_sculpture",
+      "qua_monumental"
+    ],
+    "source_atom_texts": [
+      "sculpture",
+      "monumental"
+    ],
+    "source_atom_families": [
+      "decoration",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "dec_sculpture|qua_monumental": 0.3195
+    },
+    "family_pattern": "decoration+quality"
+  },
+  {
+    "id": "f820348f74a7",
+    "text": "grazing light lofty",
+    "source_atom_ids": [
+      "lit_grazing",
+      "spa_lofty"
+    ],
+    "source_atom_texts": [
+      "grazing light",
+      "lofty"
+    ],
+    "source_atom_families": [
+      "lighting",
+      "spatial"
+    ],
+    "pairwise_sims": {
+      "lit_grazing|spa_lofty": 0.1067
+    },
+    "family_pattern": "lighting+spatial"
+  },
+  {
+    "id": "27199f90839a",
+    "text": "plant pristine",
+    "source_atom_ids": [
+      "dec_plant",
+      "qua_pristine"
+    ],
+    "source_atom_texts": [
+      "plant",
+      "pristine"
+    ],
+    "source_atom_families": [
+      "decoration",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "dec_plant|qua_pristine": 0.1626
+    },
+    "family_pattern": "decoration+quality"
+  },
+  {
+    "id": "654ebbf113f0",
+    "text": "indigo utilitarian",
+    "source_atom_ids": [
+      "col_indigo",
+      "qua_utilitarian"
+    ],
+    "source_atom_texts": [
+      "indigo",
+      "utilitarian"
+    ],
+    "source_atom_families": [
+      "color",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "col_indigo|qua_utilitarian": 0.0956
+    },
+    "family_pattern": "color+quality"
+  },
+  {
+    "id": "68c3eea333d2",
+    "text": "retreat sofa",
+    "source_atom_ids": [
+      "beh_retreat",
+      "fur_sofa"
+    ],
+    "source_atom_texts": [
+      "retreat",
+      "sofa"
+    ],
+    "source_atom_families": [
+      "behavioral",
+      "furniture"
+    ],
+    "pairwise_sims": {
+      "beh_retreat|fur_sofa": 0.2948
+    },
+    "family_pattern": "behavioral+furniture"
+  },
+  {
+    "id": "c0de2df40b35",
+    "text": "translucent rammed earth",
+    "source_atom_ids": [
+      "qua_translucent",
+      "mat_rammed_earth"
+    ],
+    "source_atom_texts": [
+      "translucent",
+      "rammed earth"
+    ],
+    "source_atom_families": [
+      "quality",
+      "material"
+    ],
+    "pairwise_sims": {
+      "qua_translucent|mat_rammed_earth": 0.1404
+    },
+    "family_pattern": "quality+material"
+  },
+  {
+    "id": "196431494d8b",
+    "text": "bench warm white",
+    "source_atom_ids": [
+      "fur_bench",
+      "col_warm_white"
+    ],
+    "source_atom_texts": [
+      "bench",
+      "warm white"
+    ],
+    "source_atom_families": [
+      "furniture",
+      "color"
+    ],
+    "pairwise_sims": {
+      "fur_bench|col_warm_white": 0.1798
+    },
+    "family_pattern": "furniture+color"
+  },
+  {
+    "id": "d1e9c7770f1e",
+    "text": "clerestory dim",
+    "source_atom_ids": [
+      "arc_clerestory",
+      "qua_dim"
+    ],
+    "source_atom_texts": [
+      "clerestory",
+      "dim"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "arc_clerestory|qua_dim": 0.2672
+    },
+    "family_pattern": "architecture+quality"
+  },
+  {
+    "id": "b849d2ae3929",
+    "text": "compact quiet",
+    "source_atom_ids": [
+      "spa_compact",
+      "beh_quiet"
+    ],
+    "source_atom_texts": [
+      "compact",
+      "quiet"
+    ],
+    "source_atom_families": [
+      "spatial",
+      "behavioral"
+    ],
+    "pairwise_sims": {
+      "spa_compact|beh_quiet": 0.2746
+    },
+    "family_pattern": "spatial+behavioral"
+  },
+  {
+    "id": "2608251c2b6c",
+    "text": "compact dome",
+    "source_atom_ids": [
+      "spa_compact",
+      "arc_dome"
+    ],
+    "source_atom_texts": [
+      "compact",
+      "dome"
+    ],
+    "source_atom_families": [
+      "spatial",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "spa_compact|arc_dome": 0.3084
+    },
+    "family_pattern": "spatial+architecture"
+  },
+  {
+    "id": "6e984c99a762",
+    "text": "dome asymmetrical",
+    "source_atom_ids": [
+      "arc_dome",
+      "rel_asymmetrical"
+    ],
+    "source_atom_texts": [
+      "dome",
+      "asymmetrical"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "relation"
+    ],
+    "pairwise_sims": {
+      "arc_dome|rel_asymmetrical": 0.1388
+    },
+    "family_pattern": "architecture+relation"
+  },
+  {
+    "id": "ebcaa434f25f",
+    "text": "bay window terracotta",
+    "source_atom_ids": [
+      "arc_bay_window",
+      "col_terracotta"
+    ],
+    "source_atom_texts": [
+      "bay window",
+      "terracotta"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "color"
+    ],
+    "pairwise_sims": {
+      "arc_bay_window|col_terracotta": 0.1815
+    },
+    "family_pattern": "architecture+color"
+  },
+  {
+    "id": "9a1daabf14cb",
+    "text": "utilitarian stair",
+    "source_atom_ids": [
+      "qua_utilitarian",
+      "arc_stair"
+    ],
+    "source_atom_texts": [
+      "utilitarian",
+      "stair"
+    ],
+    "source_atom_families": [
+      "quality",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "qua_utilitarian|arc_stair": 0.1466
+    },
+    "family_pattern": "quality+architecture"
+  },
+  {
+    "id": "65ce4a88f109",
+    "text": "zinc balcony",
+    "source_atom_ids": [
+      "mat_zinc",
+      "arc_balcony"
+    ],
+    "source_atom_texts": [
+      "zinc",
+      "balcony"
+    ],
+    "source_atom_families": [
+      "material",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "mat_zinc|arc_balcony": 0.1776
+    },
+    "family_pattern": "material+architecture"
+  },
+  {
+    "id": "268e3c9d4174",
+    "text": "screen plinth",
+    "source_atom_ids": [
+      "tec_screen",
+      "arc_plinth"
+    ],
+    "source_atom_texts": [
+      "screen",
+      "plinth"
+    ],
+    "source_atom_families": [
+      "technology",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "tec_screen|arc_plinth": 0.208
+    },
+    "family_pattern": "technology+architecture"
+  },
+  {
+    "id": "8eb745b8ad17",
+    "text": "refined coffee table",
+    "source_atom_ids": [
+      "qua_refined",
+      "fur_coffee_table"
+    ],
+    "source_atom_texts": [
+      "refined",
+      "coffee table"
+    ],
+    "source_atom_families": [
+      "quality",
+      "furniture"
+    ],
+    "pairwise_sims": {
+      "qua_refined|fur_coffee_table": 0.2214
+    },
+    "family_pattern": "quality+furniture"
+  },
+  {
+    "id": "6f22e216a989",
+    "text": "dining table retreat",
+    "source_atom_ids": [
+      "fur_dining_table",
+      "beh_retreat"
+    ],
+    "source_atom_texts": [
+      "dining table",
+      "retreat"
+    ],
+    "source_atom_families": [
+      "furniture",
+      "behavioral"
+    ],
+    "pairwise_sims": {
+      "fur_dining_table|beh_retreat": 0.1552
+    },
+    "family_pattern": "furniture+behavioral"
+  },
+  {
+    "id": "0814072dedab",
+    "text": "monumental pale yellow",
+    "source_atom_ids": [
+      "qua_monumental",
+      "col_pale_yellow"
+    ],
+    "source_atom_texts": [
+      "monumental",
+      "pale yellow"
+    ],
+    "source_atom_families": [
+      "quality",
+      "color"
+    ],
+    "pairwise_sims": {
+      "qua_monumental|col_pale_yellow": 0.1409
+    },
+    "family_pattern": "quality+color"
+  },
+  {
+    "id": "87886323965a",
+    "text": "light bookshelf",
+    "source_atom_ids": [
+      "qua_light",
+      "fur_bookshelf"
+    ],
+    "source_atom_texts": [
+      "light",
+      "bookshelf"
+    ],
+    "source_atom_families": [
+      "quality",
+      "furniture"
+    ],
+    "pairwise_sims": {
+      "qua_light|fur_bookshelf": 0.2717
+    },
+    "family_pattern": "quality+furniture"
+  },
+  {
+    "id": "b8801e024eca",
+    "text": "light grazing light",
+    "source_atom_ids": [
+      "qua_light",
+      "lit_grazing"
+    ],
+    "source_atom_texts": [
+      "light",
+      "grazing light"
+    ],
+    "source_atom_families": [
+      "quality",
+      "lighting"
+    ],
+    "pairwise_sims": {
+      "qua_light|lit_grazing": 0.5116
+    },
+    "family_pattern": "quality+lighting"
+  },
+  {
+    "id": "647b5a6844e5",
+    "text": "radiator brick",
+    "source_atom_ids": [
+      "fix_radiator",
+      "mat_brick"
+    ],
+    "source_atom_texts": [
+      "radiator",
+      "brick"
+    ],
+    "source_atom_families": [
+      "fixture",
+      "material"
+    ],
+    "pairwise_sims": {
+      "fix_radiator|mat_brick": 0.2101
+    },
+    "family_pattern": "fixture+material"
+  },
+  {
+    "id": "21e9d2bb283c",
+    "text": "radial formal",
+    "source_atom_ids": [
+      "rel_radial",
+      "qua_formal"
+    ],
+    "source_atom_texts": [
+      "radial",
+      "formal"
+    ],
+    "source_atom_families": [
+      "relation",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "rel_radial|qua_formal": 0.2035
+    },
+    "family_pattern": "relation+quality"
+  },
+  {
+    "id": "c5fe00bbb332",
+    "text": "emerald curtain",
+    "source_atom_ids": [
+      "col_emerald",
+      "dec_curtain"
+    ],
+    "source_atom_texts": [
+      "emerald",
+      "curtain"
+    ],
+    "source_atom_families": [
+      "color",
+      "decoration"
+    ],
+    "pairwise_sims": {
+      "col_emerald|dec_curtain": 0.2245
+    },
+    "family_pattern": "color+decoration"
+  },
+  {
+    "id": "3d607224f7d6",
+    "text": "vermilion refined",
+    "source_atom_ids": [
+      "col_vermilion",
+      "qua_refined"
+    ],
+    "source_atom_texts": [
+      "vermilion",
+      "refined"
+    ],
+    "source_atom_families": [
+      "color",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "col_vermilion|qua_refined": 0.2182
+    },
+    "family_pattern": "color+quality"
+  },
+  {
+    "id": "b29eee67ef6d",
+    "text": "interlocked expansive",
+    "source_atom_ids": [
+      "rel_interlocked",
+      "spa_expansive"
+    ],
+    "source_atom_texts": [
+      "interlocked",
+      "expansive"
+    ],
+    "source_atom_families": [
+      "relation",
+      "spatial"
+    ],
+    "pairwise_sims": {
+      "rel_interlocked|spa_expansive": 0.2242
+    },
+    "family_pattern": "relation+spatial"
+  },
+  {
+    "id": "82e977f1cbd2",
+    "text": "gathering beam",
+    "source_atom_ids": [
+      "beh_gathering",
+      "arc_beam"
+    ],
+    "source_atom_texts": [
+      "gathering",
+      "beam"
+    ],
+    "source_atom_families": [
+      "behavioral",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "beh_gathering|arc_beam": 0.2418
+    },
+    "family_pattern": "behavioral+architecture"
+  },
+  {
+    "id": "f3d9d4f6474c",
+    "text": "charcoal refined",
+    "source_atom_ids": [
+      "col_charcoal",
+      "qua_refined"
+    ],
+    "source_atom_texts": [
+      "charcoal",
+      "refined"
+    ],
+    "source_atom_families": [
+      "color",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "col_charcoal|qua_refined": 0.3985
+    },
+    "family_pattern": "color+quality"
+  },
+  {
+    "id": "3dcf5d4a7173",
+    "text": "transept airy",
+    "source_atom_ids": [
+      "arc_transept",
+      "spa_airy"
+    ],
+    "source_atom_texts": [
+      "transept",
+      "airy"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "spatial"
+    ],
+    "pairwise_sims": {
+      "arc_transept|spa_airy": 0.1456
+    },
+    "family_pattern": "architecture+spatial"
+  },
+  {
+    "id": "53def0c65803",
+    "text": "whiteboard niche",
+    "source_atom_ids": [
+      "tec_whiteboard",
+      "arc_niche"
+    ],
+    "source_atom_texts": [
+      "whiteboard",
+      "niche"
+    ],
+    "source_atom_families": [
+      "technology",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "tec_whiteboard|arc_niche": 0.1496
+    },
+    "family_pattern": "technology+architecture"
+  },
+  {
+    "id": "c6bb1b711f7c",
+    "text": "indirect dim",
+    "source_atom_ids": [
+      "lit_indirect",
+      "qua_dim"
+    ],
+    "source_atom_texts": [
+      "indirect",
+      "dim"
+    ],
+    "source_atom_families": [
+      "lighting",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "lit_indirect|qua_dim": 0.2847
+    },
+    "family_pattern": "lighting+quality"
+  },
+  {
+    "id": "e46bd070223b",
+    "text": "emerald soffit",
+    "source_atom_ids": [
+      "col_emerald",
+      "arc_soffit"
+    ],
+    "source_atom_texts": [
+      "emerald",
+      "soffit"
+    ],
+    "source_atom_families": [
+      "color",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "col_emerald|arc_soffit": 0.1787
+    },
+    "family_pattern": "color+architecture"
+  },
+  {
+    "id": "5a1e871d6109",
+    "text": "soft cabinet",
+    "source_atom_ids": [
+      "qua_soft",
+      "fur_cabinet"
+    ],
+    "source_atom_texts": [
+      "soft",
+      "cabinet"
+    ],
+    "source_atom_families": [
+      "quality",
+      "furniture"
+    ],
+    "pairwise_sims": {
+      "qua_soft|fur_cabinet": 0.0989
+    },
+    "family_pattern": "quality+furniture"
+  },
+  {
+    "id": "189185c29371",
+    "text": "plinth aged",
+    "source_atom_ids": [
+      "arc_plinth",
+      "qua_aged"
+    ],
+    "source_atom_texts": [
+      "plinth",
+      "aged"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "arc_plinth|qua_aged": 0.19
+    },
+    "family_pattern": "architecture+quality"
+  },
+  {
+    "id": "0bf54bfaae2b",
+    "text": "cobalt blue balustrade",
+    "source_atom_ids": [
+      "col_cobalt",
+      "arc_balustrade"
+    ],
+    "source_atom_texts": [
+      "cobalt blue",
+      "balustrade"
+    ],
+    "source_atom_families": [
+      "color",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "col_cobalt|arc_balustrade": 0.1992
+    },
+    "family_pattern": "color+architecture"
+  },
+  {
+    "id": "a2b53b4c9219",
+    "text": "soffit plaster",
+    "source_atom_ids": [
+      "arc_soffit",
+      "mat_plaster"
+    ],
+    "source_atom_texts": [
+      "soffit",
+      "plaster"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "material"
+    ],
+    "pairwise_sims": {
+      "arc_soffit|mat_plaster": 0.3437
+    },
+    "family_pattern": "architecture+material"
+  },
+  {
+    "id": "dd2a859ecf66",
+    "text": "direct parapet",
+    "source_atom_ids": [
+      "lit_direct",
+      "arc_parapet"
+    ],
+    "source_atom_texts": [
+      "direct",
+      "parapet"
+    ],
+    "source_atom_families": [
+      "lighting",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "lit_direct|arc_parapet": 0.1293
+    },
+    "family_pattern": "lighting+architecture"
+  },
+  {
+    "id": "fec66f82cb6b",
+    "text": "atrium vermilion",
+    "source_atom_ids": [
+      "arc_atrium",
+      "col_vermilion"
+    ],
+    "source_atom_texts": [
+      "atrium",
+      "vermilion"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "color"
+    ],
+    "pairwise_sims": {
+      "arc_atrium|col_vermilion": 0.2888
+    },
+    "family_pattern": "architecture+color"
+  },
+  {
+    "id": "d83f216291ed",
+    "text": "hempcrete bench",
+    "source_atom_ids": [
+      "mat_hempcrete",
+      "fur_bench"
+    ],
+    "source_atom_texts": [
+      "hempcrete",
+      "bench"
+    ],
+    "source_atom_families": [
+      "material",
+      "furniture"
+    ],
+    "pairwise_sims": {
+      "mat_hempcrete|fur_bench": 0.1336
+    },
+    "family_pattern": "material+furniture"
+  },
+  {
+    "id": "dbdb0bb9e6ad",
+    "text": "eggshell stone",
+    "source_atom_ids": [
+      "col_eggshell",
+      "mat_stone"
+    ],
+    "source_atom_texts": [
+      "eggshell",
+      "stone"
+    ],
+    "source_atom_families": [
+      "color",
+      "material"
+    ],
+    "pairwise_sims": {
+      "col_eggshell|mat_stone": 0.3655
+    },
+    "family_pattern": "color+material"
+  },
+  {
+    "id": "b563519a4f23",
+    "text": "sculpture cobalt blue",
+    "source_atom_ids": [
+      "dec_sculpture",
+      "col_cobalt"
+    ],
+    "source_atom_texts": [
+      "sculpture",
+      "cobalt blue"
+    ],
+    "source_atom_families": [
+      "decoration",
+      "color"
+    ],
+    "pairwise_sims": {
+      "dec_sculpture|col_cobalt": 0.2025
+    },
+    "family_pattern": "decoration+color"
+  },
+  {
+    "id": "3bdf8648423b",
+    "text": "utilitarian balcony",
+    "source_atom_ids": [
+      "qua_utilitarian",
+      "arc_balcony"
+    ],
+    "source_atom_texts": [
+      "utilitarian",
+      "balcony"
+    ],
+    "source_atom_families": [
+      "quality",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "qua_utilitarian|arc_balcony": 0.2181
+    },
+    "family_pattern": "quality+architecture"
+  },
+  {
+    "id": "3de23814b62b",
+    "text": "terracotta wall",
+    "source_atom_ids": [
+      "col_terracotta",
+      "arc_wall"
+    ],
+    "source_atom_texts": [
+      "terracotta",
+      "wall"
+    ],
+    "source_atom_families": [
+      "color",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "col_terracotta|arc_wall": 0.3511
+    },
+    "family_pattern": "color+architecture"
+  },
+  {
+    "id": "0a75b8f70304",
+    "text": "sage desk",
+    "source_atom_ids": [
+      "col_sage",
+      "fur_desk"
+    ],
+    "source_atom_texts": [
+      "sage",
+      "desk"
+    ],
+    "source_atom_families": [
+      "color",
+      "furniture"
+    ],
+    "pairwise_sims": {
+      "col_sage|fur_desk": 0.1588
+    },
+    "family_pattern": "color+furniture"
+  },
+  {
+    "id": "ce7119d9d23c",
+    "text": "airy circulating",
+    "source_atom_ids": [
+      "spa_airy",
+      "beh_circulating"
+    ],
+    "source_atom_texts": [
+      "airy",
+      "circulating"
+    ],
+    "source_atom_families": [
+      "spatial",
+      "behavioral"
+    ],
+    "pairwise_sims": {
+      "spa_airy|beh_circulating": 0.2598
+    },
+    "family_pattern": "spatial+behavioral"
+  },
+  {
+    "id": "306c5ce371a9",
+    "text": "stone mirror",
+    "source_atom_ids": [
+      "mat_stone",
+      "dec_mirror"
+    ],
+    "source_atom_texts": [
+      "stone",
+      "mirror"
+    ],
+    "source_atom_families": [
+      "material",
+      "decoration"
+    ],
+    "pairwise_sims": {
+      "mat_stone|dec_mirror": 0.2277
+    },
+    "family_pattern": "material+decoration"
+  },
+  {
+    "id": "5c492afb2358",
+    "text": "zenithal light utilitarian",
+    "source_atom_ids": [
+      "lit_zenithal",
+      "qua_utilitarian"
+    ],
+    "source_atom_texts": [
+      "zenithal light",
+      "utilitarian"
+    ],
+    "source_atom_families": [
+      "lighting",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "lit_zenithal|qua_utilitarian": 0.1778
+    },
+    "family_pattern": "lighting+quality"
+  },
+  {
+    "id": "2b4ebc10baa4",
+    "text": "raking enclosed",
+    "source_atom_ids": [
+      "lit_raking",
+      "spa_enclosed"
+    ],
+    "source_atom_texts": [
+      "raking",
+      "enclosed"
+    ],
+    "source_atom_families": [
+      "lighting",
+      "spatial"
+    ],
+    "pairwise_sims": {
+      "lit_raking|spa_enclosed": 0.1484
+    },
+    "family_pattern": "lighting+spatial"
+  },
+  {
+    "id": "674b2fd65679",
+    "text": "refined soffit",
+    "source_atom_ids": [
+      "qua_refined",
+      "arc_soffit"
+    ],
+    "source_atom_texts": [
+      "refined",
+      "soffit"
+    ],
+    "source_atom_families": [
+      "quality",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "qua_refined|arc_soffit": 0.1655
+    },
+    "family_pattern": "quality+architecture"
+  },
+  {
+    "id": "ccf42a1512b1",
+    "text": "brick armchair",
+    "source_atom_ids": [
+      "mat_brick",
+      "fur_armchair"
+    ],
+    "source_atom_texts": [
+      "brick",
+      "armchair"
+    ],
+    "source_atom_families": [
+      "material",
+      "furniture"
+    ],
+    "pairwise_sims": {
+      "mat_brick|fur_armchair": 0.2748
+    },
+    "family_pattern": "material+furniture"
+  },
+  {
+    "id": "5a15ce814989",
+    "text": "alcove enclosed",
+    "source_atom_ids": [
+      "arc_alcove",
+      "spa_enclosed"
+    ],
+    "source_atom_texts": [
+      "alcove",
+      "enclosed"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "spatial"
+    ],
+    "pairwise_sims": {
+      "arc_alcove|spa_enclosed": 0.4322
+    },
+    "family_pattern": "architecture+spatial"
+  },
+  {
+    "id": "ab38c5f04bcb",
+    "text": "direct beam",
+    "source_atom_ids": [
+      "lit_direct",
+      "arc_beam"
+    ],
+    "source_atom_texts": [
+      "direct",
+      "beam"
+    ],
+    "source_atom_families": [
+      "lighting",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "lit_direct|arc_beam": 0.3051
+    },
+    "family_pattern": "lighting+architecture"
+  },
+  {
+    "id": "34dcac3ca473",
+    "text": "travertine beam",
+    "source_atom_ids": [
+      "mat_travertine",
+      "arc_beam"
+    ],
+    "source_atom_texts": [
+      "travertine",
+      "beam"
+    ],
+    "source_atom_families": [
+      "material",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "mat_travertine|arc_beam": 0.1442
+    },
+    "family_pattern": "material+architecture"
+  },
+  {
+    "id": "7f866afbca98",
+    "text": "tall bookshelf",
+    "source_atom_ids": [
+      "spa_tall",
+      "fur_bookshelf"
+    ],
+    "source_atom_texts": [
+      "tall",
+      "bookshelf"
+    ],
+    "source_atom_families": [
+      "spatial",
+      "furniture"
+    ],
+    "pairwise_sims": {
+      "spa_tall|fur_bookshelf": 0.2146
+    },
+    "family_pattern": "spatial+furniture"
+  },
+  {
+    "id": "bd41384b4251",
+    "text": "ashlar stone oxblood",
+    "source_atom_ids": [
+      "mat_ashlar_stone",
+      "col_oxblood"
+    ],
+    "source_atom_texts": [
+      "ashlar stone",
+      "oxblood"
+    ],
+    "source_atom_families": [
+      "material",
+      "color"
+    ],
+    "pairwise_sims": {
+      "mat_ashlar_stone|col_oxblood": 0.2949
+    },
+    "family_pattern": "material+color"
+  },
+  {
+    "id": "3a23a627324f",
+    "text": "alcove vernacular",
+    "source_atom_ids": [
+      "arc_alcove",
+      "qua_vernacular"
+    ],
+    "source_atom_texts": [
+      "alcove",
+      "vernacular"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "arc_alcove|qua_vernacular": 0.2028
+    },
+    "family_pattern": "architecture+quality"
+  },
+  {
+    "id": "2989b016d9b4",
+    "text": "portal cavernous",
+    "source_atom_ids": [
+      "arc_portal",
+      "spa_cavernous"
+    ],
+    "source_atom_texts": [
+      "portal",
+      "cavernous"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "spatial"
+    ],
+    "pairwise_sims": {
+      "arc_portal|spa_cavernous": 0.3575
+    },
+    "family_pattern": "architecture+spatial"
+  },
+  {
+    "id": "9b259df6297e",
+    "text": "vault tall",
+    "source_atom_ids": [
+      "arc_vault",
+      "spa_tall"
+    ],
+    "source_atom_texts": [
+      "vault",
+      "tall"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "spatial"
+    ],
+    "pairwise_sims": {
+      "arc_vault|spa_tall": 0.2563
+    },
+    "family_pattern": "architecture+spatial"
+  },
+  {
+    "id": "d43f973d6cdd",
+    "text": "interlocked canopy hard",
+    "source_atom_ids": [
+      "rel_interlocked",
+      "arc_canopy",
+      "qua_hard"
+    ],
+    "source_atom_texts": [
+      "interlocked",
+      "canopy",
+      "hard"
+    ],
+    "source_atom_families": [
+      "relation",
+      "architecture",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "rel_interlocked|arc_canopy": 0.1969,
+      "rel_interlocked|qua_hard": 0.1934,
+      "arc_canopy|qua_hard": 0.1133
+    },
+    "family_pattern": "relation+architecture+quality"
+  },
+  {
+    "id": "0941bbb34292",
+    "text": "sculptural terracotta sage",
+    "source_atom_ids": [
+      "qua_sculptural",
+      "col_terracotta",
+      "col_sage"
+    ],
+    "source_atom_texts": [
+      "sculptural",
+      "terracotta",
+      "sage"
+    ],
+    "source_atom_families": [
+      "quality",
+      "color",
+      "color"
+    ],
+    "pairwise_sims": {
+      "qua_sculptural|col_terracotta": 0.4936,
+      "qua_sculptural|col_sage": 0.2172,
+      "col_terracotta|col_sage": 0.2233
+    },
+    "family_pattern": "quality+color+color"
+  },
+  {
+    "id": "f963994ed9cc",
+    "text": "skylight peripheral raw",
+    "source_atom_ids": [
+      "arc_skylight",
+      "spa_peripheral",
+      "qua_raw"
+    ],
+    "source_atom_texts": [
+      "skylight",
+      "peripheral",
+      "raw"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "spatial",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "arc_skylight|spa_peripheral": 0.2243,
+      "arc_skylight|qua_raw": 0.173,
+      "spa_peripheral|qua_raw": 0.2359
+    },
+    "family_pattern": "architecture+spatial+quality"
+  },
+  {
+    "id": "bcc9600d576f",
+    "text": "tall noisy sofa",
+    "source_atom_ids": [
+      "spa_tall",
+      "beh_noisy",
+      "fur_sofa"
+    ],
+    "source_atom_texts": [
+      "tall",
+      "noisy",
+      "sofa"
+    ],
+    "source_atom_families": [
+      "spatial",
+      "behavioral",
+      "furniture"
+    ],
+    "pairwise_sims": {
+      "spa_tall|beh_noisy": 0.2111,
+      "spa_tall|fur_sofa": 0.2756,
+      "beh_noisy|fur_sofa": 0.2395
+    },
+    "family_pattern": "spatial+behavioral+furniture"
+  },
+  {
+    "id": "e8729598af68",
+    "text": "wood sofa refined",
+    "source_atom_ids": [
+      "mat_wood",
+      "fur_sofa",
+      "qua_refined"
+    ],
+    "source_atom_texts": [
+      "wood",
+      "sofa",
+      "refined"
+    ],
+    "source_atom_families": [
+      "material",
+      "furniture",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "mat_wood|fur_sofa": 0.413,
+      "mat_wood|qua_refined": 0.2741,
+      "fur_sofa|qua_refined": 0.2408
+    },
+    "family_pattern": "material+furniture+quality"
+  },
+  {
+    "id": "218d02d39ccb",
+    "text": "computer plinth balcony",
+    "source_atom_ids": [
+      "tec_computer",
+      "arc_plinth",
+      "arc_balcony"
+    ],
+    "source_atom_texts": [
+      "computer",
+      "plinth",
+      "balcony"
+    ],
+    "source_atom_families": [
+      "technology",
+      "architecture",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "tec_computer|arc_plinth": 0.1977,
+      "tec_computer|arc_balcony": 0.2461,
+      "arc_plinth|arc_balcony": 0.2264
+    },
+    "family_pattern": "technology+architecture+architecture"
+  },
+  {
+    "id": "4415dae126a5",
+    "text": "gathering colonnade atrium",
+    "source_atom_ids": [
+      "beh_gathering",
+      "arc_colonnade",
+      "arc_atrium"
+    ],
+    "source_atom_texts": [
+      "gathering",
+      "colonnade",
+      "atrium"
+    ],
+    "source_atom_families": [
+      "behavioral",
+      "architecture",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "beh_gathering|arc_colonnade": 0.1168,
+      "beh_gathering|arc_atrium": 0.2589,
+      "arc_colonnade|arc_atrium": 0.2484
+    },
+    "family_pattern": "behavioral+architecture+architecture"
+  },
+  {
+    "id": "66fd11c85ba4",
+    "text": "filtered light recycled plastic floor",
+    "source_atom_ids": [
+      "lit_filter",
+      "mat_recycled_plastic",
+      "arc_floor"
+    ],
+    "source_atom_texts": [
+      "filtered light",
+      "recycled plastic",
+      "floor"
+    ],
+    "source_atom_families": [
+      "lighting",
+      "material",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "lit_filter|mat_recycled_plastic": 0.2025,
+      "lit_filter|arc_floor": 0.081,
+      "mat_recycled_plastic|arc_floor": 0.2003
+    },
+    "family_pattern": "lighting+material+architecture"
+  },
+  {
+    "id": "337ef2f999af",
+    "text": "clustered utilitarian translucent",
+    "source_atom_ids": [
+      "rel_clustered",
+      "qua_utilitarian",
+      "qua_translucent"
+    ],
+    "source_atom_texts": [
+      "clustered",
+      "utilitarian",
+      "translucent"
+    ],
+    "source_atom_families": [
+      "relation",
+      "quality",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "rel_clustered|qua_utilitarian": 0.1063,
+      "rel_clustered|qua_translucent": 0.1351,
+      "qua_utilitarian|qua_translucent": 0.1506
+    },
+    "family_pattern": "relation+quality+quality"
+  },
+  {
+    "id": "7efb3b2bdf66",
+    "text": "dome zenithal chaotic",
+    "source_atom_ids": [
+      "arc_dome",
+      "lit_zenithal",
+      "qua_chaotic"
+    ],
+    "source_atom_texts": [
+      "dome",
+      "zenithal",
+      "chaotic"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "lighting",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "arc_dome|lit_zenithal": 0.3421,
+      "arc_dome|qua_chaotic": 0.1328,
+      "lit_zenithal|qua_chaotic": 0.155
+    },
+    "family_pattern": "architecture+lighting+quality"
+  },
+  {
+    "id": "bf804fdd4712",
+    "text": "dining table bone white felt",
+    "source_atom_ids": [
+      "fur_dining_table",
+      "col_bone_white",
+      "mat_felt"
+    ],
+    "source_atom_texts": [
+      "dining table",
+      "bone white",
+      "felt"
+    ],
+    "source_atom_families": [
+      "furniture",
+      "color",
+      "material"
+    ],
+    "pairwise_sims": {
+      "fur_dining_table|col_bone_white": 0.1432,
+      "fur_dining_table|mat_felt": 0.0584,
+      "col_bone_white|mat_felt": 0.1555
+    },
+    "family_pattern": "furniture+color+material"
+  },
+  {
+    "id": "7be994936017",
+    "text": "monumental bed standing lamp",
+    "source_atom_ids": [
+      "qua_monumental",
+      "fur_bed",
+      "fix_standing_lamp"
+    ],
+    "source_atom_texts": [
+      "monumental",
+      "bed",
+      "standing lamp"
+    ],
+    "source_atom_families": [
+      "quality",
+      "furniture",
+      "fixture"
+    ],
+    "pairwise_sims": {
+      "qua_monumental|fur_bed": 0.1608,
+      "qua_monumental|fix_standing_lamp": 0.1504,
+      "fur_bed|fix_standing_lamp": 0.2206
+    },
+    "family_pattern": "quality+furniture+fixture"
+  },
+  {
+    "id": "b3f427c23aa7",
+    "text": "bright double-height open",
+    "source_atom_ids": [
+      "qua_bright",
+      "spa_double_height",
+      "spa_open"
+    ],
+    "source_atom_texts": [
+      "bright",
+      "double-height",
+      "open"
+    ],
+    "source_atom_families": [
+      "quality",
+      "spatial",
+      "spatial"
+    ],
+    "pairwise_sims": {
+      "qua_bright|spa_double_height": 0.1871,
+      "qua_bright|spa_open": 0.246,
+      "spa_double_height|spa_open": 0.0898
+    },
+    "family_pattern": "quality+spatial+spatial"
+  },
+  {
+    "id": "61ad1562345c",
+    "text": "subterranean arcade prospect-view",
+    "source_atom_ids": [
+      "spa_subterranean",
+      "arc_arcade",
+      "beh_prospect"
+    ],
+    "source_atom_texts": [
+      "subterranean",
+      "arcade",
+      "prospect-view"
+    ],
+    "source_atom_families": [
+      "spatial",
+      "architecture",
+      "behavioral"
+    ],
+    "pairwise_sims": {
+      "spa_subterranean|arc_arcade": 0.3356,
+      "spa_subterranean|beh_prospect": 0.1877,
+      "arc_arcade|beh_prospect": 0.1838
+    },
+    "family_pattern": "spatial+architecture+behavioral"
+  },
+  {
+    "id": "fbca46f7332e",
+    "text": "chaotic floor interstitial",
+    "source_atom_ids": [
+      "qua_chaotic",
+      "arc_floor",
+      "spa_interstitial"
+    ],
+    "source_atom_texts": [
+      "chaotic",
+      "floor",
+      "interstitial"
+    ],
+    "source_atom_families": [
+      "quality",
+      "architecture",
+      "spatial"
+    ],
+    "pairwise_sims": {
+      "qua_chaotic|arc_floor": 0.1896,
+      "qua_chaotic|spa_interstitial": 0.2073,
+      "arc_floor|spa_interstitial": 0.238
+    },
+    "family_pattern": "quality+architecture+spatial"
+  },
+  {
+    "id": "18538527ed3d",
+    "text": "marble bone white niche",
+    "source_atom_ids": [
+      "mat_marble",
+      "col_bone_white",
+      "arc_niche"
+    ],
+    "source_atom_texts": [
+      "marble",
+      "bone white",
+      "niche"
+    ],
+    "source_atom_families": [
+      "material",
+      "color",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "mat_marble|col_bone_white": 0.3089,
+      "mat_marble|arc_niche": 0.2201,
+      "col_bone_white|arc_niche": 0.2148
+    },
+    "family_pattern": "material+color+architecture"
+  },
+  {
+    "id": "1448873844dd",
+    "text": "terracotta dome clerestory",
+    "source_atom_ids": [
+      "col_terracotta_pigment",
+      "arc_dome",
+      "arc_clerestory"
+    ],
+    "source_atom_texts": [
+      "terracotta",
+      "dome",
+      "clerestory"
+    ],
+    "source_atom_families": [
+      "color",
+      "architecture",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "col_terracotta_pigment|arc_dome": 0.3219,
+      "col_terracotta_pigment|arc_clerestory": 0.3338,
+      "arc_dome|arc_clerestory": 0.2183
+    },
+    "family_pattern": "color+architecture+architecture"
+  },
+  {
+    "id": "66e1c5282ec0",
+    "text": "armchair circulating zinc",
+    "source_atom_ids": [
+      "fur_armchair",
+      "beh_circulating",
+      "mat_zinc"
+    ],
+    "source_atom_texts": [
+      "armchair",
+      "circulating",
+      "zinc"
+    ],
+    "source_atom_families": [
+      "furniture",
+      "behavioral",
+      "material"
+    ],
+    "pairwise_sims": {
+      "fur_armchair|beh_circulating": 0.2018,
+      "fur_armchair|mat_zinc": 0.1895,
+      "beh_circulating|mat_zinc": 0.2349
+    },
+    "family_pattern": "furniture+behavioral+material"
+  },
+  {
+    "id": "35ba8b9eadfc",
+    "text": "plaster warm refined",
+    "source_atom_ids": [
+      "mat_plaster",
+      "qua_warm",
+      "qua_refined"
+    ],
+    "source_atom_texts": [
+      "plaster",
+      "warm",
+      "refined"
+    ],
+    "source_atom_families": [
+      "material",
+      "quality",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "mat_plaster|qua_warm": 0.1485,
+      "mat_plaster|qua_refined": 0.2199,
+      "qua_warm|qua_refined": 0.2247
+    },
+    "family_pattern": "material+quality+quality"
+  },
+  {
+    "id": "e34951882c3f",
+    "text": "rug vivid ashlar stone",
+    "source_atom_ids": [
+      "dec_rug",
+      "qua_vivid",
+      "mat_ashlar_stone"
+    ],
+    "source_atom_texts": [
+      "rug",
+      "vivid",
+      "ashlar stone"
+    ],
+    "source_atom_families": [
+      "decoration",
+      "quality",
+      "material"
+    ],
+    "pairwise_sims": {
+      "dec_rug|qua_vivid": 0.2033,
+      "dec_rug|mat_ashlar_stone": 0.2308,
+      "qua_vivid|mat_ashlar_stone": 0.1485
+    },
+    "family_pattern": "decoration+quality+material"
+  },
+  {
+    "id": "92b4d753ce2a",
+    "text": "pristine copper pavilion",
+    "source_atom_ids": [
+      "qua_pristine",
+      "mat_copper",
+      "arc_pavilion"
+    ],
+    "source_atom_texts": [
+      "pristine",
+      "copper",
+      "pavilion"
+    ],
+    "source_atom_families": [
+      "quality",
+      "material",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "qua_pristine|mat_copper": 0.2973,
+      "qua_pristine|arc_pavilion": 0.1906,
+      "mat_copper|arc_pavilion": 0.1573
+    },
+    "family_pattern": "quality+material+architecture"
+  },
+  {
+    "id": "a34444fcef64",
+    "text": "felt column shadowed",
+    "source_atom_ids": [
+      "mat_felt",
+      "arc_column",
+      "qua_shadowed"
+    ],
+    "source_atom_texts": [
+      "felt",
+      "column",
+      "shadowed"
+    ],
+    "source_atom_families": [
+      "material",
+      "architecture",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "mat_felt|arc_column": 0.1652,
+      "mat_felt|qua_shadowed": 0.309,
+      "arc_column|qua_shadowed": 0.2487
+    },
+    "family_pattern": "material+architecture+quality"
+  },
+  {
+    "id": "c8f38a5fb1a0",
+    "text": "arcade eggshell wood",
+    "source_atom_ids": [
+      "arc_arcade",
+      "col_eggshell",
+      "mat_wood"
+    ],
+    "source_atom_texts": [
+      "arcade",
+      "eggshell",
+      "wood"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "color",
+      "material"
+    ],
+    "pairwise_sims": {
+      "arc_arcade|col_eggshell": 0.222,
+      "arc_arcade|mat_wood": 0.3248,
+      "col_eggshell|mat_wood": 0.3266
+    },
+    "family_pattern": "architecture+color+material"
+  },
+  {
+    "id": "697d10d8db0e",
+    "text": "double-height skylight arcade",
+    "source_atom_ids": [
+      "spa_double_height",
+      "arc_skylight",
+      "arc_arcade"
+    ],
+    "source_atom_texts": [
+      "double-height",
+      "skylight",
+      "arcade"
+    ],
+    "source_atom_families": [
+      "spatial",
+      "architecture",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "spa_double_height|arc_skylight": 0.1726,
+      "spa_double_height|arc_arcade": 0.1379,
+      "arc_skylight|arc_arcade": 0.374
+    },
+    "family_pattern": "spatial+architecture+architecture"
+  },
+  {
+    "id": "2b481cff3375",
+    "text": "wardrobe circulating porous",
+    "source_atom_ids": [
+      "fur_wardrobe",
+      "beh_circulating",
+      "qua_porous"
+    ],
+    "source_atom_texts": [
+      "wardrobe",
+      "circulating",
+      "porous"
+    ],
+    "source_atom_families": [
+      "furniture",
+      "behavioral",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "fur_wardrobe|beh_circulating": 0.205,
+      "fur_wardrobe|qua_porous": 0.2051,
+      "beh_circulating|qua_porous": 0.2646
+    },
+    "family_pattern": "furniture+behavioral+quality"
+  },
+  {
+    "id": "89741a1a0b32",
+    "text": "warm warm white dome",
+    "source_atom_ids": [
+      "qua_warm",
+      "col_warm_white",
+      "arc_dome"
+    ],
+    "source_atom_texts": [
+      "warm",
+      "warm white",
+      "dome"
+    ],
+    "source_atom_families": [
+      "quality",
+      "color",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "qua_warm|col_warm_white": 0.6515,
+      "qua_warm|arc_dome": 0.2038,
+      "col_warm_white|arc_dome": 0.2329
+    },
+    "family_pattern": "quality+color+architecture"
+  },
+  {
+    "id": "a9787f7494ef",
+    "text": "vernacular scintillating atrium",
+    "source_atom_ids": [
+      "qua_vernacular",
+      "lit_scintillating",
+      "arc_atrium"
+    ],
+    "source_atom_texts": [
+      "vernacular",
+      "scintillating",
+      "atrium"
+    ],
+    "source_atom_families": [
+      "quality",
+      "lighting",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "qua_vernacular|lit_scintillating": 0.1174,
+      "qua_vernacular|arc_atrium": 0.1939,
+      "lit_scintillating|arc_atrium": 0.1705
+    },
+    "family_pattern": "quality+lighting+architecture"
+  },
+  {
+    "id": "684f5c5ddf58",
+    "text": "balcony double-height enclosed",
+    "source_atom_ids": [
+      "arc_balcony",
+      "spa_double_height",
+      "spa_enclosed"
+    ],
+    "source_atom_texts": [
+      "balcony",
+      "double-height",
+      "enclosed"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "spatial",
+      "spatial"
+    ],
+    "pairwise_sims": {
+      "arc_balcony|spa_double_height": 0.2941,
+      "arc_balcony|spa_enclosed": 0.4257,
+      "spa_double_height|spa_enclosed": 0.2123
+    },
+    "family_pattern": "architecture+spatial+spatial"
+  },
+  {
+    "id": "098b98c818ee",
+    "text": "workbench rough steel",
+    "source_atom_ids": [
+      "fur_workbench",
+      "qua_rough",
+      "mat_steel"
+    ],
+    "source_atom_texts": [
+      "workbench",
+      "rough",
+      "steel"
+    ],
+    "source_atom_families": [
+      "furniture",
+      "quality",
+      "material"
+    ],
+    "pairwise_sims": {
+      "fur_workbench|qua_rough": 0.0571,
+      "fur_workbench|mat_steel": 0.1943,
+      "qua_rough|mat_steel": 0.2078
+    },
+    "family_pattern": "furniture+quality+material"
+  },
+  {
+    "id": "608b44140536",
+    "text": "beige loggia ephemeral",
+    "source_atom_ids": [
+      "col_beige",
+      "arc_loggia",
+      "qua_ephemeral"
+    ],
+    "source_atom_texts": [
+      "beige",
+      "loggia",
+      "ephemeral"
+    ],
+    "source_atom_families": [
+      "color",
+      "architecture",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "col_beige|arc_loggia": 0.106,
+      "col_beige|qua_ephemeral": 0.1975,
+      "arc_loggia|qua_ephemeral": 0.0744
+    },
+    "family_pattern": "color+architecture+quality"
+  },
+  {
+    "id": "c885eb3b1d3d",
+    "text": "cobalt blue stair painting",
+    "source_atom_ids": [
+      "col_cobalt",
+      "arc_stair",
+      "dec_painting"
+    ],
+    "source_atom_texts": [
+      "cobalt blue",
+      "stair",
+      "painting"
+    ],
+    "source_atom_families": [
+      "color",
+      "architecture",
+      "decoration"
+    ],
+    "pairwise_sims": {
+      "col_cobalt|arc_stair": 0.1268,
+      "col_cobalt|dec_painting": 0.2553,
+      "arc_stair|dec_painting": 0.186
+    },
+    "family_pattern": "color+architecture+decoration"
+  },
+  {
+    "id": "c9ff3ae82773",
+    "text": "cantilevered portico balcony",
+    "source_atom_ids": [
+      "rel_cantilevered",
+      "arc_portico",
+      "arc_balcony"
+    ],
+    "source_atom_texts": [
+      "cantilevered",
+      "portico",
+      "balcony"
+    ],
+    "source_atom_families": [
+      "relation",
+      "architecture",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "rel_cantilevered|arc_portico": 0.3332,
+      "rel_cantilevered|arc_balcony": 0.3531,
+      "arc_portico|arc_balcony": 0.4262
+    },
+    "family_pattern": "relation+architecture+architecture"
+  },
+  {
+    "id": "913f538a1bf0",
+    "text": "cavernous quiet nave",
+    "source_atom_ids": [
+      "spa_cavernous",
+      "beh_quiet",
+      "arc_nave"
+    ],
+    "source_atom_texts": [
+      "cavernous",
+      "quiet",
+      "nave"
+    ],
+    "source_atom_families": [
+      "spatial",
+      "behavioral",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "spa_cavernous|beh_quiet": 0.2803,
+      "spa_cavernous|arc_nave": 0.2478,
+      "beh_quiet|arc_nave": 0.182
+    },
+    "family_pattern": "spatial+behavioral+architecture"
+  },
+  {
+    "id": "7f7c964d58e7",
+    "text": "outward-facing sequenced monumental",
+    "source_atom_ids": [
+      "rel_outward",
+      "spa_sequenced",
+      "qua_monumental"
+    ],
+    "source_atom_texts": [
+      "outward-facing",
+      "sequenced",
+      "monumental"
+    ],
+    "source_atom_families": [
+      "relation",
+      "spatial",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "rel_outward|spa_sequenced": 0.2012,
+      "rel_outward|qua_monumental": 0.204,
+      "spa_sequenced|qua_monumental": 0.1362
+    },
+    "family_pattern": "relation+spatial+quality"
+  },
+  {
+    "id": "3e51f98c5bed",
+    "text": "screen transept arcade",
+    "source_atom_ids": [
+      "tec_screen",
+      "arc_transept",
+      "arc_arcade"
+    ],
+    "source_atom_texts": [
+      "screen",
+      "transept",
+      "arcade"
+    ],
+    "source_atom_families": [
+      "technology",
+      "architecture",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "tec_screen|arc_transept": 0.2272,
+      "tec_screen|arc_arcade": 0.2126,
+      "arc_transept|arc_arcade": 0.2684
+    },
+    "family_pattern": "technology+architecture+architecture"
+  },
+  {
+    "id": "1f9604ed7bd5",
+    "text": "balustrade limewash raw",
+    "source_atom_ids": [
+      "arc_balustrade",
+      "mat_limewash",
+      "qua_raw"
+    ],
+    "source_atom_texts": [
+      "balustrade",
+      "limewash",
+      "raw"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "material",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "arc_balustrade|mat_limewash": 0.2272,
+      "arc_balustrade|qua_raw": 0.1306,
+      "mat_limewash|qua_raw": 0.24
+    },
+    "family_pattern": "architecture+material+quality"
+  },
+  {
+    "id": "05721e33b0c7",
+    "text": "shower dappled oxblood",
+    "source_atom_ids": [
+      "fix_shower",
+      "lit_dappled",
+      "col_oxblood"
+    ],
+    "source_atom_texts": [
+      "shower",
+      "dappled",
+      "oxblood"
+    ],
+    "source_atom_families": [
+      "fixture",
+      "lighting",
+      "color"
+    ],
+    "pairwise_sims": {
+      "fix_shower|lit_dappled": 0.1723,
+      "fix_shower|col_oxblood": 0.1823,
+      "lit_dappled|col_oxblood": 0.3317
+    },
+    "family_pattern": "fixture+lighting+color"
+  },
+  {
+    "id": "d9b0361c2314",
+    "text": "pistachio rhythmic canopy",
+    "source_atom_ids": [
+      "col_pistachio",
+      "qua_rhythmic",
+      "arc_canopy"
+    ],
+    "source_atom_texts": [
+      "pistachio",
+      "rhythmic",
+      "canopy"
+    ],
+    "source_atom_families": [
+      "color",
+      "quality",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "col_pistachio|qua_rhythmic": 0.1075,
+      "col_pistachio|arc_canopy": 0.2093,
+      "qua_rhythmic|arc_canopy": 0.1417
+    },
+    "family_pattern": "color+quality+architecture"
+  },
+  {
+    "id": "eb4d78656dd4",
+    "text": "balustrade sage frosted glass",
+    "source_atom_ids": [
+      "arc_balustrade",
+      "col_sage",
+      "mat_frosted_glass"
+    ],
+    "source_atom_texts": [
+      "balustrade",
+      "sage",
+      "frosted glass"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "color",
+      "material"
+    ],
+    "pairwise_sims": {
+      "arc_balustrade|col_sage": 0.238,
+      "arc_balustrade|mat_frosted_glass": 0.3166,
+      "col_sage|mat_frosted_glass": 0.2034
+    },
+    "family_pattern": "architecture+color+material"
+  },
+  {
+    "id": "4ff7c8c50e7e",
+    "text": "lingering beam transept",
+    "source_atom_ids": [
+      "beh_lingering",
+      "arc_beam",
+      "arc_transept"
+    ],
+    "source_atom_texts": [
+      "lingering",
+      "beam",
+      "transept"
+    ],
+    "source_atom_families": [
+      "behavioral",
+      "architecture",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "beh_lingering|arc_beam": 0.22,
+      "beh_lingering|arc_transept": 0.135,
+      "arc_beam|arc_transept": 0.2869
+    },
+    "family_pattern": "behavioral+architecture+architecture"
+  },
+  {
+    "id": "a836704ba63d",
+    "text": "recycled plastic muted green soffit",
+    "source_atom_ids": [
+      "mat_recycled_plastic",
+      "col_muted_green",
+      "arc_soffit"
+    ],
+    "source_atom_texts": [
+      "recycled plastic",
+      "muted green",
+      "soffit"
+    ],
+    "source_atom_families": [
+      "material",
+      "color",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "mat_recycled_plastic|col_muted_green": 0.2486,
+      "mat_recycled_plastic|arc_soffit": 0.1664,
+      "col_muted_green|arc_soffit": 0.1833
+    },
+    "family_pattern": "material+color+architecture"
+  },
+  {
+    "id": "d705ae19ba7c",
+    "text": "rough cushion liminal",
+    "source_atom_ids": [
+      "qua_rough",
+      "dec_cushion",
+      "spa_liminal"
+    ],
+    "source_atom_texts": [
+      "rough",
+      "cushion",
+      "liminal"
+    ],
+    "source_atom_families": [
+      "quality",
+      "decoration",
+      "spatial"
+    ],
+    "pairwise_sims": {
+      "qua_rough|dec_cushion": 0.1882,
+      "qua_rough|spa_liminal": 0.1734,
+      "dec_cushion|spa_liminal": 0.1934
+    },
+    "family_pattern": "quality+decoration+spatial"
+  },
+  {
+    "id": "89d2d48ad3bd",
+    "text": "bone white ottoman door",
+    "source_atom_ids": [
+      "col_bone_white",
+      "fur_ottoman",
+      "arc_door"
+    ],
+    "source_atom_texts": [
+      "bone white",
+      "ottoman",
+      "door"
+    ],
+    "source_atom_families": [
+      "color",
+      "furniture",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "col_bone_white|fur_ottoman": 0.1412,
+      "col_bone_white|arc_door": 0.2632,
+      "fur_ottoman|arc_door": 0.2845
+    },
+    "family_pattern": "color+furniture+architecture"
+  },
+  {
+    "id": "53998d9f3bde",
+    "text": "built-in shelf burnt sienna black",
+    "source_atom_ids": [
+      "fix_built_in_shelf",
+      "col_burnt_sienna",
+      "col_black"
+    ],
+    "source_atom_texts": [
+      "built-in shelf",
+      "burnt sienna",
+      "black"
+    ],
+    "source_atom_families": [
+      "fixture",
+      "color",
+      "color"
+    ],
+    "pairwise_sims": {
+      "fix_built_in_shelf|col_burnt_sienna": 0.0163,
+      "fix_built_in_shelf|col_black": 0.0552,
+      "col_burnt_sienna|col_black": 0.4346
+    },
+    "family_pattern": "fixture+color+color"
+  },
+  {
+    "id": "76e8b57f5610",
+    "text": "vault sculptural eggshell",
+    "source_atom_ids": [
+      "arc_vault",
+      "qua_sculptural",
+      "col_eggshell"
+    ],
+    "source_atom_texts": [
+      "vault",
+      "sculptural",
+      "eggshell"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "quality",
+      "color"
+    ],
+    "pairwise_sims": {
+      "arc_vault|qua_sculptural": 0.2107,
+      "arc_vault|col_eggshell": 0.2463,
+      "qua_sculptural|col_eggshell": 0.2981
+    },
+    "family_pattern": "architecture+quality+color"
+  },
+  {
+    "id": "ae0b1fa93e1b",
+    "text": "passive desk central",
+    "source_atom_ids": [
+      "beh_passive",
+      "fur_desk",
+      "spa_central"
+    ],
+    "source_atom_texts": [
+      "passive",
+      "desk",
+      "central"
+    ],
+    "source_atom_families": [
+      "behavioral",
+      "furniture",
+      "spatial"
+    ],
+    "pairwise_sims": {
+      "beh_passive|fur_desk": 0.1319,
+      "beh_passive|spa_central": 0.1914,
+      "fur_desk|spa_central": 0.2686
+    },
+    "family_pattern": "behavioral+furniture+spatial"
+  },
+  {
+    "id": "6f72d2d7899c",
+    "text": "polycarbonate ochre terracotta",
+    "source_atom_ids": [
+      "mat_polycarbonate",
+      "col_ochre",
+      "col_terracotta_pigment"
+    ],
+    "source_atom_texts": [
+      "polycarbonate",
+      "ochre",
+      "terracotta"
+    ],
+    "source_atom_families": [
+      "material",
+      "color",
+      "color"
+    ],
+    "pairwise_sims": {
+      "mat_polycarbonate|col_ochre": 0.2668,
+      "mat_polycarbonate|col_terracotta_pigment": 0.5081,
+      "col_ochre|col_terracotta_pigment": 0.3553
+    },
+    "family_pattern": "material+color+color"
+  },
+  {
+    "id": "512cd3cd4b9a",
+    "text": "stool hempcrete terracotta",
+    "source_atom_ids": [
+      "fur_stool",
+      "mat_hempcrete",
+      "col_terracotta"
+    ],
+    "source_atom_texts": [
+      "stool",
+      "hempcrete",
+      "terracotta"
+    ],
+    "source_atom_families": [
+      "furniture",
+      "material",
+      "color"
+    ],
+    "pairwise_sims": {
+      "fur_stool|mat_hempcrete": 0.2751,
+      "fur_stool|col_terracotta": 0.3059,
+      "mat_hempcrete|col_terracotta": 0.2694
+    },
+    "family_pattern": "furniture+material+color"
+  },
+  {
+    "id": "fdbaf423a507",
+    "text": "narrow pavilion colonnade",
+    "source_atom_ids": [
+      "spa_narrow",
+      "arc_pavilion",
+      "arc_colonnade"
+    ],
+    "source_atom_texts": [
+      "narrow",
+      "pavilion",
+      "colonnade"
+    ],
+    "source_atom_families": [
+      "spatial",
+      "architecture",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "spa_narrow|arc_pavilion": 0.1913,
+      "spa_narrow|arc_colonnade": 0.1426,
+      "arc_pavilion|arc_colonnade": 0.1988
+    },
+    "family_pattern": "spatial+architecture+architecture"
+  },
+  {
+    "id": "fb049d44fd82",
+    "text": "armchair enclosed burnt sienna",
+    "source_atom_ids": [
+      "fur_armchair",
+      "spa_enclosed",
+      "col_burnt_sienna"
+    ],
+    "source_atom_texts": [
+      "armchair",
+      "enclosed",
+      "burnt sienna"
+    ],
+    "source_atom_families": [
+      "furniture",
+      "spatial",
+      "color"
+    ],
+    "pairwise_sims": {
+      "fur_armchair|spa_enclosed": 0.3212,
+      "fur_armchair|col_burnt_sienna": 0.2566,
+      "spa_enclosed|col_burnt_sienna": 0.3184
+    },
+    "family_pattern": "furniture+spatial+color"
+  },
+  {
+    "id": "2846455218c8",
+    "text": "labyrinthine soffit retreat",
+    "source_atom_ids": [
+      "spa_labyrinthine",
+      "arc_soffit",
+      "beh_retreat"
+    ],
+    "source_atom_texts": [
+      "labyrinthine",
+      "soffit",
+      "retreat"
+    ],
+    "source_atom_families": [
+      "spatial",
+      "architecture",
+      "behavioral"
+    ],
+    "pairwise_sims": {
+      "spa_labyrinthine|arc_soffit": 0.2087,
+      "spa_labyrinthine|beh_retreat": 0.2357,
+      "arc_soffit|beh_retreat": 0.2004
+    },
+    "family_pattern": "spatial+architecture+behavioral"
+  },
+  {
+    "id": "4a046b33ec19",
+    "text": "monolithic dome canopy",
+    "source_atom_ids": [
+      "qua_monolithic",
+      "arc_dome",
+      "arc_canopy"
+    ],
+    "source_atom_texts": [
+      "monolithic",
+      "dome",
+      "canopy"
+    ],
+    "source_atom_families": [
+      "quality",
+      "architecture",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "qua_monolithic|arc_dome": 0.218,
+      "qua_monolithic|arc_canopy": 0.1835,
+      "arc_dome|arc_canopy": 0.4034
+    },
+    "family_pattern": "quality+architecture+architecture"
+  },
+  {
+    "id": "de27030ea63b",
+    "text": "radiator muted green zenithal",
+    "source_atom_ids": [
+      "fix_radiator",
+      "col_muted_green",
+      "lit_zenithal"
+    ],
+    "source_atom_texts": [
+      "radiator",
+      "muted green",
+      "zenithal"
+    ],
+    "source_atom_families": [
+      "fixture",
+      "color",
+      "lighting"
+    ],
+    "pairwise_sims": {
+      "fix_radiator|col_muted_green": 0.1838,
+      "fix_radiator|lit_zenithal": 0.2803,
+      "col_muted_green|lit_zenithal": 0.2289
+    },
+    "family_pattern": "fixture+color+lighting"
+  },
+  {
+    "id": "e27a03afcc8b",
+    "text": "wall direct grazing light",
+    "source_atom_ids": [
+      "arc_wall",
+      "lit_direct",
+      "lit_grazing"
+    ],
+    "source_atom_texts": [
+      "wall",
+      "direct",
+      "grazing light"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "lighting",
+      "lighting"
+    ],
+    "pairwise_sims": {
+      "arc_wall|lit_direct": 0.2173,
+      "arc_wall|lit_grazing": 0.0752,
+      "lit_direct|lit_grazing": 0.2155
+    },
+    "family_pattern": "architecture+lighting+lighting"
+  },
+  {
+    "id": "4509d18ef292",
+    "text": "suspended interstitial double-height",
+    "source_atom_ids": [
+      "rel_suspended",
+      "spa_interstitial",
+      "spa_double_height"
+    ],
+    "source_atom_texts": [
+      "suspended",
+      "interstitial",
+      "double-height"
+    ],
+    "source_atom_families": [
+      "relation",
+      "spatial",
+      "spatial"
+    ],
+    "pairwise_sims": {
+      "rel_suspended|spa_interstitial": 0.3392,
+      "rel_suspended|spa_double_height": 0.1824,
+      "spa_interstitial|spa_double_height": 0.2349
+    },
+    "family_pattern": "relation+spatial+spatial"
+  },
+  {
+    "id": "7e1764f62b70",
+    "text": "nested vault formal",
+    "source_atom_ids": [
+      "rel_nested",
+      "arc_vault",
+      "qua_formal"
+    ],
+    "source_atom_texts": [
+      "nested",
+      "vault",
+      "formal"
+    ],
+    "source_atom_families": [
+      "relation",
+      "architecture",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "rel_nested|arc_vault": 0.193,
+      "rel_nested|qua_formal": 0.1586,
+      "arc_vault|qua_formal": 0.1527
+    },
+    "family_pattern": "relation+architecture+quality"
+  },
+  {
+    "id": "1c38211c7cf6",
+    "text": "asymmetrical loggia narrow",
+    "source_atom_ids": [
+      "rel_asymmetrical",
+      "arc_loggia",
+      "spa_narrow"
+    ],
+    "source_atom_texts": [
+      "asymmetrical",
+      "loggia",
+      "narrow"
+    ],
+    "source_atom_families": [
+      "relation",
+      "architecture",
+      "spatial"
+    ],
+    "pairwise_sims": {
+      "rel_asymmetrical|arc_loggia": 0.1643,
+      "rel_asymmetrical|spa_narrow": 0.2187,
+      "arc_loggia|spa_narrow": 0.188
+    },
+    "family_pattern": "relation+architecture+spatial"
+  },
+  {
+    "id": "0e4db44d8cba",
+    "text": "symmetrical balustrade subterranean",
+    "source_atom_ids": [
+      "rel_symmetrical",
+      "arc_balustrade",
+      "spa_subterranean"
+    ],
+    "source_atom_texts": [
+      "symmetrical",
+      "balustrade",
+      "subterranean"
+    ],
+    "source_atom_families": [
+      "relation",
+      "architecture",
+      "spatial"
+    ],
+    "pairwise_sims": {
+      "rel_symmetrical|arc_balustrade": 0.1263,
+      "rel_symmetrical|spa_subterranean": 0.156,
+      "arc_balustrade|spa_subterranean": 0.2997
+    },
+    "family_pattern": "relation+architecture+spatial"
+  },
+  {
+    "id": "df9ba7a2e33d",
+    "text": "marble terracotta soft",
+    "source_atom_ids": [
+      "mat_marble",
+      "col_terracotta",
+      "qua_soft"
+    ],
+    "source_atom_texts": [
+      "marble",
+      "terracotta",
+      "soft"
+    ],
+    "source_atom_families": [
+      "material",
+      "color",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "mat_marble|col_terracotta": 0.5516,
+      "mat_marble|qua_soft": 0.3055,
+      "col_terracotta|qua_soft": 0.2337
+    },
+    "family_pattern": "material+color+quality"
+  },
+  {
+    "id": "56baa62b88eb",
+    "text": "bamboo rug bed",
+    "source_atom_ids": [
+      "mat_bamboo",
+      "dec_rug",
+      "fur_bed"
+    ],
+    "source_atom_texts": [
+      "bamboo",
+      "rug",
+      "bed"
+    ],
+    "source_atom_families": [
+      "material",
+      "decoration",
+      "furniture"
+    ],
+    "pairwise_sims": {
+      "mat_bamboo|dec_rug": 0.458,
+      "mat_bamboo|fur_bed": 0.2752,
+      "dec_rug|fur_bed": 0.3435
+    },
+    "family_pattern": "material+decoration+furniture"
+  },
+  {
+    "id": "84157c63a94d",
+    "text": "chaise longue tadelakt lofty",
+    "source_atom_ids": [
+      "fur_chaise",
+      "mat_tadelakt",
+      "spa_lofty"
+    ],
+    "source_atom_texts": [
+      "chaise longue",
+      "tadelakt",
+      "lofty"
+    ],
+    "source_atom_families": [
+      "furniture",
+      "material",
+      "spatial"
+    ],
+    "pairwise_sims": {
+      "fur_chaise|mat_tadelakt": 0.1143,
+      "fur_chaise|spa_lofty": 0.1855,
+      "mat_tadelakt|spa_lofty": 0.2362
+    },
+    "family_pattern": "furniture+material+spatial"
+  },
+  {
+    "id": "db688c097ec4",
+    "text": "terracotta smooth loggia",
+    "source_atom_ids": [
+      "col_terracotta",
+      "qua_smooth",
+      "arc_loggia"
+    ],
+    "source_atom_texts": [
+      "terracotta",
+      "smooth",
+      "loggia"
+    ],
+    "source_atom_families": [
+      "color",
+      "quality",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "col_terracotta|qua_smooth": 0.1715,
+      "col_terracotta|arc_loggia": 0.2592,
+      "qua_smooth|arc_loggia": 0.1131
+    },
+    "family_pattern": "color+quality+architecture"
+  },
+  {
+    "id": "f741474547a9",
+    "text": "inward-facing chaotic hard",
+    "source_atom_ids": [
+      "rel_inward",
+      "qua_chaotic",
+      "qua_hard"
+    ],
+    "source_atom_texts": [
+      "inward-facing",
+      "chaotic",
+      "hard"
+    ],
+    "source_atom_families": [
+      "relation",
+      "quality",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "rel_inward|qua_chaotic": 0.152,
+      "rel_inward|qua_hard": 0.094,
+      "qua_chaotic|qua_hard": 0.1898
+    },
+    "family_pattern": "relation+quality+quality"
+  },
+  {
+    "id": "ee9d79fb70fa",
+    "text": "loggia wood petrol blue",
+    "source_atom_ids": [
+      "arc_loggia",
+      "mat_wood",
+      "col_petrol_blue"
+    ],
+    "source_atom_texts": [
+      "loggia",
+      "wood",
+      "petrol blue"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "material",
+      "color"
+    ],
+    "pairwise_sims": {
+      "arc_loggia|mat_wood": 0.3023,
+      "arc_loggia|col_petrol_blue": 0.1605,
+      "mat_wood|col_petrol_blue": 0.2557
+    },
+    "family_pattern": "architecture+material+color"
+  },
+  {
+    "id": "f2c5b87caf79",
+    "text": "cool ambient luminescence indigo",
+    "source_atom_ids": [
+      "qua_cool",
+      "lit_ambient",
+      "col_indigo"
+    ],
+    "source_atom_texts": [
+      "cool",
+      "ambient luminescence",
+      "indigo"
+    ],
+    "source_atom_families": [
+      "quality",
+      "lighting",
+      "color"
+    ],
+    "pairwise_sims": {
+      "qua_cool|lit_ambient": 0.0611,
+      "qua_cool|col_indigo": 0.2163,
+      "lit_ambient|col_indigo": 0.3623
+    },
+    "family_pattern": "quality+lighting+color"
+  },
+  {
+    "id": "b4b405d0164d",
+    "text": "plywood flowers cushion",
+    "source_atom_ids": [
+      "mat_plywood",
+      "dec_flowers",
+      "dec_cushion"
+    ],
+    "source_atom_texts": [
+      "plywood",
+      "flowers",
+      "cushion"
+    ],
+    "source_atom_families": [
+      "material",
+      "decoration",
+      "decoration"
+    ],
+    "pairwise_sims": {
+      "mat_plywood|dec_flowers": 0.2738,
+      "mat_plywood|dec_cushion": 0.3427,
+      "dec_flowers|dec_cushion": 0.3368
+    },
+    "family_pattern": "material+decoration+decoration"
+  },
+  {
+    "id": "336cd2f7d7ac",
+    "text": "sculpture cold oxidized steel",
+    "source_atom_ids": [
+      "dec_sculpture",
+      "qua_cold",
+      "mat_oxidized_steel"
+    ],
+    "source_atom_texts": [
+      "sculpture",
+      "cold",
+      "oxidized steel"
+    ],
+    "source_atom_families": [
+      "decoration",
+      "quality",
+      "material"
+    ],
+    "pairwise_sims": {
+      "dec_sculpture|qua_cold": 0.1667,
+      "dec_sculpture|mat_oxidized_steel": 0.2399,
+      "qua_cold|mat_oxidized_steel": 0.137
+    },
+    "family_pattern": "decoration+quality+material"
+  },
+  {
+    "id": "836c9a486eaf",
+    "text": "nave cantilevered inward-facing",
+    "source_atom_ids": [
+      "arc_nave",
+      "rel_cantilevered",
+      "rel_inward"
+    ],
+    "source_atom_texts": [
+      "nave",
+      "cantilevered",
+      "inward-facing"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "relation",
+      "relation"
+    ],
+    "pairwise_sims": {
+      "arc_nave|rel_cantilevered": 0.1167,
+      "arc_nave|rel_inward": 0.1832,
+      "rel_cantilevered|rel_inward": 0.3275
+    },
+    "family_pattern": "architecture+relation+relation"
+  },
+  {
+    "id": "2c16309f26bd",
+    "text": "plaster terracotta dim",
+    "source_atom_ids": [
+      "mat_plaster",
+      "col_terracotta",
+      "qua_dim"
+    ],
+    "source_atom_texts": [
+      "plaster",
+      "terracotta",
+      "dim"
+    ],
+    "source_atom_families": [
+      "material",
+      "color",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "mat_plaster|col_terracotta": 0.4889,
+      "mat_plaster|qua_dim": 0.1787,
+      "col_terracotta|qua_dim": 0.2034
+    },
+    "family_pattern": "material+color+quality"
+  },
+  {
+    "id": "4aa7b3f4c7db",
+    "text": "copper corridor monumental",
+    "source_atom_ids": [
+      "mat_copper",
+      "arc_corridor",
+      "qua_monumental"
+    ],
+    "source_atom_texts": [
+      "copper",
+      "corridor",
+      "monumental"
+    ],
+    "source_atom_families": [
+      "material",
+      "architecture",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "mat_copper|arc_corridor": 0.1779,
+      "mat_copper|qua_monumental": 0.1255,
+      "arc_corridor|qua_monumental": 0.2575
+    },
+    "family_pattern": "material+architecture+quality"
+  },
+  {
+    "id": "725e92277656",
+    "text": "screen peripheral bay window",
+    "source_atom_ids": [
+      "tec_screen",
+      "spa_peripheral",
+      "arc_bay_window"
+    ],
+    "source_atom_texts": [
+      "screen",
+      "peripheral",
+      "bay window"
+    ],
+    "source_atom_families": [
+      "technology",
+      "spatial",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "tec_screen|spa_peripheral": 0.3051,
+      "tec_screen|arc_bay_window": 0.3193,
+      "spa_peripheral|arc_bay_window": 0.1688
+    },
+    "family_pattern": "technology+spatial+architecture"
+  },
+  {
+    "id": "5d1f2a3c92a3",
+    "text": "painting ceramic velvet",
+    "source_atom_ids": [
+      "dec_painting",
+      "mat_ceramic",
+      "mat_velvet"
+    ],
+    "source_atom_texts": [
+      "painting",
+      "ceramic",
+      "velvet"
+    ],
+    "source_atom_families": [
+      "decoration",
+      "material",
+      "material"
+    ],
+    "pairwise_sims": {
+      "dec_painting|mat_ceramic": 0.2923,
+      "dec_painting|mat_velvet": 0.3238,
+      "mat_ceramic|mat_velvet": 0.2947
+    },
+    "family_pattern": "decoration+material+material"
+  },
+  {
+    "id": "1906432f9327",
+    "text": "light eggshell zenithal light",
+    "source_atom_ids": [
+      "qua_light",
+      "col_eggshell",
+      "lit_zenithal"
+    ],
+    "source_atom_texts": [
+      "light",
+      "eggshell",
+      "zenithal light"
+    ],
+    "source_atom_families": [
+      "quality",
+      "color",
+      "lighting"
+    ],
+    "pairwise_sims": {
+      "qua_light|col_eggshell": 0.1727,
+      "qua_light|lit_zenithal": 0.5246,
+      "col_eggshell|lit_zenithal": 0.0929
+    },
+    "family_pattern": "quality+color+lighting"
+  },
+  {
+    "id": "5d76f26efa8e",
+    "text": "smooth stone burnt sienna",
+    "source_atom_ids": [
+      "qua_smooth",
+      "mat_stone",
+      "col_burnt_sienna"
+    ],
+    "source_atom_texts": [
+      "smooth",
+      "stone",
+      "burnt sienna"
+    ],
+    "source_atom_families": [
+      "quality",
+      "material",
+      "color"
+    ],
+    "pairwise_sims": {
+      "qua_smooth|mat_stone": 0.2515,
+      "qua_smooth|col_burnt_sienna": 0.3052,
+      "mat_stone|col_burnt_sienna": 0.1713
+    },
+    "family_pattern": "quality+material+color"
+  },
+  {
+    "id": "2135282bcd69",
+    "text": "built-in shelf zenithal pistachio",
+    "source_atom_ids": [
+      "fix_built_in_shelf",
+      "lit_zenithal",
+      "col_pistachio"
+    ],
+    "source_atom_texts": [
+      "built-in shelf",
+      "zenithal",
+      "pistachio"
+    ],
+    "source_atom_families": [
+      "fixture",
+      "lighting",
+      "color"
+    ],
+    "pairwise_sims": {
+      "fix_built_in_shelf|lit_zenithal": 0.0977,
+      "fix_built_in_shelf|col_pistachio": 0.111,
+      "lit_zenithal|col_pistachio": 0.0878
+    },
+    "family_pattern": "fixture+lighting+color"
+  },
+  {
+    "id": "3658924f4107",
+    "text": "indigo dining table shadowed",
+    "source_atom_ids": [
+      "col_indigo",
+      "fur_dining_table",
+      "qua_shadowed"
+    ],
+    "source_atom_texts": [
+      "indigo",
+      "dining table",
+      "shadowed"
+    ],
+    "source_atom_families": [
+      "color",
+      "furniture",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "col_indigo|fur_dining_table": 0.1817,
+      "col_indigo|qua_shadowed": 0.387,
+      "fur_dining_table|qua_shadowed": 0.2203
+    },
+    "family_pattern": "color+furniture+quality"
+  },
+  {
+    "id": "f417f77e3119",
+    "text": "floor felt cavernous",
+    "source_atom_ids": [
+      "arc_floor",
+      "mat_felt",
+      "spa_cavernous"
+    ],
+    "source_atom_texts": [
+      "floor",
+      "felt",
+      "cavernous"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "material",
+      "spatial"
+    ],
+    "pairwise_sims": {
+      "arc_floor|mat_felt": 0.1694,
+      "arc_floor|spa_cavernous": 0.3677,
+      "mat_felt|spa_cavernous": 0.1684
+    },
+    "family_pattern": "architecture+material+spatial"
+  },
+  {
+    "id": "6caf02637c9b",
+    "text": "vernacular clerestory leather",
+    "source_atom_ids": [
+      "qua_vernacular",
+      "arc_clerestory",
+      "mat_leather"
+    ],
+    "source_atom_texts": [
+      "vernacular",
+      "clerestory",
+      "leather"
+    ],
+    "source_atom_families": [
+      "quality",
+      "architecture",
+      "material"
+    ],
+    "pairwise_sims": {
+      "qua_vernacular|arc_clerestory": 0.2307,
+      "qua_vernacular|mat_leather": 0.1702,
+      "arc_clerestory|mat_leather": 0.2112
+    },
+    "family_pattern": "quality+architecture+material"
+  },
+  {
+    "id": "76c67951e008",
+    "text": "shower kinetic shadow direct",
+    "source_atom_ids": [
+      "fix_shower",
+      "lit_kinetic",
+      "lit_direct"
+    ],
+    "source_atom_texts": [
+      "shower",
+      "kinetic shadow",
+      "direct"
+    ],
+    "source_atom_families": [
+      "fixture",
+      "lighting",
+      "lighting"
+    ],
+    "pairwise_sims": {
+      "fix_shower|lit_kinetic": 0.1329,
+      "fix_shower|lit_direct": 0.0914,
+      "lit_kinetic|lit_direct": 0.1845
+    },
+    "family_pattern": "fixture+lighting+lighting"
+  },
+  {
+    "id": "65e64b606692",
+    "text": "soft arch wardrobe",
+    "source_atom_ids": [
+      "qua_soft",
+      "arc_arch",
+      "fur_wardrobe"
+    ],
+    "source_atom_texts": [
+      "soft",
+      "arch",
+      "wardrobe"
+    ],
+    "source_atom_families": [
+      "quality",
+      "architecture",
+      "furniture"
+    ],
+    "pairwise_sims": {
+      "qua_soft|arc_arch": 0.2005,
+      "qua_soft|fur_wardrobe": 0.1333,
+      "arc_arch|fur_wardrobe": 0.1859
+    },
+    "family_pattern": "quality+architecture+furniture"
+  },
+  {
+    "id": "06569775abf5",
+    "text": "hempcrete bay window dome",
+    "source_atom_ids": [
+      "mat_hempcrete",
+      "arc_bay_window",
+      "arc_dome"
+    ],
+    "source_atom_texts": [
+      "hempcrete",
+      "bay window",
+      "dome"
+    ],
+    "source_atom_families": [
+      "material",
+      "architecture",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "mat_hempcrete|arc_bay_window": 0.2041,
+      "mat_hempcrete|arc_dome": 0.244,
+      "arc_bay_window|arc_dome": 0.3997
+    },
+    "family_pattern": "material+architecture+architecture"
+  },
+  {
+    "id": "dacc40615dfa",
+    "text": "soft zenithal bone white",
+    "source_atom_ids": [
+      "qua_soft",
+      "lit_zenithal",
+      "col_bone_white"
+    ],
+    "source_atom_texts": [
+      "soft",
+      "zenithal",
+      "bone white"
+    ],
+    "source_atom_families": [
+      "quality",
+      "lighting",
+      "color"
+    ],
+    "pairwise_sims": {
+      "qua_soft|lit_zenithal": 0.1724,
+      "qua_soft|col_bone_white": 0.2292,
+      "lit_zenithal|col_bone_white": 0.249
+    },
+    "family_pattern": "quality+lighting+color"
+  },
+  {
+    "id": "e55bb7b09f0e",
+    "text": "peripheral sofa overlapping",
+    "source_atom_ids": [
+      "spa_peripheral",
+      "fur_sofa",
+      "rel_overlapping"
+    ],
+    "source_atom_texts": [
+      "peripheral",
+      "sofa",
+      "overlapping"
+    ],
+    "source_atom_families": [
+      "spatial",
+      "furniture",
+      "relation"
+    ],
+    "pairwise_sims": {
+      "spa_peripheral|fur_sofa": 0.267,
+      "spa_peripheral|rel_overlapping": 0.1239,
+      "fur_sofa|rel_overlapping": 0.1966
+    },
+    "family_pattern": "spatial+furniture+relation"
+  },
+  {
+    "id": "e3a6fcc63e10",
+    "text": "dim pistachio compact",
+    "source_atom_ids": [
+      "qua_dim",
+      "col_pistachio",
+      "spa_compact"
+    ],
+    "source_atom_texts": [
+      "dim",
+      "pistachio",
+      "compact"
+    ],
+    "source_atom_families": [
+      "quality",
+      "color",
+      "spatial"
+    ],
+    "pairwise_sims": {
+      "qua_dim|col_pistachio": 0.2401,
+      "qua_dim|spa_compact": 0.3394,
+      "col_pistachio|spa_compact": 0.1522
+    },
+    "family_pattern": "quality+color+spatial"
+  },
+  {
+    "id": "b0c24fe9060a",
+    "text": "pristine brick pavilion",
+    "source_atom_ids": [
+      "qua_pristine",
+      "mat_brick",
+      "arc_pavilion"
+    ],
+    "source_atom_texts": [
+      "pristine",
+      "brick",
+      "pavilion"
+    ],
+    "source_atom_families": [
+      "quality",
+      "material",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "qua_pristine|mat_brick": 0.2236,
+      "qua_pristine|arc_pavilion": 0.1906,
+      "mat_brick|arc_pavilion": 0.201
+    },
+    "family_pattern": "quality+material+architecture"
+  },
+  {
+    "id": "80c4710dd2c5",
+    "text": "shadowed canopy peripheral",
+    "source_atom_ids": [
+      "qua_shadowed",
+      "arc_canopy",
+      "spa_peripheral"
+    ],
+    "source_atom_texts": [
+      "shadowed",
+      "canopy",
+      "peripheral"
+    ],
+    "source_atom_families": [
+      "quality",
+      "architecture",
+      "spatial"
+    ],
+    "pairwise_sims": {
+      "qua_shadowed|arc_canopy": 0.4,
+      "qua_shadowed|spa_peripheral": 0.253,
+      "arc_canopy|spa_peripheral": 0.2411
+    },
+    "family_pattern": "quality+architecture+spatial"
+  },
+  {
+    "id": "78695caec57e",
+    "text": "light ceramic lofty",
+    "source_atom_ids": [
+      "qua_light",
+      "mat_ceramic",
+      "spa_lofty"
+    ],
+    "source_atom_texts": [
+      "light",
+      "ceramic",
+      "lofty"
+    ],
+    "source_atom_families": [
+      "quality",
+      "material",
+      "spatial"
+    ],
+    "pairwise_sims": {
+      "qua_light|mat_ceramic": 0.2333,
+      "qua_light|spa_lofty": 0.2373,
+      "mat_ceramic|spa_lofty": 0.1523
+    },
+    "family_pattern": "quality+material+spatial"
+  },
+  {
+    "id": "dec68bfd64db",
+    "text": "polycarbonate dim monolithic",
+    "source_atom_ids": [
+      "mat_polycarbonate",
+      "qua_dim",
+      "qua_monolithic"
+    ],
+    "source_atom_texts": [
+      "polycarbonate",
+      "dim",
+      "monolithic"
+    ],
+    "source_atom_families": [
+      "material",
+      "quality",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "mat_polycarbonate|qua_dim": 0.1024,
+      "mat_polycarbonate|qua_monolithic": 0.2271,
+      "qua_dim|qua_monolithic": 0.2497
+    },
+    "family_pattern": "material+quality+quality"
+  },
+  {
+    "id": "eaaf84d50f77",
+    "text": "buoyant zinc bed",
+    "source_atom_ids": [
+      "qua_buoyant",
+      "mat_zinc",
+      "fur_bed"
+    ],
+    "source_atom_texts": [
+      "buoyant",
+      "zinc",
+      "bed"
+    ],
+    "source_atom_families": [
+      "quality",
+      "material",
+      "furniture"
+    ],
+    "pairwise_sims": {
+      "qua_buoyant|mat_zinc": 0.2408,
+      "qua_buoyant|fur_bed": 0.2644,
+      "mat_zinc|fur_bed": 0.2343
+    },
+    "family_pattern": "quality+material+furniture"
+  },
+  {
+    "id": "e2b5a2d6ca7e",
+    "text": "bright corridor wall sconce",
+    "source_atom_ids": [
+      "qua_bright",
+      "arc_corridor",
+      "fix_wall_sconce"
+    ],
+    "source_atom_texts": [
+      "bright",
+      "corridor",
+      "wall sconce"
+    ],
+    "source_atom_families": [
+      "quality",
+      "architecture",
+      "fixture"
+    ],
+    "pairwise_sims": {
+      "qua_bright|arc_corridor": 0.1657,
+      "qua_bright|fix_wall_sconce": 0.2313,
+      "arc_corridor|fix_wall_sconce": 0.3065
+    },
+    "family_pattern": "quality+architecture+fixture"
+  },
+  {
+    "id": "eb2bc90cda87",
+    "text": "velvet bathtub arcade",
+    "source_atom_ids": [
+      "mat_velvet",
+      "fix_bathtub",
+      "arc_arcade"
+    ],
+    "source_atom_texts": [
+      "velvet",
+      "bathtub",
+      "arcade"
+    ],
+    "source_atom_families": [
+      "material",
+      "fixture",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "mat_velvet|fix_bathtub": 0.2696,
+      "mat_velvet|arc_arcade": 0.2209,
+      "fix_bathtub|arc_arcade": 0.2835
+    },
+    "family_pattern": "material+fixture+architecture"
+  },
+  {
+    "id": "2a34e5785b20",
+    "text": "portal copper sage",
+    "source_atom_ids": [
+      "arc_portal",
+      "mat_copper",
+      "col_sage"
+    ],
+    "source_atom_texts": [
+      "portal",
+      "copper",
+      "sage"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "material",
+      "color"
+    ],
+    "pairwise_sims": {
+      "arc_portal|mat_copper": 0.1919,
+      "arc_portal|col_sage": 0.2337,
+      "mat_copper|col_sage": 0.1264
+    },
+    "family_pattern": "architecture+material+color"
+  },
+  {
+    "id": "10516d55c101",
+    "text": "continuous niche portal",
+    "source_atom_ids": [
+      "rel_continuous",
+      "arc_niche",
+      "arc_portal"
+    ],
+    "source_atom_texts": [
+      "continuous",
+      "niche",
+      "portal"
+    ],
+    "source_atom_families": [
+      "relation",
+      "architecture",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "rel_continuous|arc_niche": 0.2297,
+      "rel_continuous|arc_portal": 0.1843,
+      "arc_niche|arc_portal": 0.305
+    },
+    "family_pattern": "relation+architecture+architecture"
+  },
+  {
+    "id": "272327675c43",
+    "text": "petrol blue curtain terrazzo",
+    "source_atom_ids": [
+      "col_petrol_blue",
+      "dec_curtain",
+      "mat_terrazzo"
+    ],
+    "source_atom_texts": [
+      "petrol blue",
+      "curtain",
+      "terrazzo"
+    ],
+    "source_atom_families": [
+      "color",
+      "decoration",
+      "material"
+    ],
+    "pairwise_sims": {
+      "col_petrol_blue|dec_curtain": 0.1191,
+      "col_petrol_blue|mat_terrazzo": 0.2821,
+      "dec_curtain|mat_terrazzo": 0.2196
+    },
+    "family_pattern": "color+decoration+material"
+  },
+  {
+    "id": "f9ffd010ebbd",
+    "text": "petrol blue arch transept",
+    "source_atom_ids": [
+      "col_petrol_blue",
+      "arc_arch",
+      "arc_transept"
+    ],
+    "source_atom_texts": [
+      "petrol blue",
+      "arch",
+      "transept"
+    ],
+    "source_atom_families": [
+      "color",
+      "architecture",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "col_petrol_blue|arc_arch": 0.1495,
+      "col_petrol_blue|arc_transept": 0.1007,
+      "arc_arch|arc_transept": 0.1815
+    },
+    "family_pattern": "color+architecture+architecture"
+  },
+  {
+    "id": "abc6b23e52e2",
+    "text": "sage loggia copper",
+    "source_atom_ids": [
+      "col_sage",
+      "arc_loggia",
+      "mat_copper"
+    ],
+    "source_atom_texts": [
+      "sage",
+      "loggia",
+      "copper"
+    ],
+    "source_atom_families": [
+      "color",
+      "architecture",
+      "material"
+    ],
+    "pairwise_sims": {
+      "col_sage|arc_loggia": 0.2413,
+      "col_sage|mat_copper": 0.1264,
+      "arc_loggia|mat_copper": 0.113
+    },
+    "family_pattern": "color+architecture+material"
+  },
+  {
+    "id": "80edb54a220f",
+    "text": "overlapping floor pavilion",
+    "source_atom_ids": [
+      "rel_overlapping",
+      "arc_floor",
+      "arc_pavilion"
+    ],
+    "source_atom_texts": [
+      "overlapping",
+      "floor",
+      "pavilion"
+    ],
+    "source_atom_families": [
+      "relation",
+      "architecture",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "rel_overlapping|arc_floor": 0.2147,
+      "rel_overlapping|arc_pavilion": 0.2001,
+      "arc_floor|arc_pavilion": 0.3081
+    },
+    "family_pattern": "relation+architecture+architecture"
+  },
+  {
+    "id": "5332804515d6",
+    "text": "enclosed ottoman wall",
+    "source_atom_ids": [
+      "spa_enclosed",
+      "fur_ottoman",
+      "arc_wall"
+    ],
+    "source_atom_texts": [
+      "enclosed",
+      "ottoman",
+      "wall"
+    ],
+    "source_atom_families": [
+      "spatial",
+      "furniture",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "spa_enclosed|fur_ottoman": 0.3022,
+      "spa_enclosed|arc_wall": 0.338,
+      "fur_ottoman|arc_wall": 0.3761
+    },
+    "family_pattern": "spatial+furniture+architecture"
+  },
+  {
+    "id": "707b877be54a",
+    "text": "rammed earth bookshelf plant",
+    "source_atom_ids": [
+      "mat_rammed_earth",
+      "fur_bookshelf",
+      "dec_plant"
+    ],
+    "source_atom_texts": [
+      "rammed earth",
+      "bookshelf",
+      "plant"
+    ],
+    "source_atom_families": [
+      "material",
+      "furniture",
+      "decoration"
+    ],
+    "pairwise_sims": {
+      "mat_rammed_earth|fur_bookshelf": 0.2051,
+      "mat_rammed_earth|dec_plant": 0.1838,
+      "fur_bookshelf|dec_plant": 0.2129
+    },
+    "family_pattern": "material+furniture+decoration"
+  },
+  {
+    "id": "f184888da9fa",
+    "text": "layered hempcrete stone",
+    "source_atom_ids": [
+      "qua_layered",
+      "mat_hempcrete",
+      "mat_stone"
+    ],
+    "source_atom_texts": [
+      "layered",
+      "hempcrete",
+      "stone"
+    ],
+    "source_atom_families": [
+      "quality",
+      "material",
+      "material"
+    ],
+    "pairwise_sims": {
+      "qua_layered|mat_hempcrete": 0.2085,
+      "qua_layered|mat_stone": 0.2834,
+      "mat_hempcrete|mat_stone": 0.1909
+    },
+    "family_pattern": "quality+material+material"
+  },
+  {
+    "id": "55824f2dc4e3",
+    "text": "kinetic shadow subterranean aisle",
+    "source_atom_ids": [
+      "lit_kinetic",
+      "spa_subterranean",
+      "arc_aisle"
+    ],
+    "source_atom_texts": [
+      "kinetic shadow",
+      "subterranean",
+      "aisle"
+    ],
+    "source_atom_families": [
+      "lighting",
+      "spatial",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "lit_kinetic|spa_subterranean": 0.2196,
+      "lit_kinetic|arc_aisle": 0.0784,
+      "spa_subterranean|arc_aisle": 0.2702
+    },
+    "family_pattern": "lighting+spatial+architecture"
+  },
+  {
+    "id": "2c7350b0579e",
+    "text": "transparent desk side table",
+    "source_atom_ids": [
+      "qua_transparent",
+      "fur_desk",
+      "fur_side_table"
+    ],
+    "source_atom_texts": [
+      "transparent",
+      "desk",
+      "side table"
+    ],
+    "source_atom_families": [
+      "quality",
+      "furniture",
+      "furniture"
+    ],
+    "pairwise_sims": {
+      "qua_transparent|fur_desk": 0.1646,
+      "qua_transparent|fur_side_table": 0.1378,
+      "fur_desk|fur_side_table": 0.4221
+    },
+    "family_pattern": "quality+furniture+furniture"
+  },
+  {
+    "id": "87b2813179ee",
+    "text": "cold zinc linen",
+    "source_atom_ids": [
+      "qua_cold",
+      "mat_zinc",
+      "mat_linen"
+    ],
+    "source_atom_texts": [
+      "cold",
+      "zinc",
+      "linen"
+    ],
+    "source_atom_families": [
+      "quality",
+      "material",
+      "material"
+    ],
+    "pairwise_sims": {
+      "qua_cold|mat_zinc": 0.268,
+      "qua_cold|mat_linen": 0.2152,
+      "mat_zinc|mat_linen": 0.261
+    },
+    "family_pattern": "quality+material+material"
+  },
+  {
+    "id": "8679bf333f16",
+    "text": "nested central hard",
+    "source_atom_ids": [
+      "rel_nested",
+      "spa_central",
+      "qua_hard"
+    ],
+    "source_atom_texts": [
+      "nested",
+      "central",
+      "hard"
+    ],
+    "source_atom_families": [
+      "relation",
+      "spatial",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "rel_nested|spa_central": 0.1087,
+      "rel_nested|qua_hard": 0.1725,
+      "spa_central|qua_hard": 0.1272
+    },
+    "family_pattern": "relation+spatial+quality"
+  },
+  {
+    "id": "472d94b84e32",
+    "text": "fireplace polycarbonate bone white",
+    "source_atom_ids": [
+      "fix_fireplace",
+      "mat_polycarbonate",
+      "col_bone_white"
+    ],
+    "source_atom_texts": [
+      "fireplace",
+      "polycarbonate",
+      "bone white"
+    ],
+    "source_atom_families": [
+      "fixture",
+      "material",
+      "color"
+    ],
+    "pairwise_sims": {
+      "fix_fireplace|mat_polycarbonate": 0.2063,
+      "fix_fireplace|col_bone_white": 0.1973,
+      "mat_polycarbonate|col_bone_white": 0.2014
+    },
+    "family_pattern": "fixture+material+color"
+  },
+  {
+    "id": "792ebcbe3ac2",
+    "text": "clustered porous arcade",
+    "source_atom_ids": [
+      "rel_clustered",
+      "qua_porous",
+      "arc_arcade"
+    ],
+    "source_atom_texts": [
+      "clustered",
+      "porous",
+      "arcade"
+    ],
+    "source_atom_families": [
+      "relation",
+      "quality",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "rel_clustered|qua_porous": 0.1975,
+      "rel_clustered|arc_arcade": 0.2548,
+      "qua_porous|arc_arcade": 0.1489
+    },
+    "family_pattern": "relation+quality+architecture"
+  },
+  {
+    "id": "f462bc39d072",
+    "text": "expansive noisy ceiling",
+    "source_atom_ids": [
+      "spa_expansive",
+      "beh_noisy",
+      "arc_ceiling"
+    ],
+    "source_atom_texts": [
+      "expansive",
+      "noisy",
+      "ceiling"
+    ],
+    "source_atom_families": [
+      "spatial",
+      "behavioral",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "spa_expansive|beh_noisy": 0.2938,
+      "spa_expansive|arc_ceiling": 0.2097,
+      "beh_noisy|arc_ceiling": 0.2407
+    },
+    "family_pattern": "spatial+behavioral+architecture"
+  },
+  {
+    "id": "bc3ccf039a88",
+    "text": "passive bench transept",
+    "source_atom_ids": [
+      "beh_passive",
+      "fur_bench",
+      "arc_transept"
+    ],
+    "source_atom_texts": [
+      "passive",
+      "bench",
+      "transept"
+    ],
+    "source_atom_families": [
+      "behavioral",
+      "furniture",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "beh_passive|fur_bench": 0.2054,
+      "beh_passive|arc_transept": 0.2658,
+      "fur_bench|arc_transept": 0.1827
+    },
+    "family_pattern": "behavioral+furniture+architecture"
+  },
+  {
+    "id": "7d76fb24c0e1",
+    "text": "standing lamp glass burnt sienna",
+    "source_atom_ids": [
+      "fix_standing_lamp",
+      "mat_glass",
+      "col_burnt_sienna"
+    ],
+    "source_atom_texts": [
+      "standing lamp",
+      "glass",
+      "burnt sienna"
+    ],
+    "source_atom_families": [
+      "fixture",
+      "material",
+      "color"
+    ],
+    "pairwise_sims": {
+      "fix_standing_lamp|mat_glass": 0.2621,
+      "fix_standing_lamp|col_burnt_sienna": 0.1419,
+      "mat_glass|col_burnt_sienna": 0.2526
+    },
+    "family_pattern": "fixture+material+color"
+  },
+  {
+    "id": "1f5096f67567",
+    "text": "sculpture pistachio black",
+    "source_atom_ids": [
+      "dec_sculpture",
+      "col_pistachio",
+      "col_black"
+    ],
+    "source_atom_texts": [
+      "sculpture",
+      "pistachio",
+      "black"
+    ],
+    "source_atom_families": [
+      "decoration",
+      "color",
+      "color"
+    ],
+    "pairwise_sims": {
+      "dec_sculpture|col_pistachio": 0.2445,
+      "dec_sculpture|col_black": 0.2586,
+      "col_pistachio|col_black": 0.2682
+    },
+    "family_pattern": "decoration+color+color"
+  },
+  {
+    "id": "6efad98de7f6",
+    "text": "monumental wood lofty",
+    "source_atom_ids": [
+      "qua_monumental",
+      "mat_wood",
+      "spa_lofty"
+    ],
+    "source_atom_texts": [
+      "monumental",
+      "wood",
+      "lofty"
+    ],
+    "source_atom_families": [
+      "quality",
+      "material",
+      "spatial"
+    ],
+    "pairwise_sims": {
+      "qua_monumental|mat_wood": 0.1304,
+      "qua_monumental|spa_lofty": 0.3234,
+      "mat_wood|spa_lofty": 0.2644
+    },
+    "family_pattern": "quality+material+spatial"
+  },
+  {
+    "id": "94542af3dd44",
+    "text": "arcade muted double-height",
+    "source_atom_ids": [
+      "arc_arcade",
+      "qua_muted",
+      "spa_double_height"
+    ],
+    "source_atom_texts": [
+      "arcade",
+      "muted",
+      "double-height"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "quality",
+      "spatial"
+    ],
+    "pairwise_sims": {
+      "arc_arcade|qua_muted": 0.1659,
+      "arc_arcade|spa_double_height": 0.1379,
+      "qua_muted|spa_double_height": 0.1198
+    },
+    "family_pattern": "architecture+quality+spatial"
+  },
+  {
+    "id": "62e410a5051b",
+    "text": "heavy door beige",
+    "source_atom_ids": [
+      "qua_heavy",
+      "arc_door",
+      "col_beige"
+    ],
+    "source_atom_texts": [
+      "heavy",
+      "door",
+      "beige"
+    ],
+    "source_atom_families": [
+      "quality",
+      "architecture",
+      "color"
+    ],
+    "pairwise_sims": {
+      "qua_heavy|arc_door": 0.2384,
+      "qua_heavy|col_beige": 0.171,
+      "arc_door|col_beige": 0.2308
+    },
+    "family_pattern": "quality+architecture+color"
+  },
+  {
+    "id": "6f87553bc7a9",
+    "text": "limewash stool balcony",
+    "source_atom_ids": [
+      "mat_limewash",
+      "fur_stool",
+      "arc_balcony"
+    ],
+    "source_atom_texts": [
+      "limewash",
+      "stool",
+      "balcony"
+    ],
+    "source_atom_families": [
+      "material",
+      "furniture",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "mat_limewash|fur_stool": 0.2402,
+      "mat_limewash|arc_balcony": 0.2018,
+      "fur_stool|arc_balcony": 0.281
+    },
+    "family_pattern": "material+furniture+architecture"
+  },
+  {
+    "id": "066e0e04c820",
+    "text": "retreat ceiling door",
+    "source_atom_ids": [
+      "beh_retreat",
+      "arc_ceiling",
+      "arc_door"
+    ],
+    "source_atom_texts": [
+      "retreat",
+      "ceiling",
+      "door"
+    ],
+    "source_atom_families": [
+      "behavioral",
+      "architecture",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "beh_retreat|arc_ceiling": 0.1699,
+      "beh_retreat|arc_door": 0.2377,
+      "arc_ceiling|arc_door": 0.4082
+    },
+    "family_pattern": "behavioral+architecture+architecture"
+  },
+  {
+    "id": "c22fa8488bad",
+    "text": "whiteboard alcove floor",
+    "source_atom_ids": [
+      "tec_whiteboard",
+      "arc_alcove",
+      "arc_floor"
+    ],
+    "source_atom_texts": [
+      "whiteboard",
+      "alcove",
+      "floor"
+    ],
+    "source_atom_families": [
+      "technology",
+      "architecture",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "tec_whiteboard|arc_alcove": 0.2063,
+      "tec_whiteboard|arc_floor": 0.325,
+      "arc_alcove|arc_floor": 0.3237
+    },
+    "family_pattern": "technology+architecture+architecture"
+  },
+  {
+    "id": "292c5e026f48",
+    "text": "bookshelf black raw",
+    "source_atom_ids": [
+      "fur_bookshelf",
+      "col_black",
+      "qua_raw"
+    ],
+    "source_atom_texts": [
+      "bookshelf",
+      "black",
+      "raw"
+    ],
+    "source_atom_families": [
+      "furniture",
+      "color",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "fur_bookshelf|col_black": 0.1828,
+      "fur_bookshelf|qua_raw": 0.1163,
+      "col_black|qua_raw": 0.2881
+    },
+    "family_pattern": "furniture+color+quality"
+  },
+  {
+    "id": "f2091b2383f1",
+    "text": "stool rhythmic deep blue",
+    "source_atom_ids": [
+      "fur_stool",
+      "qua_rhythmic",
+      "col_deep_blue"
+    ],
+    "source_atom_texts": [
+      "stool",
+      "rhythmic",
+      "deep blue"
+    ],
+    "source_atom_families": [
+      "furniture",
+      "quality",
+      "color"
+    ],
+    "pairwise_sims": {
+      "fur_stool|qua_rhythmic": 0.2586,
+      "fur_stool|col_deep_blue": 0.1433,
+      "qua_rhythmic|col_deep_blue": 0.1439
+    },
+    "family_pattern": "furniture+quality+color"
+  },
+  {
+    "id": "fc2e491939b4",
+    "text": "lingering dome armchair",
+    "source_atom_ids": [
+      "beh_lingering",
+      "arc_dome",
+      "fur_armchair"
+    ],
+    "source_atom_texts": [
+      "lingering",
+      "dome",
+      "armchair"
+    ],
+    "source_atom_families": [
+      "behavioral",
+      "architecture",
+      "furniture"
+    ],
+    "pairwise_sims": {
+      "beh_lingering|arc_dome": 0.1673,
+      "beh_lingering|fur_armchair": 0.27,
+      "arc_dome|fur_armchair": 0.2236
+    },
+    "family_pattern": "behavioral+architecture+furniture"
+  },
+  {
+    "id": "9bcafc28dbad",
+    "text": "lofty gathering overlapping",
+    "source_atom_ids": [
+      "spa_lofty",
+      "beh_gathering",
+      "rel_overlapping"
+    ],
+    "source_atom_texts": [
+      "lofty",
+      "gathering",
+      "overlapping"
+    ],
+    "source_atom_families": [
+      "spatial",
+      "behavioral",
+      "relation"
+    ],
+    "pairwise_sims": {
+      "spa_lofty|beh_gathering": 0.1434,
+      "spa_lofty|rel_overlapping": 0.1297,
+      "beh_gathering|rel_overlapping": 0.2419
+    },
+    "family_pattern": "spatial+behavioral+relation"
+  },
+  {
+    "id": "da8494fce349",
+    "text": "stool performing copper",
+    "source_atom_ids": [
+      "fur_stool",
+      "beh_performing",
+      "mat_copper"
+    ],
+    "source_atom_texts": [
+      "stool",
+      "performing",
+      "copper"
+    ],
+    "source_atom_families": [
+      "furniture",
+      "behavioral",
+      "material"
+    ],
+    "pairwise_sims": {
+      "fur_stool|beh_performing": 0.2395,
+      "fur_stool|mat_copper": 0.2833,
+      "beh_performing|mat_copper": 0.1584
+    },
+    "family_pattern": "furniture+behavioral+material"
+  },
+  {
+    "id": "f5b2284f1ed4",
+    "text": "cork niche door",
+    "source_atom_ids": [
+      "mat_cork",
+      "arc_niche",
+      "arc_door"
+    ],
+    "source_atom_texts": [
+      "cork",
+      "niche",
+      "door"
+    ],
+    "source_atom_families": [
+      "material",
+      "architecture",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "mat_cork|arc_niche": 0.2343,
+      "mat_cork|arc_door": 0.2338,
+      "arc_niche|arc_door": 0.2818
+    },
+    "family_pattern": "material+architecture+architecture"
+  },
+  {
+    "id": "61bf29f0ac72",
+    "text": "cork pistachio cobalt blue",
+    "source_atom_ids": [
+      "mat_cork",
+      "col_pistachio",
+      "col_cobalt"
+    ],
+    "source_atom_texts": [
+      "cork",
+      "pistachio",
+      "cobalt blue"
+    ],
+    "source_atom_families": [
+      "material",
+      "color",
+      "color"
+    ],
+    "pairwise_sims": {
+      "mat_cork|col_pistachio": 0.3002,
+      "mat_cork|col_cobalt": 0.2391,
+      "col_pistachio|col_cobalt": 0.3085
+    },
+    "family_pattern": "material+color+color"
+  },
+  {
+    "id": "3dfa62b0e0d3",
+    "text": "warm white mirror formal",
+    "source_atom_ids": [
+      "col_warm_white",
+      "dec_mirror",
+      "qua_formal"
+    ],
+    "source_atom_texts": [
+      "warm white",
+      "mirror",
+      "formal"
+    ],
+    "source_atom_families": [
+      "color",
+      "decoration",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "col_warm_white|dec_mirror": 0.1548,
+      "col_warm_white|qua_formal": 0.2656,
+      "dec_mirror|qua_formal": 0.1049
+    },
+    "family_pattern": "color+decoration+quality"
+  },
+  {
+    "id": "21e6e9f49d03",
+    "text": "plinth narrow liminal",
+    "source_atom_ids": [
+      "arc_plinth",
+      "spa_narrow",
+      "spa_liminal"
+    ],
+    "source_atom_texts": [
+      "plinth",
+      "narrow",
+      "liminal"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "spatial",
+      "spatial"
+    ],
+    "pairwise_sims": {
+      "arc_plinth|spa_narrow": 0.185,
+      "arc_plinth|spa_liminal": 0.2629,
+      "spa_narrow|spa_liminal": 0.2528
+    },
+    "family_pattern": "architecture+spatial+spatial"
+  },
+  {
+    "id": "79838d0d62eb",
+    "text": "projector beam double-height",
+    "source_atom_ids": [
+      "tec_projector",
+      "arc_beam",
+      "spa_double_height"
+    ],
+    "source_atom_texts": [
+      "projector",
+      "beam",
+      "double-height"
+    ],
+    "source_atom_families": [
+      "technology",
+      "architecture",
+      "spatial"
+    ],
+    "pairwise_sims": {
+      "tec_projector|arc_beam": 0.2443,
+      "tec_projector|spa_double_height": 0.1216,
+      "arc_beam|spa_double_height": 0.2005
+    },
+    "family_pattern": "technology+architecture+spatial"
+  },
+  {
+    "id": "9faefa0b858c",
+    "text": "hempcrete hard chaotic",
+    "source_atom_ids": [
+      "mat_hempcrete",
+      "qua_hard",
+      "qua_chaotic"
+    ],
+    "source_atom_texts": [
+      "hempcrete",
+      "hard",
+      "chaotic"
+    ],
+    "source_atom_families": [
+      "material",
+      "quality",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "mat_hempcrete|qua_hard": 0.174,
+      "mat_hempcrete|qua_chaotic": 0.1464,
+      "qua_hard|qua_chaotic": 0.1898
+    },
+    "family_pattern": "material+quality+quality"
+  },
+  {
+    "id": "79d3d93332d6",
+    "text": "nave transparent focal glow",
+    "source_atom_ids": [
+      "arc_nave",
+      "qua_transparent",
+      "lit_focal_glow"
+    ],
+    "source_atom_texts": [
+      "nave",
+      "transparent",
+      "focal glow"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "quality",
+      "lighting"
+    ],
+    "pairwise_sims": {
+      "arc_nave|qua_transparent": 0.1424,
+      "arc_nave|lit_focal_glow": 0.0483,
+      "qua_transparent|lit_focal_glow": 0.3277
+    },
+    "family_pattern": "architecture+quality+lighting"
+  },
+  {
+    "id": "7e0c57e65f30",
+    "text": "tadelakt oxblood rough",
+    "source_atom_ids": [
+      "mat_tadelakt",
+      "col_oxblood",
+      "qua_rough"
+    ],
+    "source_atom_texts": [
+      "tadelakt",
+      "oxblood",
+      "rough"
+    ],
+    "source_atom_families": [
+      "material",
+      "color",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "mat_tadelakt|col_oxblood": 0.1986,
+      "mat_tadelakt|qua_rough": 0.0772,
+      "col_oxblood|qua_rough": 0.1367
+    },
+    "family_pattern": "material+color+quality"
+  },
+  {
+    "id": "746028d290d7",
+    "text": "vault tectonic dim",
+    "source_atom_ids": [
+      "arc_vault",
+      "qua_tectonic",
+      "qua_dim"
+    ],
+    "source_atom_texts": [
+      "vault",
+      "tectonic",
+      "dim"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "quality",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "arc_vault|qua_tectonic": 0.2252,
+      "arc_vault|qua_dim": 0.1776,
+      "qua_tectonic|qua_dim": 0.2063
+    },
+    "family_pattern": "architecture+quality+quality"
+  },
+  {
+    "id": "dc35e85faf44",
+    "text": "hempcrete sculpture low-chroma gray",
+    "source_atom_ids": [
+      "mat_hempcrete",
+      "dec_sculpture",
+      "col_gray"
+    ],
+    "source_atom_texts": [
+      "hempcrete",
+      "sculpture",
+      "low-chroma gray"
+    ],
+    "source_atom_families": [
+      "material",
+      "decoration",
+      "color"
+    ],
+    "pairwise_sims": {
+      "mat_hempcrete|dec_sculpture": 0.1936,
+      "mat_hempcrete|col_gray": 0.2273,
+      "dec_sculpture|col_gray": 0.11
+    },
+    "family_pattern": "material+decoration+color"
+  },
+  {
+    "id": "b3157737fee1",
+    "text": "cool ashlar stone burnt sienna",
+    "source_atom_ids": [
+      "qua_cool",
+      "mat_ashlar_stone",
+      "col_burnt_sienna"
+    ],
+    "source_atom_texts": [
+      "cool",
+      "ashlar stone",
+      "burnt sienna"
+    ],
+    "source_atom_families": [
+      "quality",
+      "material",
+      "color"
+    ],
+    "pairwise_sims": {
+      "qua_cool|mat_ashlar_stone": 0.1586,
+      "qua_cool|col_burnt_sienna": 0.2076,
+      "mat_ashlar_stone|col_burnt_sienna": 0.2836
+    },
+    "family_pattern": "quality+material+color"
+  },
+  {
+    "id": "fc00e5e8dde4",
+    "text": "arcade monolithic frosted glass",
+    "source_atom_ids": [
+      "arc_arcade",
+      "qua_monolithic",
+      "mat_frosted_glass"
+    ],
+    "source_atom_texts": [
+      "arcade",
+      "monolithic",
+      "frosted glass"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "quality",
+      "material"
+    ],
+    "pairwise_sims": {
+      "arc_arcade|qua_monolithic": 0.1574,
+      "arc_arcade|mat_frosted_glass": 0.1585,
+      "qua_monolithic|mat_frosted_glass": 0.1725
+    },
+    "family_pattern": "architecture+quality+material"
+  },
+  {
+    "id": "b356cfb30814",
+    "text": "shower dappled layered",
+    "source_atom_ids": [
+      "fix_shower",
+      "lit_dappled",
+      "qua_layered"
+    ],
+    "source_atom_texts": [
+      "shower",
+      "dappled",
+      "layered"
+    ],
+    "source_atom_families": [
+      "fixture",
+      "lighting",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "fix_shower|lit_dappled": 0.1723,
+      "fix_shower|qua_layered": 0.2086,
+      "lit_dappled|qua_layered": 0.3965
+    },
+    "family_pattern": "fixture+lighting+quality"
+  },
+  {
+    "id": "821883f66243",
+    "text": "velvet cool vermilion",
+    "source_atom_ids": [
+      "mat_velvet",
+      "qua_cool",
+      "col_vermilion"
+    ],
+    "source_atom_texts": [
+      "velvet",
+      "cool",
+      "vermilion"
+    ],
+    "source_atom_families": [
+      "material",
+      "quality",
+      "color"
+    ],
+    "pairwise_sims": {
+      "mat_velvet|qua_cool": 0.1876,
+      "mat_velvet|col_vermilion": 0.3173,
+      "qua_cool|col_vermilion": 0.1912
+    },
+    "family_pattern": "material+quality+color"
+  },
+  {
+    "id": "5410c6c3093f",
+    "text": "sequenced wardrobe desk",
+    "source_atom_ids": [
+      "spa_sequenced",
+      "fur_wardrobe",
+      "fur_desk"
+    ],
+    "source_atom_texts": [
+      "sequenced",
+      "wardrobe",
+      "desk"
+    ],
+    "source_atom_families": [
+      "spatial",
+      "furniture",
+      "furniture"
+    ],
+    "pairwise_sims": {
+      "spa_sequenced|fur_wardrobe": 0.1931,
+      "spa_sequenced|fur_desk": 0.1821,
+      "fur_wardrobe|fur_desk": 0.3846
+    },
+    "family_pattern": "spatial+furniture+furniture"
+  },
+  {
+    "id": "efcfcfa5115b",
+    "text": "zenithal light monolithic ceramic",
+    "source_atom_ids": [
+      "lit_zenithal",
+      "qua_monolithic",
+      "mat_ceramic"
+    ],
+    "source_atom_texts": [
+      "zenithal light",
+      "monolithic",
+      "ceramic"
+    ],
+    "source_atom_families": [
+      "lighting",
+      "quality",
+      "material"
+    ],
+    "pairwise_sims": {
+      "lit_zenithal|qua_monolithic": 0.3103,
+      "lit_zenithal|mat_ceramic": 0.2522,
+      "qua_monolithic|mat_ceramic": 0.2652
+    },
+    "family_pattern": "lighting+quality+material"
+  },
+  {
+    "id": "df29fcc2ecdc",
+    "text": "projector labyrinthine column",
+    "source_atom_ids": [
+      "tec_projector",
+      "spa_labyrinthine",
+      "arc_column"
+    ],
+    "source_atom_texts": [
+      "projector",
+      "labyrinthine",
+      "column"
+    ],
+    "source_atom_families": [
+      "technology",
+      "spatial",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "tec_projector|spa_labyrinthine": 0.2268,
+      "tec_projector|arc_column": 0.1365,
+      "spa_labyrinthine|arc_column": 0.2904
+    },
+    "family_pattern": "technology+spatial+architecture"
+  },
+  {
+    "id": "b9cdf72084d7",
+    "text": "monumental ceramic lofty",
+    "source_atom_ids": [
+      "qua_monumental",
+      "mat_ceramic",
+      "spa_lofty"
+    ],
+    "source_atom_texts": [
+      "monumental",
+      "ceramic",
+      "lofty"
+    ],
+    "source_atom_families": [
+      "quality",
+      "material",
+      "spatial"
+    ],
+    "pairwise_sims": {
+      "qua_monumental|mat_ceramic": 0.1915,
+      "qua_monumental|spa_lofty": 0.3234,
+      "mat_ceramic|spa_lofty": 0.1523
+    },
+    "family_pattern": "quality+material+spatial"
+  },
+  {
+    "id": "9b2e89fcc0a9",
+    "text": "enveloping ephemeral copper",
+    "source_atom_ids": [
+      "lit_enveloping",
+      "qua_ephemeral",
+      "mat_copper"
+    ],
+    "source_atom_texts": [
+      "enveloping",
+      "ephemeral",
+      "copper"
+    ],
+    "source_atom_families": [
+      "lighting",
+      "quality",
+      "material"
+    ],
+    "pairwise_sims": {
+      "lit_enveloping|qua_ephemeral": 0.2948,
+      "lit_enveloping|mat_copper": 0.0692,
+      "qua_ephemeral|mat_copper": 0.1105
+    },
+    "family_pattern": "lighting+quality+material"
+  },
+  {
+    "id": "59193f88a617",
+    "text": "beam chaotic cold",
+    "source_atom_ids": [
+      "arc_beam",
+      "qua_chaotic",
+      "qua_cold"
+    ],
+    "source_atom_texts": [
+      "beam",
+      "chaotic",
+      "cold"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "quality",
+      "quality"
+    ],
+    "pairwise_sims": {
+      "arc_beam|qua_chaotic": 0.1456,
+      "arc_beam|qua_cold": 0.182,
+      "qua_chaotic|qua_cold": 0.256
+    },
+    "family_pattern": "architecture+quality+quality"
+  },
+  {
+    "id": "590afd5cd7a6",
+    "text": "refined coffee table filtered light",
+    "source_atom_ids": [
+      "qua_refined",
+      "fur_coffee_table",
+      "lit_filter"
+    ],
+    "source_atom_texts": [
+      "refined",
+      "coffee table",
+      "filtered light"
+    ],
+    "source_atom_families": [
+      "quality",
+      "furniture",
+      "lighting"
+    ],
+    "pairwise_sims": {
+      "qua_refined|fur_coffee_table": 0.2214,
+      "qua_refined|lit_filter": 0.2602,
+      "fur_coffee_table|lit_filter": 0.1572
+    },
+    "family_pattern": "quality+furniture+lighting"
+  },
+  {
+    "id": "d7dd0dcb93b1",
+    "text": "frosted glass desk emerald",
+    "source_atom_ids": [
+      "mat_frosted_glass",
+      "fur_desk",
+      "col_emerald"
+    ],
+    "source_atom_texts": [
+      "frosted glass",
+      "desk",
+      "emerald"
+    ],
+    "source_atom_families": [
+      "material",
+      "furniture",
+      "color"
+    ],
+    "pairwise_sims": {
+      "mat_frosted_glass|fur_desk": 0.2457,
+      "mat_frosted_glass|col_emerald": 0.3438,
+      "fur_desk|col_emerald": 0.1548
+    },
+    "family_pattern": "material+furniture+color"
+  },
+  {
+    "id": "51a3fd96e7dd",
+    "text": "monumental bathtub floor",
+    "source_atom_ids": [
+      "qua_monumental",
+      "fix_bathtub",
+      "arc_floor"
+    ],
+    "source_atom_texts": [
+      "monumental",
+      "bathtub",
+      "floor"
+    ],
+    "source_atom_families": [
+      "quality",
+      "fixture",
+      "architecture"
+    ],
+    "pairwise_sims": {
+      "qua_monumental|fix_bathtub": 0.1211,
+      "qua_monumental|arc_floor": 0.1827,
+      "fix_bathtub|arc_floor": 0.3744
+    },
+    "family_pattern": "quality+fixture+architecture"
+  },
+  {
+    "id": "62a78c85a468",
+    "text": "radiator brick raking",
+    "source_atom_ids": [
+      "fix_radiator",
+      "mat_brick",
+      "lit_raking"
+    ],
+    "source_atom_texts": [
+      "radiator",
+      "brick",
+      "raking"
+    ],
+    "source_atom_families": [
+      "fixture",
+      "material",
+      "lighting"
+    ],
+    "pairwise_sims": {
+      "fix_radiator|mat_brick": 0.2101,
+      "fix_radiator|lit_raking": 0.2269,
+      "mat_brick|lit_raking": 0.2264
+    },
+    "family_pattern": "fixture+material+lighting"
+  },
+  {
+    "id": "14a2fd88ee85",
+    "text": "muted low-chroma gray bed",
+    "source_atom_ids": [
+      "qua_muted",
+      "col_gray",
+      "fur_bed"
+    ],
+    "source_atom_texts": [
+      "muted",
+      "low-chroma gray",
+      "bed"
+    ],
+    "source_atom_families": [
+      "quality",
+      "color",
+      "furniture"
+    ],
+    "pairwise_sims": {
+      "qua_muted|col_gray": 0.151,
+      "qua_muted|fur_bed": 0.2044,
+      "col_gray|fur_bed": 0.0831
+    },
+    "family_pattern": "quality+color+furniture"
+  },
+  {
+    "id": "ae1d8b7d90c2",
+    "text": "light direct zinc",
+    "source_atom_ids": [
+      "qua_light",
+      "lit_direct",
+      "mat_zinc"
+    ],
+    "source_atom_texts": [
+      "light",
+      "direct",
+      "zinc"
+    ],
+    "source_atom_families": [
+      "quality",
+      "lighting",
+      "material"
+    ],
+    "pairwise_sims": {
+      "qua_light|lit_direct": 0.3198,
+      "qua_light|mat_zinc": 0.2626,
+      "lit_direct|mat_zinc": 0.1441
+    },
+    "family_pattern": "quality+lighting+material"
+  },
+  {
+    "id": "93d74c90d789",
+    "text": "aisle linen burnt sienna",
+    "source_atom_ids": [
+      "arc_aisle",
+      "mat_linen",
+      "col_burnt_sienna"
+    ],
+    "source_atom_texts": [
+      "aisle",
+      "linen",
+      "burnt sienna"
+    ],
+    "source_atom_families": [
+      "architecture",
+      "material",
+      "color"
+    ],
+    "pairwise_sims": {
+      "arc_aisle|mat_linen": 0.3163,
+      "arc_aisle|col_burnt_sienna": 0.1366,
+      "mat_linen|col_burnt_sienna": 0.313
+    },
+    "family_pattern": "architecture+material+color"
+  },
+  {
+    "id": "082e89f19dbb",
+    "text": "charcoal hard fireplace",
+    "source_atom_ids": [
+      "col_charcoal",
+      "qua_hard",
+      "fix_fireplace"
+    ],
+    "source_atom_texts": [
+      "charcoal",
+      "hard",
+      "fireplace"
+    ],
+    "source_atom_families": [
+      "color",
+      "quality",
+      "fixture"
+    ],
+    "pairwise_sims": {
+      "col_charcoal|qua_hard": 0.1427,
+      "col_charcoal|fix_fireplace": 0.5152,
+      "qua_hard|fix_fireplace": 0.1293
+    },
+    "family_pattern": "color+quality+fixture"
+  },
+  {
+    "id": "afe1d75b53e2",
+    "text": "narrow bench quiet",
+    "source_atom_ids": [
+      "spa_narrow",
+      "fur_bench",
+      "beh_quiet"
+    ],
+    "source_atom_texts": [
+      "narrow",
+      "bench",
+      "quiet"
+    ],
+    "source_atom_families": [
+      "spatial",
+      "furniture",
+      "behavioral"
+    ],
+    "pairwise_sims": {
+      "spa_narrow|fur_bench": 0.213,
+      "spa_narrow|beh_quiet": 0.2881,
+      "fur_bench|beh_quiet": 0.2143
+    },
+    "family_pattern": "spatial+furniture+behavioral"
+  }
+]

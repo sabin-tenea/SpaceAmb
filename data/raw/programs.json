@@ -1,0 +1,18 @@
+{
+  "programs": [
+    { "id": "prog_living_room",     "text": "living room",     "notes": "domestic social space" },
+    { "id": "prog_bedroom",         "text": "bedroom",         "notes": "domestic rest space" },
+    { "id": "prog_library",         "text": "library",         "notes": "quiet study and book storage" },
+    { "id": "prog_laboratory",      "text": "laboratory",      "notes": "scientific workspace" },
+    { "id": "prog_hospital_room",   "text": "hospital room",   "notes": "clinical care space" },
+    { "id": "prog_cafeteria",       "text": "cafeteria",       "notes": "communal eating space" },
+    { "id": "prog_conference_room", "text": "conference room", "notes": "formal meeting space" },
+    { "id": "prog_dance_hall",      "text": "dance hall",      "notes": "large social movement space" },
+    { "id": "prog_waiting_room",    "text": "waiting room",    "notes": "liminal, uncertain dwell" },
+    { "id": "prog_gym",             "text": "gym",             "notes": "physical activity space" },
+    { "id": "prog_workshop",        "text": "workshop",        "notes": "craft and making space" },
+    { "id": "prog_gallery",         "text": "gallery",         "notes": "art exhibition space" },
+    { "id": "prog_nursery",         "text": "nursery",         "notes": "infant care space" },
+    { "id": "prog_office",          "text": "office",          "notes": "administrative workspace" }
+  ]
+}

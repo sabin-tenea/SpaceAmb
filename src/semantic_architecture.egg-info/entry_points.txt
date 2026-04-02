@@ -1,0 +1,2 @@
+[console_scripts]
+spaceamb = semantic_architecture.cli:app

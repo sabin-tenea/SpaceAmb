@@ -1,0 +1,38 @@
+# SpaceAmb configuration
+# All paths are relative to the project root
+
+embedding:
+  model_name: "all-mpnet-base-v2"   # higher quality semantic separation
+  cache_dir: "data/processed/embeddings"
+  batch_size: 64
+
+scoring:
+  weights:
+    space: 0.25
+    ambiance: 0.25
+    combined: 0.50
+  # Default ranking column. Options:
+  #   weighted_score       — absolute similarity (biases toward broadly relevant atoms)
+  #   discriminative_score — score minus the atom's mean across all queries (recommended)
+  #   zscore_score         — normalised by per-atom std (best for cross-atom comparison)
+  #   sim_combined         — raw combined-phrase similarity only
+  default_score_col: "discriminative_score"
+  top_k_atoms: 20
+  top_k_descriptors: 20
+
+composition:
+  n_descriptors: 300          # total descriptors to generate (split across lengths)
+  descriptor_lengths: [2, 3]  # 2-atom and 3-atom descriptors
+  temperature: 1.0            # sampling temperature: lower = pull toward most similar pairs
+  seed: 42                    # random seed for reproducibility
+
+output:
+  dir: "data/processed"
+  save_matrices: true
+  save_rankings: true
+
+data:
+  atoms_path: "data/raw/atoms.json"
+  programs_path: "data/raw/programs.json"
+  ambiances_path: "data/raw/ambiances.json"
+  scenes_path: "data/raw/scenes.json"   # Phase 3: scene descriptions (optional)
