@@ -179,18 +179,34 @@ def compose(
         help="Comma-separated descriptor lengths, e.g. '2,3'.",
     ),
     seed: int = typer.Option(42, "--seed"),
+    query: Optional[str] = typer.Option(
+        None, "--query", "-q",
+        help=(
+            "If given, use query-conditioned generation: seeds are drawn from "
+            "the top atoms for this query rather than the full pool. "
+            "E.g. 'relaxing living room'."
+        ),
+    ),
+    seed_top_k: int = typer.Option(
+        30, "--seed-top-k",
+        help="Number of top atoms used as seed pool for query-conditioned generation.",
+    ),
     config: str = typer.Option(DEFAULT_CONFIG, "--config", "-c"),
 ) -> None:
     """
     Generate descriptors using similarity-weighted sampling and print examples.
+
+    With --query, seeds are restricted to the top atoms for that query
+    (query-conditioned generation).  The full atom pool is still used for
+    subsequent positions within each descriptor.
     """
     from .atoms import load_atoms
     from .embeddings import EmbeddingModel
-    from .composition import generate_descriptors
-    import yaml
+    from .composition import generate_descriptors, generate_descriptors_for_query
+    import yaml as _yaml
 
     with Path(config).open() as fh:
-        cfg = yaml.safe_load(fh)
+        cfg = _yaml.safe_load(fh)
 
     from .io_utils import resolve_path
     root = resolve_path(".")
@@ -204,18 +220,50 @@ def compose(
     )
     atom_texts = [a.text for a in atoms]
     atom_embs = model.load_or_compute(atom_texts, "atoms")
-
     length_list = [int(x.strip()) for x in lengths.split(",")]
-    descriptors = generate_descriptors(
-        atoms=atoms,
-        atom_embeddings=atom_embs,
-        n_descriptors=n,
-        descriptor_lengths=length_list,
-        temperature=temperature,
-        seed=seed,
-    )
 
-    typer.echo(f"\nGenerated {len(descriptors)} descriptors (temp={temperature}):\n")
+    if query:
+        # Query-conditioned: load the pre-computed atom scores
+        typer.echo(f"[cli] Query-conditioned generation for '{query}' …")
+        state = _load_state(config)
+        matched = next(
+            (q for q in state.combined_queries if q.combined_text == query), None
+        )
+        if matched is None:
+            typer.echo(
+                f"[cli] Query '{query}' not found in pre-computed set. "
+                "Run with a query that matches a combined query label exactly."
+            )
+            raise typer.Exit(1)
+
+        score_col = cfg.get("scoring", {}).get("default_score_col", "discriminative_score")
+        descriptors = generate_descriptors_for_query(
+            query_id=matched.id,
+            scores_df=state.atom_scores,
+            atoms=atoms,
+            atom_embeddings=atom_embs,
+            n_descriptors=n,
+            seed_top_k=seed_top_k,
+            score_col=score_col,
+            descriptor_lengths=length_list,
+            temperature=temperature,
+            seed=seed,
+        )
+        typer.echo(
+            f"\nGenerated {len(descriptors)} descriptors for '{query}' "
+            f"(temp={temperature}, seed_top_k={seed_top_k}):\n"
+        )
+    else:
+        descriptors = generate_descriptors(
+            atoms=atoms,
+            atom_embeddings=atom_embs,
+            n_descriptors=n,
+            descriptor_lengths=length_list,
+            temperature=temperature,
+            seed=seed,
+        )
+        typer.echo(f"\nGenerated {len(descriptors)} descriptors (temp={temperature}):\n")
+
     for i, d in enumerate(descriptors[:n], 1):
         families = "+".join(d.source_atom_families)
         typer.echo(f"  {i:3d}. {d.text:<40}  [{families}]")

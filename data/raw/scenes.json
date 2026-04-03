@@ -15,7 +15,7 @@
     },
     {
       "id": "scene_fun_cafeteria_01",
-      "text": "A lively cafeteria with long communal dining tables, bright pendant lighting, and exposed brick walls painted in bold colours. An open kitchen layout and graphic signage encourage social energy and movement.",
+      "text": "A cafeteria built for humour and play: a chalkboard wall covered in jokes and rotating doodles, mismatched chairs in exuberant colours, and a competition leaderboard above the counter. The mood is light-hearted and jovial — tables have games printed on them, staff wear funny aprons, and the whole room invites silliness, laughter, and joyful banter.",
       "space": "cafeteria",
       "ambiance": "fun",
       "notes": "High-energy social eating space"
@@ -49,7 +49,7 @@
     },
     {
       "id": "scene_intimate_bedroom_01",
-      "text": "A bedroom wrapped in warmth: heavy linen bedding, a low bed with a padded headboard, and softly glowing bedside sconces. Dark oak flooring, blackout curtains, and a low ceiling enclose the space with care.",
+      "text": "A bedroom scaled to the personal: a low bed just wide enough for two, a single nightstand between shared reading lamps, and a window niche with a cushioned seat. The proportions are close and private; the warmth tender; everything within arm's reach invites quiet vulnerability and one-on-one intimacy.",
       "space": "bedroom",
       "ambiance": "intimate",
       "notes": "Cocooning domestic retreat"
@@ -63,7 +63,7 @@
     },
     {
       "id": "scene_focused_office_01",
-      "text": "An open-plan office with rows of hot desks, task lighting on adjustable arms, and glazed acoustic partitions. A muted palette, raised flooring, and a suspended acoustic ceiling keep the space legible and distraction-free.",
+      "text": "A quiet office designed for deep concentrated work: a single desk with a precise task lamp, a chair calibrated for long immersive sessions, and a window facing away from foot traffic. The phone is silent, the desktop clear, the walls bare — every element arranged to sustain mental effort and productive clarity of attention.",
       "space": "office",
       "ambiance": "focused",
       "notes": "Productive knowledge-work environment"
@@ -77,7 +77,7 @@
     },
     {
       "id": "scene_restorative_waiting_room_01",
-      "text": "A calming waiting room with upholstered lounge chairs, warm indirect lighting, and living walls of soft plants. Natural materials — linen, oak, and pale stone — absorb sound and slow the sense of passing time.",
+      "text": "A therapeutic waiting space designed for gentle healing: cushioned recliners, a living moss wall that absorbs sound, and scented air chosen for its restorative wellness effect. Every material and surface is a clinical act of gradual repair — selected to support bodily recovery, ease nervous tension, and promote slow, therapeutic renewal.",
       "space": "waiting room",
       "ambiance": "restorative",
       "notes": "Wellness-oriented waiting space"
@@ -98,7 +98,7 @@
     },
     {
       "id": "scene_focused_laboratory_01",
-      "text": "A functional laboratory with continuous lab counters, overhead fluorescent banks, and sealed concrete floors. Wall-mounted shelving, exposed service conduits, and a negative-pressure extraction system create a controlled, highly ordered environment.",
+      "text": "A laboratory configured for deep precise research: a long bench with ample space for concentrated measurement, calibrated task lighting over each instrument, and a schedule of experiments demanding careful, unhurried attention. The space rewards immersive focus — every distraction removed, every tool within reach, every step of the protocol committed to mind.",
       "space": "laboratory",
       "ambiance": "focused",
       "notes": "Research laboratory, neutral and controlled"
@@ -112,14 +112,14 @@
     },
     {
       "id": "scene_vibrant_gym_01",
-      "text": "An energetic gym with zoned rubber flooring, bright track lighting, and equipment arranged in an open circuit. Mirror walls, ventilation columns, and motivational graphics create a high-readiness, permissive athletic atmosphere.",
+      "text": "A gym designed as a visual spectacle: rubber flooring in saturated primary colours, mirrors edged with vivid LED strips, and equipment finished in bold high-contrast paintwork. Every surface is intense and striking — bright, glossy, chromatic — a deliberately overstimulating environment that channels visually energetic sensation into physical output.",
       "space": "gym",
       "ambiance": "vibrant",
       "notes": "Performance fitness environment"
     },
     {
       "id": "scene_formal_gallery_01",
-      "text": "A formal gallery with immaculate white plaster walls, polished concrete floors, and ceiling-mounted adjustable spotlights precisely aimed at each artwork. The silence, the controlled light, and the spatial neutrality foreground the work entirely.",
+      "text": "A gallery organized with institutional rigour: rooms progress in a strict ceremonial sequence, each with its regulated wall height, prescribed circulation path, and protocol-correct distance between works. The museum's authority is structural — in the hierarchical hang, the formal admission procedure, and the ordered interpretation panels that frame each piece.",
       "space": "gallery",
       "ambiance": "formal",
       "notes": "Contemporary white-cube gallery"

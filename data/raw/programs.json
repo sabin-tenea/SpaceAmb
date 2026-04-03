@@ -1,18 +1,124 @@
 {
   "programs": [
-    { "id": "prog_living_room",     "text": "living room",     "notes": "domestic social space" },
-    { "id": "prog_bedroom",         "text": "bedroom",         "notes": "domestic rest space" },
-    { "id": "prog_library",         "text": "library",         "notes": "quiet study and book storage" },
-    { "id": "prog_laboratory",      "text": "laboratory",      "notes": "scientific workspace" },
-    { "id": "prog_hospital_room",   "text": "hospital room",   "notes": "clinical care space" },
-    { "id": "prog_cafeteria",       "text": "cafeteria",       "notes": "communal eating space" },
-    { "id": "prog_conference_room", "text": "conference room", "notes": "formal meeting space" },
-    { "id": "prog_dance_hall",      "text": "dance hall",      "notes": "large social movement space" },
-    { "id": "prog_waiting_room",    "text": "waiting room",    "notes": "liminal, uncertain dwell" },
-    { "id": "prog_gym",             "text": "gym",             "notes": "physical activity space" },
-    { "id": "prog_workshop",        "text": "workshop",        "notes": "craft and making space" },
-    { "id": "prog_gallery",         "text": "gallery",         "notes": "art exhibition space" },
-    { "id": "prog_nursery",         "text": "nursery",         "notes": "infant care space" },
-    { "id": "prog_office",          "text": "office",          "notes": "administrative workspace" }
+    {
+      "id": "prog_living_room",
+      "text": "living room",
+      "description": "living room: domestic social and relaxation space for family gathering and leisure",
+      "notes": "domestic social space"
+    },
+    {
+      "id": "prog_bedroom",
+      "text": "bedroom",
+      "description": "bedroom: private domestic sleeping and rest space, personal retreat from the world",
+      "notes": "domestic rest space"
+    },
+    {
+      "id": "prog_library",
+      "text": "library",
+      "description": "library: quiet space for study, reading, and book storage, knowledge and contemplation",
+      "notes": "quiet study and book storage"
+    },
+    {
+      "id": "prog_laboratory",
+      "text": "laboratory",
+      "description": "laboratory: scientific research and experiment workspace with controlled conditions",
+      "notes": "scientific workspace"
+    },
+    {
+      "id": "prog_hospital_room",
+      "text": "hospital room",
+      "description": "hospital room: clinical medical care space for patient treatment and recovery",
+      "notes": "clinical care space"
+    },
+    {
+      "id": "prog_cafeteria",
+      "text": "cafeteria",
+      "description": "cafeteria: communal institutional eating area with self-service and shared tables",
+      "notes": "communal eating space"
+    },
+    {
+      "id": "prog_conference_room",
+      "text": "conference room",
+      "description": "conference room: formal meeting space for professional discussions and presentations",
+      "notes": "formal meeting space"
+    },
+    {
+      "id": "prog_dance_hall",
+      "text": "dance hall",
+      "description": "dance hall: large open space for dancing, movement, and social performance",
+      "notes": "large social movement space"
+    },
+    {
+      "id": "prog_waiting_room",
+      "text": "waiting room",
+      "description": "waiting room: liminal space for anxious or passive waiting before an event or appointment",
+      "notes": "liminal, uncertain dwell"
+    },
+    {
+      "id": "prog_gym",
+      "text": "gym",
+      "description": "gym: physical training and exercise facility with equipment and open floor space",
+      "notes": "physical activity space"
+    },
+    {
+      "id": "prog_workshop",
+      "text": "workshop",
+      "description": "workshop: craft, fabrication, and making space with tools and workbenches",
+      "notes": "craft and making space"
+    },
+    {
+      "id": "prog_gallery",
+      "text": "gallery",
+      "description": "gallery: art exhibition and display space with controlled light and neutral walls",
+      "notes": "art exhibition space"
+    },
+    {
+      "id": "prog_nursery",
+      "text": "nursery",
+      "description": "nursery: infant and toddler care and play space scaled to small children",
+      "notes": "infant care space"
+    },
+    {
+      "id": "prog_office",
+      "text": "office",
+      "description": "office: administrative knowledge-work space for desk-based professional tasks",
+      "notes": "administrative workspace"
+    },
+    {
+      "id": "prog_chapel",
+      "text": "chapel",
+      "description": "chapel: small sacred space for quiet worship, prayer, and spiritual contemplation",
+      "notes": "sacred contemplative space"
+    },
+    {
+      "id": "prog_spa",
+      "text": "spa",
+      "description": "spa: wellness and bathing retreat for therapeutic relaxation, massage, and body care",
+      "notes": "wellness and body care space"
+    },
+    {
+      "id": "prog_cinema",
+      "text": "cinema",
+      "description": "cinema: dark screened room for immersive film projection and collective viewing",
+      "notes": "immersive screening space"
+    },
+    {
+      "id": "prog_classroom",
+      "text": "classroom",
+      "description": "classroom: teaching and learning space with student seating facing an instructor",
+      "notes": "educational teaching space"
+    },
+    {
+      "id": "prog_atrium",
+      "text": "atrium",
+      "description": "atrium: tall glazed public lobby or internal courtyard, monumental transitional space",
+      "notes": "monumental transitional space"
+    },
+    {
+      "id": "prog_restaurant",
+      "text": "restaurant",
+      "description": "restaurant: curated social dining space for shared meals with table service and atmosphere",
+      "notes": "social dining and cuisine space"
+    }
   ]
 }

@@ -219,9 +219,11 @@ class AppState:
         )
 
         atom_texts = [a.text for a in atoms]
-        space_texts = [q.combined_text for q in space_qs]
-        ambiance_texts = [q.combined_text for q in ambiance_qs]
-        combined_texts = [q.combined_text for q in combined_qs]
+        # Use embedding_text (description-enriched) for the actual embed calls;
+        # combined_text (short label) is kept for display and as table keys.
+        space_texts = [q.embedding_text for q in space_qs]
+        ambiance_texts = [q.embedding_text for q in ambiance_qs]
+        combined_texts = [q.embedding_text for q in combined_qs]
 
         atom_embs = model.load_or_compute(atom_texts, "atoms")
         space_embs = model.load_or_compute(space_texts, "queries_space")

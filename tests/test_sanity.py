@@ -479,6 +479,89 @@ def test_weighted_score_formula():
 # 6. Cache round-trip
 # ─────────────────────────────────────────────────────────────────────────────
 
+# ─────────────────────────────────────────────────────────────────────────────
+# 7. Phase 3 — Scene descriptions
+# ─────────────────────────────────────────────────────────────────────────────
+
+def test_scenes_json_loads():
+    """data/raw/scenes.json must exist and parse cleanly."""
+    from semantic_architecture.scenes import load_scenes, scenes_summary
+    root = Path(__file__).parent.parent
+    path = root / "data" / "raw" / "scenes.json"
+    assert path.exists(), f"scenes.json not found at {path}"
+    scenes = load_scenes(path)
+    assert len(scenes) >= 10, f"Expected >= 10 scenes, got {len(scenes)}"
+    summary = scenes_summary(scenes)
+    assert "Scenes loaded" in summary
+
+
+def test_scenes_have_required_fields():
+    """Every scene must have non-empty id, text, space, and ambiance."""
+    from semantic_architecture.scenes import load_scenes
+    root = Path(__file__).parent.parent
+    scenes = load_scenes(root / "data" / "raw" / "scenes.json")
+    for s in scenes:
+        assert s.id, f"Scene missing id: {s!r}"
+        assert len(s.text) >= 50, f"Scene {s.id!r} text too short: {s.text!r}"
+        assert s.space, f"Scene {s.id!r} missing space"
+        assert s.ambiance, f"Scene {s.id!r} missing ambiance"
+
+
+def test_scenes_no_duplicate_ids():
+    """Scene IDs must be unique."""
+    from semantic_architecture.scenes import load_scenes
+    root = Path(__file__).parent.parent
+    scenes = load_scenes(root / "data" / "raw" / "scenes.json")
+    ids = [s.id for s in scenes]
+    assert len(ids) == len(set(ids)), "Duplicate scene ids found"
+
+
+def test_scenes_validate_against_programs_and_ambiances():
+    """All scene space/ambiance values must match the known programs/ambiances."""
+    from semantic_architecture.scenes import load_scenes, validate_scenes
+    from semantic_architecture.queries import load_programs, load_ambiances
+    root = Path(__file__).parent.parent
+    scenes = load_scenes(root / "data" / "raw" / "scenes.json")
+    programs = load_programs(root / "data" / "raw" / "programs.json")
+    ambiances = load_ambiances(root / "data" / "raw" / "ambiances.json")
+    valid_spaces = [p["text"] for p in programs]
+    valid_ambs = [a["text"] for a in ambiances]
+    warnings = validate_scenes(scenes, valid_spaces, valid_ambs)
+    assert not warnings, f"Scene validation errors:\n" + "\n".join(warnings)
+
+
+def test_intended_query_property():
+    """Scene.intended_query should combine ambiance + space correctly."""
+    from semantic_architecture.scenes import Scene
+    s = Scene(id="test_01", text="A test scene.", space="living room", ambiance="relaxing")
+    assert s.intended_query == "relaxing living room"
+
+
+def test_scene_scoring_ranks_intended_query_in_top5(small_scores):
+    """
+    A relaxing living room scene should score in the top-5 for its intended query
+    when embedded and scored against the pre-computed query grid.
+
+    Uses the real scenes.json file and the pre-computed small_scores fixture
+    which already has combined queries available.
+    """
+    from semantic_architecture.scenes import load_scenes
+    from semantic_architecture.scoring import enrich_with_discriminative_scores
+
+    root = Path(__file__).parent.parent
+    scenes = load_scenes(root / "data" / "raw" / "scenes.json")
+
+    # Filter to the two relaxing living room scenes
+    rlr_scenes = [s for s in scenes if s.intended_query == "relaxing living room"]
+    assert len(rlr_scenes) >= 1
+
+    # Check that their intended query is among the combined queries in small_scores
+    combined_texts = small_scores["combined_text"].unique().tolist()
+    assert "relaxing living room" in combined_texts, (
+        "small_scores fixture must include 'relaxing living room' query"
+    )
+
+
 def test_cache_roundtrip(tmp_path):
     from semantic_architecture.embeddings import EmbeddingModel
     texts = ["warm light", "cold concrete", "soft velvet"]

@@ -12,19 +12,20 @@ A Python research prototype for exploring how ambiance-space pairs — "relaxing
 
 The central question is:
 
-> How can we computationally explore the way ambiance-program pairs — "relaxing living room", "fun cafeteria", "somber conference room", "spooky dance hall" — get semantically realized in architectural language?
+> How can we computationally explore the way ambiance-program pairs get semantically realized in architectural language?
 
 SpaceAmb approaches this by:
 
-1. Defining a typed **atomic lexicon** of architectural units (sofa, velvet, warm, inward-facing, …)
+1. Defining a typed **atomic lexicon** of 232 architectural units (sofa, velvet, warm, indirect light, …)
 2. Embedding atoms, spaces, ambiances, and combined phrases into a shared **semantic vector space** using sentence-transformers
-3. Computing **discriminative scoring** (raw similarity minus mean) to find atoms that uniquely characterize a query
-4. **Composing descriptors** from atoms using **grammar-constrained** similarity-weighted random sampling
-5. Producing **ranked tables, matrices, and visualizations** for research inspection
+3. Computing **discriminative scoring** to surface atoms uniquely relevant to a query, not just broadly similar
+4. **Composing descriptors** from atoms via **grammar-constrained** similarity-weighted sampling
+5. **Scoring full scene descriptions** (paragraphs) against the same query grid as atoms
+6. Producing **ranked tables, matrices, and visualizations** for research inspection
 
 ### Methodological stance
 
-Outputs are interpreted as *semantic affinity* and *latent associative structure* in embedding space.  They reflect how the embedding model's "architectural imagination" organizes these concepts — not empirical claims about human perception.
+Outputs are interpreted as *semantic affinity* and *latent associative structure* in embedding space. They reflect how the embedding model's "architectural imagination" organizes these concepts — not empirical claims about human perception.
 
 ---
 
@@ -32,68 +33,107 @@ Outputs are interpreted as *semantic affinity* and *latent associative structure
 
 ### Atoms — typed minimal semantic units
 
-The lexicon contains **230+ atoms** across 12 families:
+The lexicon contains **232 atoms** across **12 families**:
 
-| Family | Examples |
-|--------|---------|
-| architecture | wall, ceiling, arch, portal, niche, atrium |
-| furniture | sofa, armchair, desk, workbench, bookshelf |
-| fixture | fireplace, sink, radiator, built-in shelf |
-| decoration | painting, plant, rug, sculpture, curtain |
-| technology | screen, computer, projector, speakers |
-| material | wood, concrete, velvet, steel, marble, copper |
-| color | deep blue, beige, terracotta, warm white |
-| quality | warm, dim, rough, soft, muted, aged (multi-dimensional) |
-| lighting | indirect, direct, diffuse, ambient (mode only) |
-| spatial | open, enclosed, tall, compact, expansive, mezzanine |
-| relation | inward-facing, clustered, dispersed, axial |
-| behavioral | quiet, active, gathering, retreat, focused |
+| Family | Count | Examples |
+|--------|-------|---------|
+| architecture | 38 | wall, ceiling, arch, niche, stair, vault |
+| material | 31 | concrete, velvet, copper, tadelakt, rammed earth |
+| quality | 35 | warm, pristine, monumental, vernacular, translucent |
+| spatial | 18 | open, enclosed, double-height, subterranean, labyrinthine |
+| furniture | 16 | sofa, armchair, workbench, chaise longue, ottoman |
+| color | 23 | terracotta, sage, deep blue, charcoal, ivory |
+| lighting | 17 | indirect, diffuse, zenithal, raking, flickering candle |
+| relation | 16 | inward-facing, axial, clustered, nested, radial |
+| behavioral | 14 | quiet, retreat, gathering, active, focused |
+| decoration | 10 | painting, rug, cushion, plant, sculpture |
+| fixture | 8 | fireplace, bathtub, sink, radiator |
+| technology | 6 | screen, projector, computer, speakers |
 
-**Quality atoms** are special: they carry a `spectrums` field that locates them on perceptual axes (temperature, luminosity, texture, weight, formality, saturation, patina). This lets you filter or cluster by perceptual dimension.
+**Quality atoms** carry a `spectrums` field locating them on perceptual axes (temperature, scale, opacity, formality, etc.). **Lighting atoms** describe mode only — qualities like "warm" compose onto lighting modes via descriptors.
 
-**Lighting atoms** describe *mode only* (how light travels/distributes). Qualities like "warm" or "dim" attach to lighting modes through composition, allowing emergent phrases like "warm indirect" or "dim diffuse".
+### Spaces (programs) — 20 types
 
-### Spaces (programs)
+living room, bedroom, library, laboratory, hospital room, cafeteria, conference room, dance hall, waiting room, gym, workshop, gallery, nursery, office, **chapel, spa, cinema, classroom, atrium, restaurant**.
 
-14 types: living room, bedroom, library, laboratory, hospital room, cafeteria, conference room, dance hall, waiting room, gym, workshop, gallery, nursery, office.
+### Ambiances — 20 terms
 
-### Ambiances
+relaxing, inviting, fun, somber, spooky, formal, lively, intimate, sterile, restorative, playful, focused, melancholic, vibrant, **sacred, raw, opulent, serene, dramatic, nostalgic**.
 
-14 terms: relaxing, inviting, fun, somber, spooky, formal, lively, intimate, sterile, restorative, playful, focused, melancholic, vibrant.
+Each ambiance carries a **disambiguation description** used during embedding (e.g. `"fun: playful laughter, light-hearted games, humour and jokes"` vs `"lively: animated social bustle, collective noise and movement"`) to separate near-synonyms in the vector space.
+
+→ **400 combined queries** (20 × 20)
+
+### Scenes — paragraph-length descriptions
+
+18 hand-authored architectural scene descriptions, each targeting a specific space × ambiance pair. Scenes are embedded and scored against the same 400-query grid as atoms and descriptors, enabling direct comparison across all three granularities and ground-truth retrieval evaluation.
 
 ---
 
-## Scoring Formula
+## Scoring
+
+### Weighted similarity
 
 For any item x and a (space, ambiance) target pair:
 
 ```
-score(x | s, a) = w_space * sim(x, s)
-               + w_ambiance * sim(x, a)
-               + w_combined * sim(x, "{a} {s}")
+score(x | s, a) = 0.25 · sim(x, s)
+               + 0.25 · sim(x, a)
+               + 0.50 · sim(x, "{a} {s}")
 ```
 
-Default weights: `space=0.25, ambiance=0.25, combined=0.50`.
-Configurable in `config/config.yaml`.
+Weights are configurable in `config/config.yaml`. The combined term gets 50% because it captures the joint meaning of the pair, not just the individual components.
 
-The system defaults to **discriminative scoring** for rankings: `score(x, query) - mean(score(x, all_queries))`. This highlights atoms that are uniquely similar to the specific query, rather than broadly high-scoring (e.g. "wall").
+### Discriminative scoring
+
+The system defaults to **discriminative scoring** for rankings:
+
+```
+discriminative_score(x, q) = weighted_score(x, q) − mean(weighted_score(x, all_queries))
+```
+
+This subtracts each atom's baseline relevance (how much it scores on average across all queries) to penalize generically high-scoring atoms like "wall". Analogous to TF-IDF: a term is informative to the degree it is *more* present in this document than in the corpus.
+
+A z-score variant (`zscore_score`) normalises by per-atom standard deviation for cross-atom comparison.
+
+### Ambiance disambiguation
+
+Near-synonym ambiances (fun/lively/vibrant, somber/melancholic, relaxing/restorative) are separated in the embedding space by attaching disambiguation descriptions to each term. The short label ("fun") is kept for display; the richer phrase is used for embedding:
+
+```
+fun   → "fun: playful laughter, light-hearted games, humour and jokes, joyful silliness"
+lively → "lively: animated social bustle, collective noise and movement, crowd interaction"
+vibrant → "vibrant: visually intense saturated colour, bold strong presence, vivid striking sensation"
+```
+
+This improved scene retrieval from **Hit@1: 44% → 78%**, Hit@5 from 89% → 100%.
 
 ---
 
 ## Descriptor Composition
 
-Descriptors emerge from the embedding space via **Grammar-Constrained Similarity-Weighted Sampling**:
+Descriptors emerge from the embedding space via **grammar-constrained similarity-weighted sampling**:
 
-1. **Pick a seed atom** at random (optionally stratified by family).
-2. **Consult the Architectural Grammar** (`ALLOWED_COMBINATIONS` in `composition.py`) to see which families can logically pair with the seed (e.g., `material` + `architecture`, but not `material` + `behavioral`).
-3. **Compute probabilities**: Cosine similarity of the seed to all *valid* remaining atoms, converted via `softmax(sim / temperature)`.
-4. **Sample**: Pick the next 1–2 atoms from that distribution.
-5. **Join**: Selected atom texts are joined into a phrase.
+1. **Pick a seed atom** from the full pool (or from the top-k atoms for a target query).
+2. **Consult the architectural grammar** (`ALLOWED_COMBINATIONS` in `composition.py`) — defines which family pairs can logically combine (e.g. `architecture + material`, not `material + behavioral`).
+3. **Compute softmax probabilities** over cosine similarity between seed and all valid partner atoms.
+4. **Sample** the next 1–2 atoms with probability proportional to similarity / temperature.
+5. **Join** atom texts into a phrase, recording full provenance.
 
 **Temperature** controls exploration:
-- `0.1` — near-deterministic; always picks the most similar atom
+- `0.1` — near-deterministic; always picks the closest atom → tight, coherent phrases
 - `1.0` — balanced (default)
-- `3.0` — near-uniform; any combination is possible
+- `3.0` — near-uniform → surprising cross-family combinations
+
+### Query-conditioned generation
+
+Blind generation can miss query-specific vocabulary because any atom can be the seed. With `--query`, seed selection is restricted to the top-k atoms for the given query:
+
+```bash
+python -m semantic_architecture.cli compose --query "fun cafeteria" --n 30 --temperature 0.8
+```
+
+This ensures every descriptor starts from a cafeteria- or fun-relevant atom, while the full pool remains available for subsequent positions.
 
 ---
 
@@ -103,33 +143,33 @@ Descriptors emerge from the embedding space via **Grammar-Constrained Similarity
 SpaceAmb/
 ├── data/
 │   ├── raw/
-│   │   ├── atoms.json          ← 230+ typed atoms across 12 families
-│   │   ├── programs.json       ← 14 space/program types
-│   │   ├── ambiances.json      ← 14 ambiance terms
-│   │   └── scenes.json         ← 18 narrative scene descriptions (Phase 3)
+│   │   ├── atoms.json          ← 232 typed atoms across 12 families
+│   │   ├── programs.json       ← 20 space types (with disambiguation descriptions)
+│   │   ├── ambiances.json      ← 20 ambiance terms (with disambiguation descriptions)
+│   │   └── scenes.json         ← 18 narrative scene descriptions
 │   └── processed/
-│       └── embeddings/         ← .npy cache files (auto-created)
+│       └── embeddings/         ← .npy cache files (auto-created, safe to delete)
 ├── config/
 │   └── config.yaml             ← all configuration (model, weights, paths)
 ├── src/
 │   └── semantic_architecture/
 │       ├── atoms.py            ← Atom dataclass + loading
-│       ├── queries.py          ← Query dataclass + generation
+│       ├── queries.py          ← Query dataclass + generation (embedding_text aware)
 │       ├── embeddings.py       ← EmbeddingModel with disk cache
-│       ├── scoring.py          ← cosine similarity + weighted scoring
-│       ├── composition.py      ← grammar-constrained generation
-│       ├── analysis.py         ← ranking + comparison workflows
-│       ├── visualization.py    ← heatmaps, bar charts, PCA, UMAP
+│       ├── scoring.py          ← cosine similarity, weighted scoring, discriminative enrichment
+│       ├── composition.py      ← grammar-constrained generation + query-conditioned variant
+│       ├── analysis.py         ← ranking + comparison workflows (atoms, descriptors, scenes)
+│       ├── visualization.py    ← heatmaps, bar charts, PCA, UMAP (12-family colour palette)
+│       ├── scenes.py           ← Scene dataclass + loading + validation
 │       ├── io_utils.py         ← save/load helpers
 │       ├── app_state.py        ← AppState: unified pipeline state
 │       └── cli.py              ← Typer CLI
 ├── notebooks/
-│   └── 01_prototype_demo.ipynb ← full demo walkthrough
+│   └── 01_prototype_demo.ipynb ← full demo (phases 1–3, discriminative scoring, scene eval)
 ├── tests/
-│   └── test_sanity.py          ← semantic + structural sanity checks
+│   └── test_sanity.py          ← 31 semantic + structural sanity tests
 ├── scripts/
-│   ├── run_analysis.py         ← CLI wrapper
-│   └── make_notebook.py        ← notebook generator
+│   └── run_analysis.py         ← CLI wrapper
 ├── README.md
 ├── requirements.txt
 └── pyproject.toml
@@ -139,11 +179,6 @@ SpaceAmb/
 
 ## Setup
 
-### Requirements
-
-- Python 3.10+
-- The packages in `requirements.txt`
-
 ```bash
 # Install in editable mode (recommended for research iteration)
 pip install -e ".[dev]"
@@ -152,7 +187,7 @@ pip install -e ".[dev]"
 pip install -r requirements.txt
 ```
 
-The first run downloads the sentence-transformer model (~420 MB for `all-mpnet-base-v2`). Subsequent runs use the disk cache.
+The first run downloads the sentence-transformer model (~420 MB for `all-mpnet-base-v2`). Subsequent runs use the disk cache in `data/processed/embeddings/`. Delete that directory to force recomputation (required when changing the model).
 
 ---
 
@@ -161,45 +196,76 @@ The first run downloads the sentence-transformer model (~420 MB for `all-mpnet-b
 ### CLI
 
 ```bash
-# Score atoms against a query
+# Dataset statistics
+python -m semantic_architecture.cli info
+
+# Score atoms for a query (discriminative ranking by default)
 python -m semantic_architecture.cli score "relaxing living room" --top-k 20
 
-# Score using a specific metric (weighted, discriminative, zscore)
-python -m semantic_architecture.cli score "fun cafeteria" --score-col weighted_score
+# Score descriptors
+python -m semantic_architecture.cli score "somber conference room" --items descriptors --top-k 15
 
-# Generate descriptors and print examples
+# Score scenes (phase 3)
+python -m semantic_architecture.cli score "formal library" --items scenes --top-k 5
+
+# Score everything at once
+python -m semantic_architecture.cli score "spooky gallery" --items all --top-k 10
+
+# Override the scoring column
+python -m semantic_architecture.cli score "fun cafeteria" --score weighted_score
+
+# Generate descriptors (global, blind)
 python -m semantic_architecture.cli compose --n 50 --temperature 0.5
 
-# Run full pipeline + export everything to data/processed/
-python -m semantic_architecture.cli export
+# Generate descriptors seeded from top atoms for a specific query
+python -m semantic_architecture.cli compose --query "fun cafeteria" --n 30 --temperature 0.8
 
-# Print dataset statistics (atom counts, scenes, etc.)
-python -m semantic_architecture.cli info
+# Run full pipeline and export everything to data/processed/
+python -m semantic_architecture.cli export
 ```
+
+### Notebook
+
+`notebooks/01_prototype_demo.ipynb` walks through the full pipeline interactively:
+
+1. Load atoms, programs, ambiances
+2. Compute embeddings (cached)
+3. Score atoms with discriminative enrichment
+4. Generate and score descriptors
+5. Export CSVs and figures
+6. Visualizations: heatmap, bar chart, PCA, UMAP, family comparison
+7. **Phase 3**: load scenes, embed, score, ground-truth Hit@1/Hit@5 evaluation
 
 ---
 
 ## Configuration
 
-All settings live in `config/config.yaml`:
-
 ```yaml
+# config/config.yaml
+
 embedding:
-  model_name: "all-mpnet-base-v2"   # higher quality semantic separation
+  model_name: "all-mpnet-base-v2"   # 768-dim, strong semantic separation
   cache_dir: "data/processed/embeddings"
+  batch_size: 64
 
 scoring:
-  default_score_col: "discriminative_score" 
   weights:
     space: 0.25
     ambiance: 0.25
     combined: 0.50
+  default_score_col: "discriminative_score"   # or weighted_score / zscore_score
 
 composition:
   n_descriptors: 300
   descriptor_lengths: [2, 3]
   temperature: 1.0
   seed: 42
+
+data:
+  atoms_path: "data/raw/atoms.json"
+  programs_path: "data/raw/programs.json"
+  ambiances_path: "data/raw/ambiances.json"
+  scenes_path: "data/raw/scenes.json"
 ```
 
 ---
@@ -208,9 +274,9 @@ composition:
 
 | Phase | Status | Description |
 |-------|--------|-------------|
-| 1 | ✅ Implemented | Atom embedding + similarity scoring against spaces/ambiances/combined |
-| 2 | ✅ Implemented | Descriptor composition (Grammar-constrained) + scoring |
-| 3 | ✅ Implemented | Scene analysis (narrative descriptions embedded and scored) |
+| 1 | ✅ | Atom embedding + discriminative scoring against 400 space × ambiance queries |
+| 2 | ✅ | Grammar-constrained descriptor composition + query-conditioned variant |
+| 3 | ✅ | Scene scoring + ground-truth retrieval evaluation (Hit@1: 78%, Hit@5: 100%) |
 
 ---
 
@@ -220,9 +286,12 @@ composition:
 pytest tests/ -v
 ```
 
-The sanity tests verify:
-- Semantic rankings make intuitive sense ("sofa" > "workbench" for "living room")
-- Quality atoms have `spectrums` dicts; non-quality atoms have `None`
-- Composition respects the grammar and produces the right count of unique descriptors
-- Provenance is fully traceable
-- Embedding cache round-trips correctly
+31 tests covering:
+
+- **Data integrity**: no duplicate atom IDs or texts, all 12 families present, quality atoms have spectrums
+- **Semantic rankings**: sofa > workbench for living room; warm > pristine for relaxing; formal > fun for formal queries
+- **Discriminative scoring**: mean near zero per atom, differs from weighted ranking
+- **Composition**: correct count, valid provenance, low-temperature bias toward nearest neighbour
+- **Scenes**: JSON validity, field completeness, no duplicate IDs, space/ambiance cross-reference, intended query retrieval
+- **Scoring utilities**: cosine similarity shape, self-similarity = 1, weighted formula
+- **Cache**: round-trip correctness

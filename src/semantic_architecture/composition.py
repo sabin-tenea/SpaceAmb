@@ -277,6 +277,7 @@ def generate_descriptors(
     descriptor_lengths: List[int] = None,
     temperature: float = 1.0,
     seed: int = 42,
+    seed_indices: Optional[List[int]] = None,
 ) -> List[Descriptor]:
     """
     Generate a diverse set of descriptors by similarity-weighted sampling.
@@ -296,6 +297,12 @@ def generate_descriptors(
         E.g. [2, 3].  Descriptors are split equally across lengths.
     temperature : float
     seed : int
+    seed_indices : list of int or None
+        If provided, only atoms at these indices are eligible to be the
+        *first* (seed) atom of a descriptor.  The full atom pool is still
+        available for subsequent positions.  This enables query-conditioned
+        generation: pass the indices of top-scoring atoms for a query so
+        that every descriptor starts from a query-relevant atom.
 
     Returns
     -------
@@ -303,6 +310,17 @@ def generate_descriptors(
     """
     if descriptor_lengths is None:
         descriptor_lengths = [2, 3]
+
+    seed_pool = (
+        [atoms[i] for i in seed_indices]
+        if seed_indices is not None
+        else atoms
+    )
+    seed_emb_pool = (
+        [atom_embeddings[i] for i in seed_indices]
+        if seed_indices is not None
+        else None
+    )
 
     rng = random.Random(seed)
     seen_ids: set[str] = set()
@@ -312,22 +330,25 @@ def generate_descriptors(
     remainder = n_descriptors % len(descriptor_lengths)
 
     for length_i, length in enumerate(descriptor_lengths):
-        target = n_per_length + (1 if length_i < remainder else 0)
-        attempts = 0
-        max_attempts = target * 20  # safety ceiling
+        max_attempts = (n_per_length + (1 if length_i < remainder else 0)) * 20
 
+        attempts = 0
         while len(results) < sum(
             n_per_length + (1 if li < remainder else 0)
             for li in range(length_i + 1)
         ) and attempts < max_attempts:
             attempts += 1
-            seed_atom = rng.choice(atoms)
-            seed_idx = next(
-                i for i, a in enumerate(atoms) if a.id == seed_atom.id
-            )
+            pool_idx = rng.randrange(len(seed_pool))
+            seed_atom = seed_pool[pool_idx]
+            if seed_emb_pool is not None:
+                seed_emb = seed_emb_pool[pool_idx]
+            else:
+                seed_emb = atom_embeddings[
+                    next(i for i, a in enumerate(atoms) if a.id == seed_atom.id)
+                ]
             desc = compose_one(
                 seed_atom=seed_atom,
-                seed_embedding=atom_embeddings[seed_idx],
+                seed_embedding=seed_emb,
                 all_atoms=atoms,
                 all_embeddings=atom_embeddings,
                 length=length,
@@ -342,6 +363,81 @@ def generate_descriptors(
             results.append(desc)
 
     return results
+
+
+def generate_descriptors_for_query(
+    query_id: str,
+    scores_df: "pd.DataFrame",
+    atoms: List[Atom],
+    atom_embeddings: np.ndarray,
+    n_descriptors: int = 50,
+    seed_top_k: int = 30,
+    score_col: str = "discriminative_score",
+    descriptor_lengths: List[int] = None,
+    temperature: float = 1.0,
+    seed: int = 42,
+) -> List[Descriptor]:
+    """
+    Generate descriptors seeded from the top-k atoms for a specific query.
+
+    Unlike the global ``generate_descriptors``, this function biases the
+    seed selection toward atoms that are *specifically* relevant to the
+    given query (as measured by ``score_col``), while still allowing the
+    full atom pool for subsequent positions in each descriptor.
+
+    This corrects for the blind-generation failure mode where query-specific
+    atoms (e.g. "dining table" for a cafeteria query) are rarely chosen as
+    seeds because they are diluted by the full 232-atom pool.
+
+    Parameters
+    ----------
+    query_id : str
+        Must match a value in scores_df["query_id"].
+    scores_df : pd.DataFrame
+        Atom score table (output of score_items_against_queries, optionally
+        enriched with discriminative scores).
+    atoms : list of Atom
+    atom_embeddings : np.ndarray, shape (n, d)
+    n_descriptors : int
+        Number of unique descriptors to generate.
+    seed_top_k : int
+        How many top atoms (by score_col) to use as the seed pool.
+    score_col : str
+        Column in scores_df to rank atoms by.
+    descriptor_lengths : list of int
+    temperature : float
+    seed : int
+
+    Returns
+    -------
+    list of Descriptor
+    """
+    import pandas as pd  # local import to avoid circular deps at module level
+
+    q_scores = scores_df[scores_df["query_id"] == query_id]
+    if q_scores.empty:
+        raise ValueError(f"No scores found for query_id={query_id!r}")
+
+    top_atom_ids = set(
+        q_scores.nlargest(seed_top_k, score_col)["item_id"].tolist()
+    )
+
+    atom_id_to_idx = {a.id: i for i, a in enumerate(atoms)}
+    seed_indices = [
+        atom_id_to_idx[aid]
+        for aid in top_atom_ids
+        if aid in atom_id_to_idx
+    ]
+
+    return generate_descriptors(
+        atoms=atoms,
+        atom_embeddings=atom_embeddings,
+        n_descriptors=n_descriptors,
+        descriptor_lengths=descriptor_lengths if descriptor_lengths else [2, 3],
+        temperature=temperature,
+        seed=seed,
+        seed_indices=seed_indices,
+    )
 
 
 # ------------------------------------------------------------------
