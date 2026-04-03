@@ -172,7 +172,8 @@ def compare_item_across_queries(
         subset = subset[subset["query_id"].isin(query_ids)]
     subset = subset.sort_values(score_col, ascending=False)
     cols = ["query_id", "combined_text", "space_text", "ambiance_text",
-            "sim_space", "sim_ambiance", "sim_combined", "weighted_score"]
+            "sim_space", "sim_ambiance", "sim_combined", "weighted_score",
+            "discriminative_score", "zscore_score"]
     available = [c for c in cols if c in subset.columns]
     return subset[available].reset_index(drop=True)
 
