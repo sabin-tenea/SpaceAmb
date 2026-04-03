@@ -105,34 +105,41 @@ class Scene:
 # Loading
 # ------------------------------------------------------------------
 
-def load_scenes(path: str | Path) -> List[Scene]:
+def load_scenes(path_or_paths: str | Path | List[str | Path]) -> List[Scene]:
     """
-    Load scene descriptions from a JSON file.
+    Load scene descriptions from one or more JSON files.
 
     Parameters
     ----------
-    path : str or Path
-        Path to a JSON file with a top-level ``"scenes"`` array.
+    path_or_paths : str, Path, or list of those
+        Path(s) to JSON file(s) with a top-level ``"scenes"`` array.
 
     Returns
     -------
     list of Scene
     """
-    path = Path(path)
-    with path.open(encoding="utf-8") as fh:
-        data = json.load(fh)
+    if isinstance(path_or_paths, (str, Path)):
+        paths = [Path(path_or_paths)]
+    else:
+        paths = [Path(p) for p in path_or_paths]
 
     scenes = []
-    for entry in data["scenes"]:
-        scenes.append(
-            Scene(
-                id=entry["id"],
-                text=entry["text"],
-                space=entry["space"],
-                ambiance=entry["ambiance"],
-                notes=entry.get("notes"),
+    for path in paths:
+        if not path.exists():
+            continue
+        with path.open(encoding="utf-8") as fh:
+            data = json.load(fh)
+
+        for entry in data.get("scenes", []):
+            scenes.append(
+                Scene(
+                    id=entry["id"],
+                    text=entry["text"],
+                    space=entry["space"],
+                    ambiance=entry["ambiance"],
+                    notes=entry.get("notes"),
+                )
             )
-        )
     return scenes
 
 
