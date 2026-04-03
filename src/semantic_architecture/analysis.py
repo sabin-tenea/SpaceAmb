@@ -98,10 +98,10 @@ def top_atoms_by_family(
     for fam, group in subset.groupby("family"):
         top = group.sort_values(score_col, ascending=False).head(k).copy()
         top["rank"] = range(1, len(top) + 1)
-        result[fam] = top[
-            ["rank", "text", "sim_space", "sim_ambiance",
-             "sim_combined", "weighted_score"]
-        ].reset_index(drop=True)
+        base = ["rank", "text", "sim_space", "sim_ambiance", "sim_combined", "weighted_score"]
+        extra = ["discriminative_score", "zscore_score"]
+        cols = base + [c for c in extra if c in top.columns]
+        result[fam] = top[cols].reset_index(drop=True)
     return result
 
 
